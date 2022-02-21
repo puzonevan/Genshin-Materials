@@ -1,0 +1,1 @@
+# Genshin-Character-Pages-V2
