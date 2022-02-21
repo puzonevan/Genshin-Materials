@@ -5,5 +5,5 @@ export function CharacterMenu(props){
         <nav>
             <a>Character 1</a>
         </nav>
-    )
-}
+    );
+};

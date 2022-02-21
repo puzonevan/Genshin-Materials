@@ -2,10 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { Header } from './components/header/Header';
+import { FrontPage } from './components/front-page/FrontPage';
+import { TalentsAscend } from './components/talents-ascend/TalentsAscend';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <FrontPage />
+    <TalentsAscend />
   </React.StrictMode>,
   document.getElementById('root')
 );
