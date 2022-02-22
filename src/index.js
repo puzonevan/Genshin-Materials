@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { Header } from './components/header/Header';
 import { FrontPage } from './components/front-page/FrontPage';
-import { TalentsAscend } from './components/talents-ascend/TalentsAscend';
+import { CharacterMenu } from './components/character-menu/CharacterMenu'
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode> 
     <Header />
+    <CharacterMenu />
     <FrontPage />
-    <TalentsAscend />
   </React.StrictMode>,
   document.getElementById('root')
 );
