@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
-import { Header } from './components/header/Header';
-import { FrontPage } from './components/front-page/FrontPage';
+import { App } from './App';
+
 
 
 ReactDOM.render(
   <React.StrictMode> 
-    <Header />
-    <FrontPage />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
