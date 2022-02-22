@@ -1,0 +1,1154 @@
+{   
+    "artifacts": {
+        "adventurer": {
+            "name": "Adventurer",
+            "rarity": [
+                "1",
+                "2",
+                "3"
+            ],
+            "2pc": "Max HP increased by 1000.",
+            "4pc": "Opening a chest regenerates 30% Max HP over 5s.",
+            "flower": {
+                "name": "Adventurer's Flower",
+                "relictype": "Flower of Life",
+                "description": "A resilient flower that survived the harsh environment of an ancient city. It is now proudly worn like a medal."
+            },
+            "plume": {
+                "name": "Adventurer's Tail Feather",
+                "relictype": "Plume of Death",
+                "description": "The feather of an exotic bird rarely seen on this continent."
+            },
+            "sands": {
+                "name": "Adventurer's Pocket Watch",
+                "relictype": "Sands of Eon",
+                "description": "It's easy to lose track of time when you're adventuring where the sun doesn't shine, whether that's the depths of the abyss or the ruins of a lost city."
+            },
+            "goblet": {
+                "name": "Adventurer's Golden Goblet",
+                "relictype": "Goblet of Eonothem",
+                "description": "The spoils of one of an adventurer's many expeditions. Though a little damaged, it is still an excellent find."
+            },
+            "circlet": {
+                "name": "Adventurer's Bandana",
+                "relictype": "Circlet of Logos",
+                "description": "A cloth garment worn at the forehead. Though soaked in sweat and covered in dust, it still beams with an adventurer's pride."
+            }
+        },
+        "archaicpetra": {
+            "name": "Archaic Petra",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Gain a 15% Geo DMG Bonus.",
+            "4pc": "Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain a 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.",
+            "flower": {
+                "name": "Flower of Creviced Cliff",
+                "relictype": "Flower of Life",
+                "description": "A flower born of the minerals and rocks of cliffside cracks. The way its petals blow in the wind makes it seem alive."
+            },
+            "plume": {
+                "name": "Feather of Jagged Peaks",
+                "relictype": "Plume of Death",
+                "description": "A hard feather from a large seacliff hawk. The basalt tip of the feather sometimes glistens with a cool dew."
+            },
+            "sands": {
+                "name": "Sundial of Enduring Jade",
+                "relictype": "Sands of Eon",
+                "description": "A sundial carved from a single, large piece of jade. Its lined with a pattern that silently records the passage of time."
+            },
+            "goblet": {
+                "name": "Goblet of Chiseled Crag",
+                "relictype": "Goblet of Eonothem",
+                "description": "A resplendent yet dignified wine goblet, once filled to the brim in an era long gone."
+            },
+            "circlet": {
+                "name": "Mask of Solitude Basalt",
+                "relictype": "Circlet of Logos",
+                "description": "A solemn mask exquisitely carved from basalt. Its hollow eyes stare ahead expressionless and cold."
+            }
+        },
+        "berserker": {
+            "name": "Berserker",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "CRIT Rate +12%",
+            "4pc": "When HP is below 70%, CRIT Rate increases by an additional 24%.",
+            "flower": {
+                "name": "Berserker's Rose",
+                "relictype": "Flower of Life",
+                "description": "An exquisite flower that has been dyed red. It represents the qualities of the Berserker."
+            },
+            "plume": {
+                "name": "Berserker's Indigo Feather",
+                "relictype": "Plume of Death",
+                "description": "An indigo feather from a legendary raven, part of which has been dyed crimson red."
+            },
+            "sands": {
+                "name": "Berserker's Timepiece",
+                "relictype": "Sands of Eon",
+                "description": "An instrument with an eternal flow that continues mercilessly within, reminding the Berserker of the limited time he has left — both on the battlefield as well as in the world."
+            },
+            "goblet": {
+                "name": "Berserker's Bone Goblet",
+                "relictype": "Goblet of Eonothem",
+                "description": "A goblet made from the bone of an unknown beast. It was taken as a trophy after some deadly encounter."
+            },
+            "circlet": {
+                "name": "Berserker's Battle Mask",
+                "relictype": "Circlet of Logos",
+                "description": "A hideous iron mask that has been left half-shattered from vicious battles."
+            }
+        },
+        "blizzardstrayer": {
+            "name": "Blizzard Strayer",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Cryo DMG Bonus +15%",
+            "4pc": "When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.",
+            "flower": {
+                "name": "Snowswept Memory",
+                "relictype": "Flower of Life",
+                "description": "A long-extinct flower, covered in beads of frost, that once grew on the glaciers. There was a time when even the proudest and most arrogant warriors bowed before it."
+            },
+            "plume": {
+                "name": "Icebreaker's Resolve",
+                "relictype": "Plume of Death",
+                "description": "A feather that exudes a chilly aura. One can almost feel the turbulent winds that brought it here, wailing over snow-covered plains and between frosty peaks."
+            },
+            "sands": {
+                "name": "Frozen Homeland's Demise",
+                "relictype": "Sands of Eon",
+                "description": "A timepiece from a nation of old that waited for their warriors' return. What flows inside is not sand, but bits of ice that never melt."
+            },
+            "goblet": {
+                "name": "Frost-Weaved Dignity",
+                "relictype": "Goblet of Eonothem",
+                "description": "A cup carved out of ice that is as chilly and biting as winter. Its former master would drink an unfreezable liquor from it."
+            },
+            "circlet": {
+                "name": "Broken Rime's Echo",
+                "relictype": "Circlet of Logos",
+                "description": "The crown of an ancient hero who dreamt of conquering the cold. It is proof of its former master's bravery in facing the bone-chilling cold of winter."
+            }
+        },
+        "bloodstainedchivalry": {
+            "name": "Bloodstained Chivalry",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Physical DMG +25%",
+            "4pc": "After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s.",
+            "flower": {
+                "name": "Bloodstained Flower of Iron",
+                "relictype": "Flower of Life",
+                "description": "A dried flower stained black with blood and now as hard as steel. Probably some sort of a memento for its former master."
+            },
+            "plume": {
+                "name": "Bloodstained Black Plume",
+                "relictype": "Plume of Death",
+                "description": "A raven feather pinned to a knight's cape. Countless bloodstains have dyed it pitch black."
+            },
+            "sands": {
+                "name": "Bloodstained Final Hour",
+                "relictype": "Sands of Eon",
+                "description": "A timepiece once used by a knight. The liquid inside has dried up, rendering it useless."
+            },
+            "goblet": {
+                "name": "Bloodstained Chevalier's Goblet",
+                "relictype": "Goblet of Eonothem",
+                "description": "The dark metallic vessel owned by the Bloodstained Knight. Its exterior has been stained as black as the night by smoke and coagulated blood."
+            },
+            "circlet": {
+                "name": "Bloodstained Iron Mask",
+                "relictype": "Circlet of Logos",
+                "description": "The iron mask the knight used to conceal their identity. Many have speculated about the face behind the mask."
+            }
+        },
+        "braveheart": {
+            "name": "Brave Heart",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "ATK +18%.",
+            "4pc": "Increases DMG by 30% against opponents with more than 50% HP.",
+            "flower": {
+                "name": "Medal of the Brave",
+                "relictype": "Flower of Life",
+                "description": "A simple flower brooch that is a keepsake from someone's first adventure."
+            },
+            "plume": {
+                "name": "Prospect of the Brave",
+                "relictype": "Plume of Death",
+                "description": "A shimmering feather from a songbird that brings a nudge of courage to its wearer."
+            },
+            "sands": {
+                "name": "Fortitude of the Brave",
+                "relictype": "Sands of Eon",
+                "description": "A dated miniature hourglass that serves no practical purpose. It seems as elusive as time itself."
+            },
+            "goblet": {
+                "name": "Outset of the Brave",
+                "relictype": "Goblet of Eonothem",
+                "description": "A crude wooden vessel filled only with memories."
+            },
+            "circlet": {
+                "name": "Crown of the Brave",
+                "relictype": "Circlet of Logos",
+                "description": "A rough-and-ready laurel wreath that seems as precious as a king's golden crown."
+            }
+        },
+        "crimsonwitchofflames": {
+            "name": "Crimson Witch of Flames",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Pyro DMG Bonus +15%",
+            "4pc": "Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
+            "flower": {
+                "name": "Witch's Flower of Blaze",
+                "relictype": "Flower of Life",
+                "description": "A flower touched by the witch who once dreamt of burning away all the demons in the world. The anonymous flames affectionately caress the hands of those who touch it."
+            },
+            "plume": {
+                "name": "Witch's Ever-Burning Plume",
+                "relictype": "Plume of Death",
+                "description": "A bird feather touched by the witch who once dreamt of burning away all the demons in the world. Its eternal flame burns hot."
+            },
+            "sands": {
+                "name": "Witch's End Time",
+                "relictype": "Sands of Eon",
+                "description": "A timepiece worn by the witch who dreamt of burning away all the demons in the world. The years the witch dedicated to the flames flow within."
+            },
+            "goblet": {
+                "name": "Witch's Heart Flames",
+                "relictype": "Goblet of Eonothem",
+                "description": "A flame-spitting urn left behind by the Crimson Witch of Flames, who once dreamt of burning away all the demons in the world. The fire in the urn burns eternally, as did its former master."
+            },
+            "circlet": {
+                "name": "Witch's Scorching Hat",
+                "relictype": "Circlet of Logos",
+                "description": "A hat once worn by the witch who dreamt of burning away all of the demons in the world. The large brim blocked her sight."
+            }
+        },
+        "defenderswill": {
+            "name": "Defender's Will",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "DEF +30%",
+            "4pc": "For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%.",
+            "flower": {
+                "name": "Guardian's Flower",
+                "relictype": "Flower of Life",
+                "description": "An iris that was cherished by the guardian. Unfortunately, the chance never came for it to be given to whom the guardian loved."
+            },
+            "plume": {
+                "name": "Guardian's Sigil",
+                "relictype": "Plume of Death",
+                "description": "A feather-shaped brooch that symbolizes someone’s yearning to defend others like a shield."
+            },
+            "sands": {
+                "name": "Guardian's Clock",
+                "relictype": "Sands of Eon",
+                "description": "A small timekeeping gadget. On moonless nights, it was the only way its former owner could know the time."
+            },
+            "goblet": {
+                "name": "Guardian's Vessel",
+                "relictype": "Goblet of Eonothem",
+                "description": "A metal vessel that can be filled with a drink to dispel the loneliness of the long watch."
+            },
+            "circlet": {
+                "name": "Guardian's Band",
+                "relictype": "Circlet of Logos",
+                "description": "A fabric band dyed indigo by the darkness of night. Can also double as a bandage in the event of an emergency."
+            }
+        },
+        "emblemofseveredfate": {
+            "name": "Emblem of Severed Fate",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Energy Recharge +20%",
+            "4pc": "Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.",
+            "flower": {
+                "name": "Magnificent Tsuba",
+                "relictype": "Flower of Life",
+                "description": "Legends hold that this ornate hand guard was once fitted upon a sword gifted to the oni who betrayed the Shogun."
+            },
+            "plume": {
+                "name": "Sundered Feather",
+                "relictype": "Plume of Death",
+                "description": "This was once the black feather of a certain tengu warrior, and was the treasured souvenir of an ancient swordsman."
+            },
+            "sands": {
+                "name": "Storm Cage",
+                "relictype": "Sands of Eon",
+                "description": "An exquisite seal cage patterned with pansies painted upon a black backdrop, decorated with shining inlaid seashells and intricate gold-work."
+            },
+            "goblet": {
+                "name": "Scarlet Vessel",
+                "relictype": "Goblet of Eonothem",
+                "description": "An intricately-designed wine vessel that a world-famous martial artist once drank from."
+            },
+            "circlet": {
+                "name": "Ornate Kabuto",
+                "relictype": "Circlet of Logos",
+                "description": "A sturdy and hard helmet worn as armor by a noble samurai."
+            }
+        },
+        "gambler": {
+            "name": "Gambler",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "Increases Elemental Skill DMG by 20%.",
+            "4pc": "Defeating an opponent has a 100% chance to remove Elemental Skill CD. Can only occur once every 15s.",
+            "flower": {
+                "name": "Gambler's Brooch",
+                "relictype": "Flower of Life",
+                "description": "A big, luxurious flower that can hide loaded dice."
+            },
+            "plume": {
+                "name": "Gambler's Feather Accessory",
+                "relictype": "Plume of Death",
+                "description": "The tail feather of a large bird. Perfect for discretely concealing a trump card."
+            },
+            "sands": {
+                "name": "Gambler's Pocket Watch",
+                "relictype": "Sands of Eon",
+                "description": "A shattered pocket watch that once took a lethal hit for its owner."
+            },
+            "goblet": {
+                "name": "Gambler's Dice Cup",
+                "relictype": "Goblet of Eonothem",
+                "description": "This vessel was specially made for a single purpose. It has absolutely no secret compartments built into it."
+            },
+            "circlet": {
+                "name": "Gambler's Earrings",
+                "relictype": "Circlet of Logos",
+                "description": "A pair of blue earrings that, when worn, calm the mind and encourage a rational assessment of risks."
+            }
+        },
+        "glacierandsnowfield": {
+            "name": "Glacier and Snowfield",
+            "rarity": [],
+            "2pc": "Cryo DMG Bonus +15%",
+            "4pc": "Increases Superconduct DMG by 100%. Increases Melt DMG by 15%. Using an Elemental Burst increases Cryo DMG Bonus by 30% for 10s.",
+            "flower": {
+                "name": "Heart of Frost",
+                "relictype": "Flower of Life",
+                "description": "A flower that has been frozen in time from the moment it was picked. The knight kept it as a memento forever after."
+            },
+            "plume": {
+                "name": "Plume of Snow",
+                "relictype": "Plume of Death",
+                "description": "A bird feather that was picked up by the knight who walked with the North Wind in the snow. It still awaits the day when it will thaw."
+            },
+            "sands": {
+                "name": "Glacial Sand",
+                "relictype": "Sands of Eon",
+                "description": "A timepiece once used by the knight who walked with the North Wind. A never-ending snowstorm rages within."
+            },
+            "goblet": {
+                "name": "Goblet of Aquilo",
+                "relictype": "Goblet of Eonothem",
+                "description": "A goblet of eonothem left behind by the knight who walked with the North Wind. The chill of the bitter winter frost still lingers within."
+            },
+            "circlet": {
+                "name": "Crown of Glacier",
+                "relictype": "Circlet of Logos",
+                "description": "The crown worn by the knight who walked with the North Wind. It was forged using winter ice and silver."
+            }
+        },
+        "gladiatorsfinale": {
+            "name": "Gladiator's Finale",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "ATK +18%.",
+            "4pc": "If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.",
+            "flower": {
+                "name": "Gladiator's Nostalgia",
+                "relictype": "Flower of Life",
+                "description": "No one knows why the legendary gladiator wore this flower on his chest. It was the brutal warrior's only weakness."
+            },
+            "plume": {
+                "name": "Gladiator's Destiny",
+                "relictype": "Plume of Death",
+                "description": "A feather of dreams that soars free like an eagle. At the end of the gladiator's legendary life, this parting gift was left upon his chest by a bird that knew true freedom."
+            },
+            "sands": {
+                "name": "Gladiator's Longing",
+                "relictype": "Sands of Eon",
+                "description": "A timepiece that recorded the gladiator's days in the bloodstained Colosseum. To him, it counted down the days on his long road to freedom."
+            },
+            "goblet": {
+                "name": "Gladiator's Intoxication",
+                "relictype": "Goblet of Eonothem",
+                "description": "The golden cup a champion gladiator drank from in ancient times. It brimmed with his glory for years until the fateful day of his fall."
+            },
+            "circlet": {
+                "name": "Gladiator's Triumphus",
+                "relictype": "Circlet of Logos",
+                "description": "The helmet of a legendary gladiator from ancient times, who would proudly stretch out his bloodied arms to welcome the thunderous applause of his audience."
+            }
+        },
+        "heartofdepth": {
+            "name": "Heart of Depth",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Hydro DMG Bonus +15%",
+            "4pc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
+            "flower": {
+                "name": "Gilded Corsage",
+                "relictype": "Flower of Life",
+                "description": "A mantle brooch that has lost its luster. The gold plating that once adorned it was ground away by the wind and the waves long ago."
+            },
+            "plume": {
+                "name": "Gust of Nostalgia",
+                "relictype": "Plume of Death",
+                "description": "A feather carried over by whimpering sea winds and crimson waves. The passage of time has changed its shape and color."
+            },
+            "sands": {
+                "name": "Copper Compass",
+                "relictype": "Sands of Eon",
+                "description": "An ancient bronze compass. Its needle points towards some ever-distant shore, to a non-existent harbor."
+            },
+            "goblet": {
+                "name": "Goblet of Thundering Deep",
+                "relictype": "Goblet of Eonothem",
+                "description": "A faded wine cup that was unintentionally dredged up from the sea. Its dull exterior tells of the days it has spent beneath the waves."
+            },
+            "circlet": {
+                "name": "Wine-Stained Tricorne",
+                "relictype": "Circlet of Logos",
+                "description": "An ancient, wine-stained sea hat that still reeks of alcohol even now."
+            }
+        },
+        "instructor": {
+            "name": "Instructor",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "Increases Elemental Mastery by 80.",
+            "4pc": "Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s.",
+            "flower": {
+                "name": "Instructor's Brooch",
+                "relictype": "Flower of Life",
+                "description": "Whenever the instructor wore this brooch, it meant there would be no training sessions that day."
+            },
+            "plume": {
+                "name": "Instructor's Feather Accessory",
+                "relictype": "Plume of Death",
+                "description": "Any instructor who has mastered the art of de-escalation knows to keep this accessory firmly in their grasp at all times."
+            },
+            "sands": {
+                "name": "Instructor's Pocket Watch",
+                "relictype": "Sands of Eon",
+                "description": "A stopwatch used not for general timekeeping but to measure the duration of a training session."
+            },
+            "goblet": {
+                "name": "Instructor's Tea Cup",
+                "relictype": "Goblet of Eonothem",
+                "description": "It may seem like an ordinary tea cup to most. But to students, it is the symbol of the instructor's authority."
+            },
+            "circlet": {
+                "name": "Instructor's Cap",
+                "relictype": "Circlet of Logos",
+                "description": "A standard-issue honorary instructor's cap, only granted to those who turn down a promotion."
+            }
+        },
+        "lavawalker": {
+            "name": "Lavawalker",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Pyro RES increased by 40%.",
+            "4pc": "Increases DMG against opponents affected by Pyro by 35%.",
+            "flower": {
+                "name": "Lavawalker's Resolution",
+                "relictype": "Flower of Life",
+                "description": "A flower that blooms amidst burning flames. It is said that long ago, a sage once wore it as he walked into a sea of fire."
+            },
+            "plume": {
+                "name": "Lavawalker's Salvation",
+                "relictype": "Plume of Death",
+                "description": "The feather of a proud phoenix. You can almost hear the sound of its wings flapping in the scorching flames."
+            },
+            "sands": {
+                "name": "Lavawalker's Torment",
+                "relictype": "Sands of Eon",
+                "description": "Burning sand flows within this hourglass. Despite the intense heat, the sand leave no mark upon the vessel that houses it."
+            },
+            "goblet": {
+                "name": "Lavawalker's Epiphany",
+                "relictype": "Goblet of Eonothem",
+                "description": "A legendary goblet that can withstand extremely high temperatures. It still retains a degree of warmth even though it is now empty."
+            },
+            "circlet": {
+                "name": "Lavawalker's Wisdom",
+                "relictype": "Circlet of Logos",
+                "description": "The circlet of a sage who traversed a sea of fire. It once shone brightly from their ancient silhouette as they stood strong amidst the flames."
+            }
+        },
+        "luckydog": {
+            "name": "Lucky Dog",
+            "rarity": [
+                "1",
+                "2",
+                "3"
+            ],
+            "2pc": "DEF increased by 100.",
+            "4pc": "Picking up Mora restores 300 HP.",
+            "flower": {
+                "name": "Lucky Dog's Clover",
+                "relictype": "Flower of Life",
+                "description": "A four-leaf clover that grows in the wild. It was picked because it is said to bring good luck."
+            },
+            "plume": {
+                "name": "Lucky Dog's Eagle Feather",
+                "relictype": "Plume of Death",
+                "description": "A monster once cornered an adventurer, but was then picked off by a hunting eagle... That eagle dropped this feather, which now carries some of the adventurer's good luck."
+            },
+            "sands": {
+                "name": "Lucky Dog's Hourglass",
+                "relictype": "Sands of Eon",
+                "description": "A broken hourglass from which all the sand has escaped. But it's fine, because the passage of time means nothing to someone without a single worry in the whole world."
+            },
+            "goblet": {
+                "name": "Lucky Dog's Goblet",
+                "relictype": "Goblet of Eonothem",
+                "description": "An exquisite metallic vessel that was once used to knock out a thief."
+            },
+            "circlet": {
+                "name": "Lucky Dog's Silver Circlet",
+                "relictype": "Circlet of Logos",
+                "description": "Its former owner once fell into a cave and found the treasure trove of an exiled royal. This is a souvenir from that incident."
+            }
+        },
+        "maidenbeloved": {
+            "name": "Maiden Beloved",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Character Healing Effectiveness +15%",
+            "4pc": "Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
+            "flower": {
+                "name": "Maiden's Distant Love",
+                "relictype": "Flower of Life",
+                "description": "A fragrant flower that will bloom for all eternity and never wither."
+            },
+            "plume": {
+                "name": "Maiden's Heart-stricken Infatuation",
+                "relictype": "Plume of Death",
+                "description": "A feathered accessory that carries the longing for a certain someone, like a migratory bird on the wind."
+            },
+            "sands": {
+                "name": "Maiden's Passing Youth",
+                "relictype": "Sands of Eon",
+                "description": "The hands of time will never come to an end, but the same cannot not be said for those cherished years of the young maiden's life when she was doted upon."
+            },
+            "goblet": {
+                "name": "Maiden's Fleeting Leisure",
+                "relictype": "Goblet of Eonothem",
+                "description": "A vessel made with sweet black tea in mind rather than bitter liquor."
+            },
+            "circlet": {
+                "name": "Maiden's Fading Beauty",
+                "relictype": "Circlet of Logos",
+                "description": "A meticulously well-maintained woman's hat that keeps wrinkles safely out of sight."
+            }
+        },
+        "martialartist": {
+            "name": "Martial Artist",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "Increases Normal Attack and Charged Attack DMG by 15%.",
+            "4pc": "After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.",
+            "flower": {
+                "name": "Martial Artist's Red Flower",
+                "relictype": "Flower of Life",
+                "description": "This particular kind of red flower was the only thing that could alleviate the Martial Artist's pain."
+            },
+            "plume": {
+                "name": "Martial Artist's Feather Accessory",
+                "relictype": "Plume of Death",
+                "description": "A common bird feather. Experts use it to practice strength control, while rookies use it to make fans."
+            },
+            "sands": {
+                "name": "Martial Artist's Water Hourglass",
+                "relictype": "Sands of Eon",
+                "description": "A tool to keep track of time in endurance training. It is more accurate and reliable than a regular hourglass."
+            },
+            "goblet": {
+                "name": "Martial Artist's Wine Cup",
+                "relictype": "Goblet of Eonothem",
+                "description": "A rather exquisite wine cup used in pre-combat rituals."
+            },
+            "circlet": {
+                "name": "Martial Artist's Bandana",
+                "relictype": "Circlet of Logos",
+                "description": "The first lesson as an apprentice: Vigor, Strength, Will. These words are written on the bandana so you'll never forget them."
+            }
+        },
+        "noblesseoblige": {
+            "name": "Noblesse Oblige",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Elemental Burst DMG +20%",
+            "4pc": "Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.",
+            "flower": {
+                "name": "Royal Flora",
+                "relictype": "Flower of Life",
+                "description": "A satin flower with a glossy finish, fit for an elegant gathering. It still looks as distinguished as it did on the day it was cast aside."
+            },
+            "plume": {
+                "name": "Royal Plume",
+                "relictype": "Plume of Death",
+                "description": "A feathered hat accessory worn by the old aristocrats of Mondstadt on hunts. It still stands proudly as if no time has passed."
+            },
+            "sands": {
+                "name": "Royal Pocket Watch",
+                "relictype": "Sands of Eon",
+                "description": "A pocket watch that once belonged to the old aristocrats of Mondstadt. Passed down from generation to generation, it has witnessed many years of history."
+            },
+            "goblet": {
+                "name": "Royal Silver Urn",
+                "relictype": "Goblet of Eonothem",
+                "description": "An ornamental urn that once belonged to the old aristocrats of Mondstadt. Mournful winds seem to echo within its empty interior."
+            },
+            "circlet": {
+                "name": "Royal Masque",
+                "relictype": "Circlet of Logos",
+                "description": "A masquerade mask worn by the old aristocrats of Mondstadt. Its hollow eyes are fixated on the golden days of the past."
+            }
+        },
+        "paleflame": {
+            "name": "Pale Flame",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Physical DMG is increased by 25%.",
+            "4pc": "When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.",
+            "flower": {
+                "name": "Stainless Bloom",
+                "relictype": "Flower of Life",
+                "description": "A hard, blue artificial flower. Its petals shall never wither, nor shall its colors fade."
+            },
+            "plume": {
+                "name": "Wise Doctor's Pinion",
+                "relictype": "Plume of Death",
+                "description": "An ominous pinion with edges of unsurpassed keenness. Perhaps it represents an unnaturally uninhibited nature."
+            },
+            "sands": {
+                "name": "Moment of Cessation",
+                "relictype": "Sands of Eon",
+                "description": "A pocket watch with a cover that cannot be opened. Yet it ticks and tocks away, following the inexorable flow of time."
+            },
+            "goblet": {
+                "name": "Surpassing Cup",
+                "relictype": "Goblet of Eonothem",
+                "description": "An intricately-made cup. Its appearance betrays nothing of its age to an observer."
+            },
+            "circlet": {
+                "name": "Mocking Mask",
+                "relictype": "Circlet of Logos",
+                "description": "A mask that covers the face, hiding one's expression from others."
+            }
+        },
+        "prayersfordestiny": {
+            "name": "Prayers for Destiny",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "1pc": "Affected by Hydro for 40% less time.",
+            "circlet": {
+                "name": "Tiara of Torrents",
+                "relictype": "Circlet of Logos",
+                "description": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it was submerged in water year in and year out, it possesses remarkable resistance."
+            }
+        },
+        "prayersforillumination": {
+            "name": "Prayers for Illumination",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "1pc": "Affected by Pyro for 40% less time.",
+            "circlet": {
+                "name": "Tiara of Flame",
+                "relictype": "Circlet of Logos",
+                "description": "A tiara worn by those tasked with offering sacrifices in ancient times. After being subjected to the dancing sacrificial flames year in and year out, it possesses remarkable resistance."
+            }
+        },
+        "prayersforwisdom": {
+            "name": "Prayers for Wisdom",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "1pc": "Affected by Electro for 40% less time.",
+            "circlet": {
+                "name": "Tiara of Thunder",
+                "relictype": "Circlet of Logos",
+                "description": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it harkened to the call of thunder year in and year out, it possesses remarkable resistance."
+            }
+        },
+        "prayerstospringtime": {
+            "name": "Prayers to Springtime",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "1pc": "Affected by Cryo for 40% less time.",
+            "circlet": {
+                "name": "Tiara of Frost",
+                "relictype": "Circlet of Logos",
+                "description": "A tiara worn by those tasked with offering sacrifices in ancient times. Because it once weathered years of the icy cold, it possesses remarkable resistance."
+            }
+        },
+        "prayerstothefirmament": {
+            "name": "Prayers to the Firmament",
+            "rarity": [],
+            "1pc": "Affected by Anemo for 40% less time.",
+            "circlet": {
+                "name": "Tiara of Gales",
+                "relictype": "Circlet of Logos",
+                "description": "A tiara worn by those tasked with offering sacrifices in ancient times. Wind once freely flowed through the various openings in the headdress."
+            }
+        },
+        "resolutionofsojourner": {
+            "name": "Resolution of Sojourner",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "ATK +18%.",
+            "4pc": "Increases Charged Attack CRIT Rate by 30%.",
+            "flower": {
+                "name": "Heart of Comradeship",
+                "relictype": "Flower of Life",
+                "description": "A small cerulean flower with somebody's ribbon pinned to the stem."
+            },
+            "plume": {
+                "name": "Feather of Homecoming",
+                "relictype": "Plume of Death",
+                "description": "A blue arrow fletching imbued with the sentiment of travelers that had once faded into the horizon."
+            },
+            "sands": {
+                "name": "Sundial of the Sojourner",
+                "relictype": "Sands of Eon",
+                "description": "A sundial that has survived the ages, always silently recording the cycles of the sun and moon as they pass through the sky."
+            },
+            "goblet": {
+                "name": "Goblet of the Sojourner",
+                "relictype": "Goblet of Eonothem",
+                "description": "A plain porcelain goblet that was once brimming with joyous brews."
+            },
+            "circlet": {
+                "name": "Crown of Parting",
+                "relictype": "Circlet of Logos",
+                "description": "A reed coronet that emanates the spring breeze."
+            }
+        },
+        "retracingbolide": {
+            "name": "Retracing Bolide",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Increases Shield Strength by 35%.",
+            "4pc": "While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
+            "flower": {
+                "name": "Summer Night's Bloom",
+                "relictype": "Flower of Life",
+                "description": "A man-made flower in eternal bloom. Who knows if there truly is life in there?"
+            },
+            "plume": {
+                "name": "Summer Night's Finale",
+                "relictype": "Plume of Death",
+                "description": "A well-crafted wooden dart. It will only stop once it has reached its destination."
+            },
+            "sands": {
+                "name": "Summer Night's Moment",
+                "relictype": "Sands of Eon",
+                "description": "A pocketwatch that has stopped at a certain point in time."
+            },
+            "goblet": {
+                "name": "Summer Night's Waterballoon",
+                "relictype": "Goblet of Eonothem",
+                "description": "Water balloons can be seen everywhere during the summer festival, but none are as finely-wrought as this one."
+            },
+            "circlet": {
+                "name": "Summer Night's Mask",
+                "relictype": "Circlet of Logos",
+                "description": "A popular mask cast in the image of a deity, as described in the legends."
+            }
+        },
+        "scholar": {
+            "name": "Scholar",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "Energy Recharge +20%",
+            "4pc": "Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s.",
+            "flower": {
+                "name": "Scholar's Bookmark",
+                "relictype": "Flower of Life",
+                "description": "A dried flower used as a bookmark. It has absorbed the scent from the pages."
+            },
+            "plume": {
+                "name": "Scholar's Quill Pen",
+                "relictype": "Plume of Death",
+                "description": "A bird's feather that serves as a quill pen. The tip has long been stained black."
+            },
+            "sands": {
+                "name": "Scholar's Clock",
+                "relictype": "Sands of Eon",
+                "description": "A small desktop clock, whose former owner was a scholar sat in a windowless room buried in books. This was probably the only reference they had to the time of day."
+            },
+            "goblet": {
+                "name": "Scholar's Ink Cup",
+                "relictype": "Goblet of Eonothem",
+                "description": "Originally designed to hold drinking water, this cup was stained black after a scholar used it to wash their paint brushes."
+            },
+            "circlet": {
+                "name": "Scholar's Lens",
+                "relictype": "Circlet of Logos",
+                "description": "This corrective lens helped restore the vision of one whose eyes were damaged from intensive studying."
+            }
+        },
+        "shimenawasreminiscence": {
+            "name": "Shimenawa's Reminiscence",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "ATK +18%.",
+            "4pc": "When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
+            "flower": {
+                "name": "Entangling Bloom",
+                "relictype": "Flower of Life",
+                "description": "A lovely amulet made from twisted paper cord. It is said to hold the power to make wishes come true."
+            },
+            "plume": {
+                "name": "Shaft of Remembrance",
+                "relictype": "Plume of Death",
+                "description": "A demon-slaying arrow of a rather ancient make. It seems to have been preserved with great care by someone, even until the present day."
+            },
+            "sands": {
+                "name": "Morning Dew's Moment",
+                "relictype": "Sands of Eon",
+                "description": "A bronze pocket watch adorned with twisted paper cord and a bell. Its hands are forever frozen at the dawn of a certain autumn day."
+            },
+            "goblet": {
+                "name": "Hopeful Heart",
+                "relictype": "Goblet of Eonothem",
+                "description": "A special fortune-telling cylindrical object. The mechanism at the bottom allows one to easily remove all unwanted wish sticks."
+            },
+            "circlet": {
+                "name": "Capricious Visage",
+                "relictype": "Circlet of Logos",
+                "description": "A well-preserved ceremonial fox mask. A small, enigmatic smile ever graces its lips."
+            }
+        },
+        "tenacityofthemillelith": {
+            "name": "Tenacity of the Millelith",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "HP increased by 20%.",
+            "4pc": "When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+            "flower": {
+                "name": "Flower of Accolades",
+                "relictype": "Flower of Life",
+                "description": "A flower made from gold leaf. It represents the glories and honors attained by its wearer."
+            },
+            "plume": {
+                "name": "Ceremonial War-Plume",
+                "relictype": "Plume of Death",
+                "description": "A falcon feather worn on ceremonial occasions. It displays the dignity and resolve of Liyue Harbor to the outside world."
+            },
+            "sands": {
+                "name": "Orichalceous Time-Dial",
+                "relictype": "Sands of Eon",
+                "description": "A simple device for telling time. This was once standard-issue for the Millelith during times of war."
+            },
+            "goblet": {
+                "name": "Noble's Pledging Vessel",
+                "relictype": "Goblet of Eonothem",
+                "description": "A golden cup used by the Millelith to take their oaths. Still bears the lovely scent of wine."
+            },
+            "circlet": {
+                "name": "General's Ancient Helm",
+                "relictype": "Circlet of Logos",
+                "description": "A splendorous helmet from ages past. Clean the dust away and it will look brand-new once more."
+            }
+        },
+        "theexile": {
+            "name": "The Exile",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "Energy Recharge +20%",
+            "4pc": "Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack.",
+            "flower": {
+                "name": "Exile's Flower",
+                "relictype": "Flower of Life",
+                "description": "A withered flower worn on the shirt. Its former owner insisted on wearing it even in exile, so it must mean something."
+            },
+            "plume": {
+                "name": "Exile's Feather",
+                "relictype": "Plume of Death",
+                "description": "Not an actual accessory per se. Just a random bird feather that was found somewhere in the wilderness by the exile."
+            },
+            "sands": {
+                "name": "Exile's Pocket Watch",
+                "relictype": "Sands of Eon",
+                "description": "Even after the crystal watch face was shattered and the hands lost, its former owner kept it until the end."
+            },
+            "goblet": {
+                "name": "Exile's Goblet",
+                "relictype": "Goblet of Eonothem",
+                "description": "A dull goblet made of a heavy metal. It was once inlaid with gemstones, but they have since been stripped off."
+            },
+            "circlet": {
+                "name": "Exile's Circlet",
+                "relictype": "Circlet of Logos",
+                "description": "A prestigious circlet. However, the royal insignia has been scratched out, and it is no longer the symbol of distinguished status that it once was."
+            }
+        },
+        "thunderingfury": {
+            "name": "Thundering Fury",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Electro DMG Bonus +15%",
+            "4pc": "Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.",
+            "flower": {
+                "name": "Thunderbird's Mercy",
+                "relictype": "Flower of Life",
+                "description": "A lightning-infused flower, somehow spared the fate of being trodden underfoot or reduced to ash by the furious purple fire, making it the sole survivor on the day of disaster."
+            },
+            "plume": {
+                "name": "Survivor of Catastrophe",
+                "relictype": "Plume of Death",
+                "description": "A lightning-charged feather that still flickers with the wrath of the Thunderbird's cruel retribution."
+            },
+            "sands": {
+                "name": "Hourglass of Thunder",
+                "relictype": "Sands of Eon",
+                "description": "The hourglass used to foretell the coming of the Thunderbird by the tribe that worshiped it. It has fallen into eternal silence now that the tribe is no more."
+            },
+            "goblet": {
+                "name": "Omen of Thunderstorm",
+                "relictype": "Goblet of Eonothem",
+                "description": "A ceremonial cup that holds the blood of the innocent. It is brimming with the thundering fury of the prayers that echo within."
+            },
+            "circlet": {
+                "name": "Thunder Summoner's Crown",
+                "relictype": "Circlet of Logos",
+                "description": "A crown once worn by an ancient shaman who worshiped the Thunderbird. The capricious beast remained unmoved by the shaman's devotion."
+            }
+        },
+        "thundersoother": {
+            "name": "Thundersoother",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Electro RES increased by 40%.",
+            "4pc": "Increases DMG against opponents affected by Electro by 35%.",
+            "flower": {
+                "name": "Thundersoother's Heart",
+                "relictype": "Flower of Life",
+                "description": "A flower that blooms even amidst ferocious thunder and lightning. To this day, it still grants courage to travelers in thunderstorms."
+            },
+            "plume": {
+                "name": "Thundersoother's Plume",
+                "relictype": "Plume of Death",
+                "description": "The feather of a predatory bird that soars through lightning storms. It was said to have been adopted as an insignia by the legendary hero who pacified thunder and lightning."
+            },
+            "sands": {
+                "name": "Hour of Soothing Thunder",
+                "relictype": "Sands of Eon",
+                "description": "A timepiece kept by the hero who conquered thunder and lightning. The tiny shards of Electro crystal within flow back and forth with the passing of time."
+            },
+            "goblet": {
+                "name": "Thundersoother's Goblet",
+                "relictype": "Goblet of Eonothem",
+                "description": "The wine goblet from which the Thundersoother, who defeated the Beast of Thunder, once drank violet lightning."
+            },
+            "circlet": {
+                "name": "Thundersoother's Diadem",
+                "relictype": "Circlet of Logos",
+                "description": "The crown given to the Thundersoother for defeating the Beast of Thunder that had been wreaking havoc upon the land."
+            }
+        },
+        "tinymiracle": {
+            "name": "Tiny Miracle",
+            "rarity": [
+                "3",
+                "4"
+            ],
+            "2pc": "All Elemental RES increased by 20%.",
+            "4pc": "Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.",
+            "flower": {
+                "name": "Tiny Miracle's Flower",
+                "relictype": "Flower of Life",
+                "description": "A flower that grew from a rock, breaking through the stone as it strove to reach the light."
+            },
+            "plume": {
+                "name": "Tiny Miracle's Feather",
+                "relictype": "Plume of Death",
+                "description": "A feather from a bird of prey that flies almost too fast for the human eye to detect."
+            },
+            "sands": {
+                "name": "Tiny Miracle's Hourglass",
+                "relictype": "Sands of Eon",
+                "description": "Just an ordinary, everyday hourglass. Turn it upside down and sure enough, the dry sand starts trickling down like water."
+            },
+            "goblet": {
+                "name": "Tiny Miracle's Goblet",
+                "relictype": "Goblet of Eonothem",
+                "description": "A cup commonly used for fortune-telling. It can also hold water, of course."
+            },
+            "circlet": {
+                "name": "Tiny Miracle's Earrings",
+                "relictype": "Circlet of Logos",
+                "description": "A cheap accessory that is actually made from ancient meteoric ore."
+            }
+        },
+        "travelingdoctor": {
+            "name": "Traveling Doctor",
+            "rarity": [
+                "1",
+                "2",
+                "3"
+            ],
+            "2pc": "Increases incoming healing by 20%.",
+            "4pc": "Using Elemental Burst restores 20% HP.",
+            "flower": {
+                "name": "Traveling Doctor's Silver Lotus",
+                "relictype": "Flower of Life",
+                "description": "A precious medicinal ingredient that has lost all medicinal value after years in storage."
+            },
+            "plume": {
+                "name": "Traveling Doctor's Owl Feather",
+                "relictype": "Plume of Death",
+                "description": "The durable feather of an owl. Emblematic of nocturnal supremacy, it gave some encouragement to the Traveling Doctor when venturing out to visit patients late at night."
+            },
+            "sands": {
+                "name": "Traveling Doctor's Pocket Watch",
+                "relictype": "Sands of Eon",
+                "description": "A precise instrument used for keeping time. For a doctor, every second counts."
+            },
+            "goblet": {
+                "name": "Traveling Doctor's Medicine Pot",
+                "relictype": "Goblet of Eonothem",
+                "description": "This pot used to carry concentrated and extremely potent concoctions. It is now empty, but still gives off a strong smell of medicine."
+            },
+            "circlet": {
+                "name": "Traveling Doctor's Handkerchief",
+                "relictype": "Circlet of Logos",
+                "description": "Used to tie back the doctor's hair when treating patients. Can also be used as a sling for sprains and broken arms in emergencies."
+            }
+        },
+        "viridescentvenerer": {
+            "name": "Viridescent Venerer",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Anemo DMG Bonus +15%",
+            "4pc": "Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+            "flower": {
+                "name": "In Remembrance of Viridescent Fields",
+                "relictype": "Flower of Life",
+                "description": "A wild flower that was once a ubiquitous sight in its homeland. It was picked by a hunter who wore it on their chest."
+            },
+            "plume": {
+                "name": "Viridescent Arrow Feather",
+                "relictype": "Plume of Death",
+                "description": "The fletching of an arrow that once pierced right through its prey, but somehow still remains spotless."
+            },
+            "sands": {
+                "name": "Viridescent Venerer's Determination",
+                "relictype": "Sands of Eon",
+                "description": "A wondrous instrument that a hunter once wore. It forever points towards their prey."
+            },
+            "goblet": {
+                "name": "Viridescent Venerer's Vessel",
+                "relictype": "Goblet of Eonothem",
+                "description": "A water pouch used by the Viridescent Venerer. Its capacity is much greater than one would expect."
+            },
+            "circlet": {
+                "name": "Viridescent Venerer's Diadem",
+                "relictype": "Circlet of Logos",
+                "description": "A proud crown that once belonged to the Viridescent Venerer. It is as lush and green as the breezes of the wild."
+            }
+        },
+        "wandererstroupe": {
+            "name": "Wanderer's Troupe",
+            "rarity": [
+                "4",
+                "5"
+            ],
+            "2pc": "Increases Elemental Mastery by 80.",
+            "4pc": "Increases Charged Attack DMG by 35% if the character uses a Catalyst or a Bow.",
+            "flower": {
+                "name": "Troupe's Dawnlight",
+                "relictype": "Flower of Life",
+                "description": "A small flower-shaped insignia. If you listen carefully, you can almost hear a flute playing and voices singing."
+            },
+            "plume": {
+                "name": "Bard's Arrow Feather",
+                "relictype": "Plume of Death",
+                "description": "An azure arrow fletching that has neither faded nor splintered with the passage of time. The sound of running water seems to linger around it."
+            },
+            "sands": {
+                "name": "Concert's Final Hour",
+                "relictype": "Sands of Eon",
+                "description": "An hourglass used to keep time during a band performance. It once made a crisp sound, but their performance has since ended."
+            },
+            "goblet": {
+                "name": "Wanderer's String-Kettle",
+                "relictype": "Goblet of Eonothem",
+                "description": "An ancient, strangely-shaped canteen. The interior is fitted with harp strings, which play a wondrous tune as the water flows out."
+            },
+            "circlet": {
+                "name": "Conductor's Top Hat",
+                "relictype": "Circlet of Logos",
+                "description": "A top hat that has managed to retain its radiance despite braving the elements for time untold. An ancient tune still resonates within."
+            }
+        }
+    }
+}
