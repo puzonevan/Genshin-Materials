@@ -3,13 +3,11 @@ import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import { Header } from './components/header/Header';
 import { FrontPage } from './components/front-page/FrontPage';
-import { CharacterMenu } from './components/character-menu/CharacterMenu'
 
 
 ReactDOM.render(
   <React.StrictMode> 
     <Header />
-    <CharacterMenu />
     <FrontPage />
   </React.StrictMode>,
   document.getElementById('root')

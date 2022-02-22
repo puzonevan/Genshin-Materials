@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { CharacterMenu } from '../character-menu/CharacterMenu';
-import { NationMenu } from '../nation-menu/NationMenu';
+import React from 'react';
 
 export function Header(props) {
     
@@ -8,8 +6,7 @@ export function Header(props) {
     return (
         <header>
             <h1>Genshin Pages</h1>
-            <NationMenu />
-            <CharacterMenu />
+            
         </header>
     );
 };
