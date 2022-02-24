@@ -1,0 +1,780 @@
+{
+	"namemap": {
+		"albedo": "Albedo",
+		"aloy": "Aloy",
+		"amber": "Amber",
+		"aratakiitto": "Arataki Itto",
+		"barbara": "Barbara",
+		"beidou": "Beidou",
+		"bennett": "Bennett",
+		"chongyun": "Chongyun",
+		"diluc": "Diluc",
+		"diona": "Diona",
+		"eula": "Eula",
+		"fischl": "Fischl",
+		"ganyu": "Ganyu",
+		"gorou": "Gorou",
+		"hutao": "Hu Tao",
+		"jean": "Jean",
+		"kaedeharakazuha": "Kaedehara Kazuha",
+		"kaeya": "Kaeya",
+		"kamisatoayaka": "Kamisato Ayaka",
+		"keqing": "Keqing",
+		"klee": "Klee",
+		"kujousara": "Kujou Sara",
+		"lisa": "Lisa",
+		"mona": "Mona",
+		"ningguang": "Ningguang",
+		"noelle": "Noelle",
+		"qiqi": "Qiqi",
+		"raidenshogun": "Raiden Shogun",
+		"razor": "Razor",
+		"rosaria": "Rosaria",
+		"sangonomiyakokomi": "Sangonomiya Kokomi",
+		"sayu": "Sayu",
+		"shenhe": "Shenhe",
+		"sucrose": "Sucrose",
+		"tartaglia": "Tartaglia",
+		"thoma": "Thoma",
+		"traveleranemo": "Traveler (Anemo)",
+		"travelerelectro": "Traveler (Electro)",
+		"travelergeo": "Traveler (Geo)",
+		"venti": "Venti",
+		"xiangling": "Xiangling",
+		"xiao": "Xiao",
+		"xingqiu": "Xingqiu",
+		"xinyan": "Xinyan",
+		"yaemiko": "Yae Miko",
+		"yanfei": "Yanfei",
+		"yoimiya": "Yoimiya",
+		"yunjin": "Yun Jin",
+		"zhongli": "Zhongli"
+	},
+	"names": {
+		"Albedo": "albedo",
+		"Aloy": "aloy",
+		"Amber": "amber",
+		"Arataki Itto": "aratakiitto",
+		"Barbara": "barbara",
+		"Beidou": "beidou",
+		"Bennett": "bennett",
+		"Chongyun": "chongyun",
+		"Diluc": "diluc",
+		"Diona": "diona",
+		"Eula": "eula",
+		"Fischl": "fischl",
+		"Ganyu": "ganyu",
+		"Gorou": "gorou",
+		"Hu Tao": "hutao",
+		"Jean": "jean",
+		"Kaedehara Kazuha": "kaedeharakazuha",
+		"Kaeya": "kaeya",
+		"Kamisato Ayaka": "kamisatoayaka",
+		"Keqing": "keqing",
+		"Klee": "klee",
+		"Kujou Sara": "kujousara",
+		"Lisa": "lisa",
+		"Mona": "mona",
+		"Ningguang": "ningguang",
+		"Noelle": "noelle",
+		"Qiqi": "qiqi",
+		"Raiden Shogun": "raidenshogun",
+		"Razor": "razor",
+		"Rosaria": "rosaria",
+		"Sangonomiya Kokomi": "sangonomiyakokomi",
+		"Sayu": "sayu",
+		"Shenhe": "shenhe",
+		"Sucrose": "sucrose",
+		"Tartaglia": "tartaglia",
+		"Thoma": "thoma",
+		"Traveler (Anemo)": "traveleranemo",
+		"Traveler (Electro)": "travelerelectro",
+		"Traveler (Geo)": "travelergeo",
+		"Venti": "venti",
+		"Xiangling": "xiangling",
+		"Xiao": "xiao",
+		"Xingqiu": "xingqiu",
+		"Xinyan": "xinyan",
+		"Yae Miko": "yaemiko",
+		"Yanfei": "yanfei",
+		"Yoimiya": "yoimiya",
+		"Yun Jin": "yunjin",
+		"Zhongli": "zhongli"
+	},
+	"aliases": {},
+	"categories": {
+		"Mora": [
+			"albedo",
+			"aloy",
+			"amber",
+			"aratakiitto",
+			"barbara",
+			"beidou",
+			"bennett",
+			"chongyun",
+			"diluc",
+			"diona",
+			"eula",
+			"fischl",
+			"ganyu",
+			"gorou",
+			"hutao",
+			"jean",
+			"kaedeharakazuha",
+			"kaeya",
+			"kamisatoayaka",
+			"keqing",
+			"klee",
+			"kujousara",
+			"lisa",
+			"mona",
+			"ningguang",
+			"noelle",
+			"qiqi",
+			"raidenshogun",
+			"razor",
+			"rosaria",
+			"sangonomiyakokomi",
+			"sayu",
+			"shenhe",
+			"sucrose",
+			"tartaglia",
+			"thoma",
+			"traveleranemo",
+			"travelerelectro",
+			"travelergeo",
+			"venti",
+			"xiangling",
+			"xiao",
+			"xingqiu",
+			"xinyan",
+			"yaemiko",
+			"yanfei",
+			"yoimiya",
+			"yunjin",
+			"zhongli"
+		],
+		"Teachings of Ballad": [
+			"albedo",
+			"fischl",
+			"kaeya",
+			"lisa",
+			"rosaria",
+			"venti"
+		],
+		"Divining Scroll": [
+			"albedo",
+			"barbara",
+			"klee",
+			"qiqi",
+			"traveleranemo",
+			"yoimiya"
+		],
+		"Guide to Ballad": [
+			"albedo",
+			"fischl",
+			"kaeya",
+			"lisa",
+			"rosaria",
+			"traveleranemo",
+			"venti"
+		],
+		"Sealed Scroll": [
+			"albedo",
+			"barbara",
+			"klee",
+			"qiqi",
+			"traveleranemo",
+			"yoimiya"
+		],
+		"Philosophies of Ballad": [
+			"albedo",
+			"fischl",
+			"kaeya",
+			"lisa",
+			"rosaria",
+			"traveleranemo",
+			"venti"
+		],
+		"Forbidden Curse Scroll": [
+			"albedo",
+			"barbara",
+			"klee",
+			"qiqi",
+			"traveleranemo",
+			"yoimiya"
+		],
+		"Tusk of Monoceros Caeli": [
+			"albedo",
+			"xinyan",
+			"zhongli"
+		],
+		"Crown of Insight": [
+			"albedo",
+			"aloy",
+			"amber",
+			"aratakiitto",
+			"barbara",
+			"beidou",
+			"bennett",
+			"chongyun",
+			"diluc",
+			"diona",
+			"eula",
+			"fischl",
+			"ganyu",
+			"gorou",
+			"hutao",
+			"jean",
+			"kaedeharakazuha",
+			"kaeya",
+			"kamisatoayaka",
+			"keqing",
+			"klee",
+			"kujousara",
+			"lisa",
+			"mona",
+			"ningguang",
+			"noelle",
+			"qiqi",
+			"raidenshogun",
+			"razor",
+			"rosaria",
+			"sangonomiyakokomi",
+			"sayu",
+			"shenhe",
+			"sucrose",
+			"tartaglia",
+			"thoma",
+			"traveleranemo",
+			"travelerelectro",
+			"travelergeo",
+			"venti",
+			"xiangling",
+			"xiao",
+			"xingqiu",
+			"xinyan",
+			"yaemiko",
+			"yanfei",
+			"yoimiya",
+			"yunjin",
+			"zhongli"
+		],
+		"Teachings of Freedom": [
+			"aloy",
+			"amber",
+			"barbara",
+			"diona",
+			"klee",
+			"sucrose",
+			"tartaglia",
+			"traveleranemo"
+		],
+		"Spectral Husk": [
+			"aloy",
+			"gorou",
+			"sangonomiyakokomi"
+		],
+		"Guide to Freedom": [
+			"aloy",
+			"amber",
+			"barbara",
+			"diona",
+			"klee",
+			"sucrose",
+			"tartaglia",
+			"traveleranemo"
+		],
+		"Spectral Heart": [
+			"aloy",
+			"gorou",
+			"sangonomiyakokomi"
+		],
+		"Philosophies of Freedom": [
+			"aloy",
+			"amber",
+			"barbara",
+			"diona",
+			"klee",
+			"sucrose",
+			"tartaglia",
+			"traveleranemo"
+		],
+		"Spectral Nucleus": [
+			"aloy",
+			"gorou",
+			"sangonomiyakokomi"
+		],
+		"Molten Moment": [
+			"aloy",
+			"gorou",
+			"raidenshogun"
+		],
+		"Firm Arrowhead": [
+			"amber",
+			"diona",
+			"fischl",
+			"travelergeo"
+		],
+		"Sharp Arrowhead": [
+			"amber",
+			"diona",
+			"fischl",
+			"travelergeo"
+		],
+		"Weathered Arrowhead": [
+			"amber",
+			"diona",
+			"fischl",
+			"travelergeo"
+		],
+		"Dvalin's Sigh": [
+			"amber",
+			"beidou",
+			"chongyun",
+			"traveleranemo"
+		],
+		"Teachings of Elegance": [
+			"aratakiitto",
+			"kamisatoayaka",
+			"kujousara"
+		],
+		"Slime Condensate": [
+			"aratakiitto",
+			"lisa",
+			"venti",
+			"xiangling",
+			"xiao",
+			"zhongli"
+		],
+		"Guide to Elegance": [
+			"aratakiitto",
+			"kamisatoayaka",
+			"kujousara",
+			"travelerelectro"
+		],
+		"Slime Secretions": [
+			"aratakiitto",
+			"lisa",
+			"venti",
+			"xiangling",
+			"xiao",
+			"zhongli"
+		],
+		"Philosophies of Elegance": [
+			"aratakiitto",
+			"kamisatoayaka",
+			"kujousara",
+			"travelerelectro"
+		],
+		"Slime Concentrate": [
+			"aratakiitto",
+			"lisa",
+			"venti",
+			"xiangling",
+			"xiao",
+			"zhongli"
+		],
+		"Ashen Heart": [
+			"aratakiitto",
+			"kujousara",
+			"yunjin"
+		],
+		"Ring of Boreas": [
+			"barbara",
+			"keqing",
+			"klee",
+			"mona"
+		],
+		"Teachings of Gold": [
+			"beidou",
+			"xingqiu",
+			"xinyan",
+			"yanfei",
+			"zhongli"
+		],
+		"Treasure Hoarder Insignia": [
+			"beidou",
+			"bennett",
+			"kaedeharakazuha",
+			"kaeya",
+			"thoma",
+			"xinyan",
+			"yanfei"
+		],
+		"Guide to Gold": [
+			"beidou",
+			"travelergeo",
+			"xingqiu",
+			"xinyan",
+			"yanfei",
+			"zhongli"
+		],
+		"Silver Raven Insignia": [
+			"beidou",
+			"bennett",
+			"kaedeharakazuha",
+			"kaeya",
+			"thoma",
+			"xinyan",
+			"yanfei"
+		],
+		"Philosophies of Gold": [
+			"beidou",
+			"travelergeo",
+			"xingqiu",
+			"xinyan",
+			"yanfei",
+			"zhongli"
+		],
+		"Golden Raven Insignia": [
+			"beidou",
+			"bennett",
+			"kaedeharakazuha",
+			"kaeya",
+			"thoma",
+			"xinyan",
+			"yanfei"
+		],
+		"Teachings of Resistance": [
+			"bennett",
+			"diluc",
+			"eula",
+			"jean",
+			"mona",
+			"noelle",
+			"razor"
+		],
+		"Guide to Resistance": [
+			"bennett",
+			"diluc",
+			"eula",
+			"jean",
+			"mona",
+			"noelle",
+			"razor",
+			"traveleranemo"
+		],
+		"Philosophies of Resistance": [
+			"bennett",
+			"diluc",
+			"eula",
+			"jean",
+			"mona",
+			"noelle",
+			"razor",
+			"traveleranemo"
+		],
+		"Dvalin's Plume": [
+			"bennett",
+			"diluc",
+			"jean"
+		],
+		"Teachings of Diligence": [
+			"chongyun",
+			"ganyu",
+			"hutao",
+			"kaedeharakazuha",
+			"xiangling",
+			"yunjin"
+		],
+		"Damaged Mask": [
+			"chongyun",
+			"eula",
+			"jean",
+			"kujousara",
+			"noelle",
+			"razor",
+			"xingqiu",
+			"yunjin"
+		],
+		"Guide to Diligence": [
+			"chongyun",
+			"ganyu",
+			"hutao",
+			"kaedeharakazuha",
+			"travelergeo",
+			"xiangling",
+			"yunjin"
+		],
+		"Stained Mask": [
+			"chongyun",
+			"eula",
+			"jean",
+			"kujousara",
+			"noelle",
+			"razor",
+			"xingqiu",
+			"yunjin"
+		],
+		"Philosophies of Diligence": [
+			"chongyun",
+			"ganyu",
+			"hutao",
+			"kaedeharakazuha",
+			"travelergeo",
+			"xiangling",
+			"yunjin"
+		],
+		"Ominous Mask": [
+			"chongyun",
+			"eula",
+			"jean",
+			"kujousara",
+			"noelle",
+			"razor",
+			"xingqiu",
+			"yunjin"
+		],
+		"Recruit's Insignia": [
+			"diluc",
+			"ningguang",
+			"rosaria",
+			"tartaglia"
+		],
+		"Sergeant's Insignia": [
+			"diluc",
+			"ningguang",
+			"rosaria",
+			"tartaglia"
+		],
+		"Lieutenant's Insignia": [
+			"diluc",
+			"ningguang",
+			"rosaria",
+			"tartaglia"
+		],
+		"Shard of a Foul Legacy": [
+			"diona",
+			"hutao",
+			"tartaglia"
+		],
+		"Dragon Lord's Crown": [
+			"eula",
+			"travelerelectro",
+			"yoimiya"
+		],
+		"Spirit Locket of Boreas": [
+			"fischl",
+			"kaeya",
+			"ningguang",
+			"sucrose"
+		],
+		"Whopperflower Nectar": [
+			"ganyu",
+			"hutao",
+			"keqing",
+			"mona",
+			"sayu",
+			"shenhe",
+			"sucrose"
+		],
+		"Shimmering Nectar": [
+			"ganyu",
+			"hutao",
+			"keqing",
+			"mona",
+			"sayu",
+			"shenhe",
+			"sucrose"
+		],
+		"Energy Nectar": [
+			"ganyu",
+			"hutao",
+			"keqing",
+			"mona",
+			"sayu",
+			"shenhe",
+			"sucrose"
+		],
+		"Shadow of the Warrior": [
+			"ganyu",
+			"rosaria",
+			"xiao"
+		],
+		"Teachings of Light": [
+			"gorou",
+			"raidenshogun",
+			"sayu",
+			"yaemiko"
+		],
+		"Guide to Light": [
+			"gorou",
+			"raidenshogun",
+			"sayu",
+			"travelerelectro",
+			"yaemiko"
+		],
+		"Philosophies of Light": [
+			"gorou",
+			"raidenshogun",
+			"sayu",
+			"travelerelectro",
+			"yaemiko"
+		],
+		"Gilded Scale": [
+			"kaedeharakazuha",
+			"sayu"
+		],
+		"Old Handguard": [
+			"kamisatoayaka",
+			"raidenshogun",
+			"travelerelectro",
+			"yaemiko"
+		],
+		"Kageuchi Handguard": [
+			"kamisatoayaka",
+			"raidenshogun",
+			"travelerelectro",
+			"yaemiko"
+		],
+		"Famed Handguard": [
+			"kamisatoayaka",
+			"raidenshogun",
+			"travelerelectro",
+			"yaemiko"
+		],
+		"Bloodjade Branch": [
+			"kamisatoayaka",
+			"yanfei"
+		],
+		"Teachings of Prosperity": [
+			"keqing",
+			"ningguang",
+			"qiqi",
+			"shenhe",
+			"travelergeo",
+			"xiao"
+		],
+		"Guide to Prosperity": [
+			"keqing",
+			"ningguang",
+			"qiqi",
+			"shenhe",
+			"travelergeo",
+			"xiao"
+		],
+		"Philosophies of Prosperity": [
+			"keqing",
+			"ningguang",
+			"qiqi",
+			"shenhe",
+			"travelergeo",
+			"xiao"
+		],
+		"Dvalin's Claw": [
+			"lisa",
+			"noelle",
+			"razor",
+			"xiangling"
+		],
+		"Tail of Boreas": [
+			"qiqi",
+			"travelergeo",
+			"venti",
+			"xingqiu"
+		],
+		"Teachings of Transience": [
+			"sangonomiyakokomi",
+			"thoma",
+			"travelerelectro",
+			"yoimiya"
+		],
+		"Guide to Transience": [
+			"sangonomiyakokomi",
+			"thoma",
+			"travelerelectro",
+			"yoimiya"
+		],
+		"Philosophies of Transience": [
+			"sangonomiyakokomi",
+			"thoma",
+			"travelerelectro",
+			"yoimiya"
+		],
+		"Hellfire Butterfly": [
+			"sangonomiyakokomi",
+			"shenhe",
+			"thoma"
+		],
+		"The Meaning of Aeons": [
+			"yaemiko"
+		]
+	},
+	"properties": {
+		"costs": [
+			"Mora",
+			"Teachings of Ballad",
+			"Divining Scroll",
+			"Guide to Ballad",
+			"Sealed Scroll",
+			"Philosophies of Ballad",
+			"Forbidden Curse Scroll",
+			"Tusk of Monoceros Caeli",
+			"Crown of Insight",
+			"Teachings of Freedom",
+			"Spectral Husk",
+			"Guide to Freedom",
+			"Spectral Heart",
+			"Philosophies of Freedom",
+			"Spectral Nucleus",
+			"Molten Moment",
+			"Firm Arrowhead",
+			"Sharp Arrowhead",
+			"Weathered Arrowhead",
+			"Dvalin's Sigh",
+			"Teachings of Elegance",
+			"Slime Condensate",
+			"Guide to Elegance",
+			"Slime Secretions",
+			"Philosophies of Elegance",
+			"Slime Concentrate",
+			"Ashen Heart",
+			"Ring of Boreas",
+			"Teachings of Gold",
+			"Treasure Hoarder Insignia",
+			"Guide to Gold",
+			"Silver Raven Insignia",
+			"Philosophies of Gold",
+			"Golden Raven Insignia",
+			"Teachings of Resistance",
+			"Guide to Resistance",
+			"Philosophies of Resistance",
+			"Dvalin's Plume",
+			"Teachings of Diligence",
+			"Damaged Mask",
+			"Guide to Diligence",
+			"Stained Mask",
+			"Philosophies of Diligence",
+			"Ominous Mask",
+			"Recruit's Insignia",
+			"Sergeant's Insignia",
+			"Lieutenant's Insignia",
+			"Shard of a Foul Legacy",
+			"Dragon Lord's Crown",
+			"Spirit Locket of Boreas",
+			"Whopperflower Nectar",
+			"Shimmering Nectar",
+			"Energy Nectar",
+			"Shadow of the Warrior",
+			"Teachings of Light",
+			"Guide to Light",
+			"Philosophies of Light",
+			"Gilded Scale",
+			"Old Handguard",
+			"Kageuchi Handguard",
+			"Famed Handguard",
+			"Bloodjade Branch",
+			"Teachings of Prosperity",
+			"Guide to Prosperity",
+			"Philosophies of Prosperity",
+			"Dvalin's Claw",
+			"Tail of Boreas",
+			"Teachings of Transience",
+			"Guide to Transience",
+			"Philosophies of Transience",
+			"Hellfire Butterfly",
+			"The Meaning of Aeons"
+		]
+	}
+}

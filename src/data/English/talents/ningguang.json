@@ -1,0 +1,201 @@
+{
+	"name": "Ningguang",
+	"combat1": {
+		"name": "Normal Attack: Sparkling Scatter",
+		"info": "**Normal Attack**\nShoots gems that deal Geo DMG.\nUpon hit, this grants Ningguang 1 Star Jade.\n\n**Charged Attack**\nConsumes a certain amount of stamina to fire off a giant gem that deals Geo DMG.\nIf Ningguang has any Star Jades, unleashing a Charged Attack will cause the Star Jades to be fired at the enemy as well, dealing additional DMG.\n\n**Plunging Attack**\nGathering the might of Geo, Ningguang plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Geo DMG upon impact with the ground.",
+		"attributes": {
+			"labels": [
+				"Normal Attack DMG|{param1:F1P}",
+				"Charged Attack DMG|{param2:P}",
+				"DMG per Star Jade|{param3:F1P}",
+				"Charged Attack Stamina Cost|{param4:F1}",
+				"Plunge DMG|{param5:F1P}",
+				"Low/High Plunge DMG|{param6:P}/{param7:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Jade Screen",
+		"info": "Ningguang creates a Jade Screen out of gold, obsidian and her great opulence, dealing AoE Geo DMG.\n\n**Jade Screen**\n·Blocks opponents' projectiles.\n·Endurance scales based on Ningguang's Max HP.\n\nJade Screen is considered a Geo Construct and can be used to block certain attacks, but cannot be climbed. Only one Jade Screen may exist at any one time.",
+		"description": "The canvas of stars is written upon this jade screen.",
+		"attributes": {
+			"labels": [
+				"Inherited HP|{param3:F1P}",
+				"Skill DMG|{param2:P}",
+				"CD|{param4:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Starshatter",
+		"info": "Gathering a great number of gems, Ningguang scatters them all at once, sending homing projectiles at her opponents that deal massive Geo DMG.\nIf Starshatter is cast when a Jade Screen is nearby, the Jade Screen will fire additional gem projectiles at the same time.",
+		"description": "Stars shatter. Silence falls.",
+		"attributes": {
+			"labels": [
+				"DMG Per Gem|{param1:F1P}",
+				"CD|{param2:F1}s",
+				"Energy Cost|{param3:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Backup Plan",
+		"info": "When Ningguang is in possession of Star Jades, her Charged Attack does not consume Stamina."
+	},
+	"passive2": {
+		"name": "Strategic Reserve",
+		"info": "A character that passes through the **Jade Screen** will gain a 12% Geo DMG Bonus for 10s."
+	},
+	"passive3": {
+		"name": "Trove of Marvelous Treasures",
+		"info": "Displays the location of nearby **ore veins used in forging** on the mini-map."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Prosperity",
+				"count": 3
+			},
+			{
+				"name": "Recruit's Insignia",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 2
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 4
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 9
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 4
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 4
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 6
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 12
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 9
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 16
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 12
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

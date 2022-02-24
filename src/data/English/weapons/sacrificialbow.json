@@ -1,0 +1,142 @@
+{
+	"name": "Sacrificial Bow",
+	"description": "A ceremonial hunting bow that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+	"weapontype": "Bow",
+	"rarity": "4",
+	"baseatk": 44,
+	"substat": "Energy Recharge",
+	"subvalue": "6.7",
+	"effectname": "Composed",
+	"effect": "After damaging an opponent with an Elemental Skill, the skill has a {0} chance to end its own CD. Can only occur once every {1}.",
+	"r1": [
+		"40%",
+		"30s"
+	],
+	"r2": [
+		"50%",
+		"26s"
+	],
+	"r3": [
+		"60%",
+		"22s"
+	],
+	"r4": [
+		"70%",
+		"19s"
+	],
+	"r5": [
+		"80%",
+		"16s"
+	],
+	"weaponmaterialtype": "Boreal Wolf",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 5000
+			},
+			{
+				"name": "Boreal Wolf's Milk Tooth",
+				"count": 3
+			},
+			{
+				"name": "Dead Ley Line Branch",
+				"count": 3
+			},
+			{
+				"name": "Slime Condensate",
+				"count": 2
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 15000
+			},
+			{
+				"name": "Boreal Wolf's Cracked Tooth",
+				"count": 3
+			},
+			{
+				"name": "Dead Ley Line Branch",
+				"count": 12
+			},
+			{
+				"name": "Slime Condensate",
+				"count": 8
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Boreal Wolf's Cracked Tooth",
+				"count": 6
+			},
+			{
+				"name": "Dead Ley Line Leaves",
+				"count": 6
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 6
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Boreal Wolf's Broken Fang",
+				"count": 3
+			},
+			{
+				"name": "Dead Ley Line Leaves",
+				"count": 12
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 9
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 35000
+			},
+			{
+				"name": "Boreal Wolf's Broken Fang",
+				"count": 6
+			},
+			{
+				"name": "Ley Line Sprout",
+				"count": 9
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 6
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Boreal Wolf's Nostalgia",
+				"count": 4
+			},
+			{
+				"name": "Ley Line Sprout",
+				"count": 18
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 12
+			}
+		]
+	}
+}

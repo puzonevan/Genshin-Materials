@@ -1,0 +1,11 @@
+{
+	"name": "Starsilver",
+	"description": "A rare and precious ore formed by the unique geographical conditions and Ley Lines of Dragonspine.",
+	"sortorder": 1445,
+	"category": "EXCHANGE",
+	"materialtype": "Forging Ore",
+	"source": [
+		"Found in the wild",
+		"Recommendation: Found in Dragonspine"
+	]
+}

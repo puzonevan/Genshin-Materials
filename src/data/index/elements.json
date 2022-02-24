@@ -1,0 +1,23 @@
+{
+	"namemap": {
+		"anemo": "Anemo",
+		"cryo": "Cryo",
+		"dendro": "Dendro",
+		"electro": "Electro",
+		"geo": "Geo",
+		"hydro": "Hydro",
+		"pyro": "Pyro"
+	},
+	"names": {
+		"Anemo": "anemo",
+		"Cryo": "cryo",
+		"Dendro": "dendro",
+		"Electro": "electro",
+		"Geo": "geo",
+		"Hydro": "hydro",
+		"Pyro": "pyro"
+	},
+	"aliases": {},
+	"categories": {},
+	"properties": {}
+}

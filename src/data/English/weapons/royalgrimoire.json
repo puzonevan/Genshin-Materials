@@ -1,0 +1,137 @@
+{
+	"name": "Royal Grimoire",
+	"description": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells.",
+	"weapontype": "Catalyst",
+	"rarity": "4",
+	"baseatk": 44,
+	"substat": "ATK",
+	"subvalue": "6",
+	"effectname": "Focus",
+	"effect": "Upon damaging an opponent, increases CRIT Rate by {0}. Max 5 stacks. A CRIT Hit removes all stacks.",
+	"r1": [
+		"8%"
+	],
+	"r2": [
+		"10%"
+	],
+	"r3": [
+		"12%"
+	],
+	"r4": [
+		"14%"
+	],
+	"r5": [
+		"16%"
+	],
+	"weaponmaterialtype": "Decarabian",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 5000
+			},
+			{
+				"name": "Tile of Decarabian's Tower",
+				"count": 3
+			},
+			{
+				"name": "Heavy Horn",
+				"count": 3
+			},
+			{
+				"name": "Recruit's Insignia",
+				"count": 2
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 15000
+			},
+			{
+				"name": "Debris of Decarabian's City",
+				"count": 3
+			},
+			{
+				"name": "Heavy Horn",
+				"count": 12
+			},
+			{
+				"name": "Recruit's Insignia",
+				"count": 8
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Debris of Decarabian's City",
+				"count": 6
+			},
+			{
+				"name": "Black Bronze Horn",
+				"count": 6
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 6
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Fragment of Decarabian's Epic",
+				"count": 3
+			},
+			{
+				"name": "Black Bronze Horn",
+				"count": 12
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 9
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 35000
+			},
+			{
+				"name": "Fragment of Decarabian's Epic",
+				"count": 6
+			},
+			{
+				"name": "Black Crystal Horn",
+				"count": 9
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 6
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Scattered Piece of Decarabian's Dream",
+				"count": 4
+			},
+			{
+				"name": "Black Crystal Horn",
+				"count": 18
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 12
+			}
+		]
+	}
+}

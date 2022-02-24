@@ -1,0 +1,446 @@
+{
+	"albedo": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Albedo_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Albedo_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Albedo_04.png",
+		"constellation": "Eff_UI_Talent_Albedo"
+	},
+	"amber": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ambor_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ambor_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ambor_04.png",
+		"constellation": "Eff_UI_Talent_Ambor"
+	},
+	"barbara": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Barbara_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Barbara_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Barbara_04.png",
+		"constellation": "Eff_UI_Talent_Barbara"
+	},
+	"beidou": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_02.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_01.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Beidou_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Beidou_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Beidou_04.png",
+		"constellation": "Eff_UI_Talent_Beidou"
+	},
+	"bennett": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Bennett_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Bennett_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Bennett_04.png",
+		"constellation": "Eff_UI_Talent_Bennett"
+	},
+	"chongyun": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Chongyun_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Chongyun_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Chongyun_04.png",
+		"constellation": "Eff_UI_Talent_Chongyun"
+	},
+	"diluc": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diluc_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diluc_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diluc_04.png",
+		"constellation": "Eff_UI_Talent_Diluc"
+	},
+	"diona": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diona_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Diona_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Diona_04.png",
+		"constellation": "Eff_UI_Talent_Diona"
+	},
+	"fischl": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Fischl_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Fischl_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Fischl_04.png",
+		"constellation": "Eff_UI_Talent_Fischl"
+	},
+	"ganyu": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ganyu_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ganyu_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ganyu_04.png",
+		"constellation": "Eff_UI_Talent_Ganyu"
+	},
+	"hutao": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_03.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_01.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Hutao_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_02.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Hutao_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Hutao_04.png",
+		"constellation": "Eff_UI_Talent_Hutao"
+	},
+	"jean": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qin_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qin_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qin_04.png",
+		"constellation": "Eff_UI_Talent_Qin"
+	},
+	"kaeya": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kaeya_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kaeya_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kaeya_04.png",
+		"constellation": "Eff_UI_Talent_Kaeya"
+	},
+	"keqing": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Keqing_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Keqing_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Keqing_04.png",
+		"constellation": "Eff_UI_Talent_Keqing"
+	},
+	"klee": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Klee_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Klee_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Klee_04.png",
+		"constellation": "Eff_UI_Talent_Klee"
+	},
+	"lisa": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Lisa_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Lisa_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Lisa_04.png",
+		"constellation": "Eff_UI_Talent_Lisa"
+	},
+	"mona": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Mona_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Mona_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Mona_04.png",
+		"constellation": "Eff_UI_Talent_Mona"
+	},
+	"ningguang": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_05.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ningguang_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ningguang_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ningguang_04.png",
+		"constellation": "Eff_UI_Talent_Ningguang"
+	},
+	"noelle": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Noel_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Noel_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Noel_04.png",
+		"constellation": "Eff_UI_Talent_Noel"
+	},
+	"qiqi": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qiqi_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Qiqi_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Qiqi_04.png",
+		"constellation": "Eff_UI_Talent_Qiqi"
+	},
+	"razor": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Razor_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Razor_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Razor_04.png",
+		"constellation": "Eff_UI_Talent_Razor"
+	},
+	"rosaria": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Rosaria_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Rosaria_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Rosaria_04.png",
+		"constellation": "Eff_UI_Talent_Rosaria"
+	},
+	"sucrose": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sucrose_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sucrose_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sucrose_04.png",
+		"constellation": "Eff_UI_Talent_Sucrose"
+	},
+	"tartaglia": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tartaglia_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_05.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tartaglia_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tartaglia_04.png",
+		"constellation": "Eff_UI_Talent_Tartaglia"
+	},
+	"traveleranemo": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerWind_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerWind_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerWind_04.png",
+		"constellation": "Eff_UI_Talent_PlayerBoy_Wind",
+		"constellation2": "Eff_UI_Talent_PlayerGirl_Wind"
+	},
+	"travelergeo": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerRock_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerRock_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerRock_04.png",
+		"constellation": "Eff_UI_Talent_PlayerBoy_Rock",
+		"constellation2": "Eff_UI_Talent_PlayerGirl_Rock"
+	},
+	"venti": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Venti_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Venti_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Venti_04.png",
+		"constellation": "Eff_UI_Talent_Venti"
+	},
+	"xiangling": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiangling_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiangling_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiangling_04.png",
+		"constellation": "Eff_UI_Talent_Xiangling"
+	},
+	"xiao": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiao_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xiao_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xiao_04.png",
+		"constellation": "Eff_UI_Talent_Xiao"
+	},
+	"xingqiu": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xingqiu_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xingqiu_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xingqiu_04.png",
+		"constellation": "Eff_UI_Talent_Xingqiu"
+	},
+	"xinyan": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xinyan_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Xinyan_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Xinyan_04.png",
+		"constellation": "Eff_UI_Talent_Xinyan"
+	},
+	"zhongli": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Zhongli_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Zhongli_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Zhongli_04.png",
+		"constellation": "Eff_UI_Talent_Zhongli"
+	},
+	"yanfei": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Feiyan_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Feiyan_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Feiyan_04.png",
+		"constellation": "Eff_UI_Talent_Feiyan"
+	},
+	"eula": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_02.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_01.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Eula_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Eula_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Eula_04.png",
+		"constellation": "Eff_UI_Talent_Eula"
+	},
+	"kaedeharakazuha": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kazuha_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kazuha_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kazuha_04.png",
+		"constellation": "Eff_UI_Talent_Kazuha"
+	},
+	"travelerelectro": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerElectric_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_PlayerElectric_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_PlayerElectric_04.png",
+		"constellation": "Eff_UI_Talent_PlayerBoy_Electric",
+		"constellation2": "Eff_UI_Talent_PlayerGirl_Electric"
+	},
+	"yoimiya": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yoimiya_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yoimiya_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yoimiya_04.png",
+		"constellation": "Eff_UI_Talent_Yoimiya"
+	},
+	"sayu": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sayu_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sayu_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sayu_04.png",
+		"constellation": "Eff_UI_Talent_Sayu"
+	},
+	"kamisatoayaka": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Ayaka_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Ayaka_04.png",
+		"constellation": "Eff_UI_Talent_Ayaka"
+	},
+	"raidenshogun": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_03.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shougun_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_02.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shougun_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shougun_04.png",
+		"constellation": "Eff_UI_Talent_Shougun"
+	},
+	"sangonomiyakokomi": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kokomi_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Kokomi_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Kokomi_04.png",
+		"constellation": "Eff_UI_Talent_Kokomi"
+	},
+	"kujousara": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_05.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sara_02.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Sara_01.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Sara_04.png",
+		"constellation": "Eff_UI_Talent_Sara"
+	},
+	"aloy": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Aloy_Lock.png",
+		"constellation": "Eff_UI_Talent_Aloy"
+	},
+	"thoma": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tohma_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Tohma_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Tohma_04.png",
+		"constellation": "Eff_UI_Talent_Tohma"
+	},
+	"gorou": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Gorou_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Gorou_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Gorou_04.png",
+		"constellation": "Eff_UI_Talent_Gorou"
+	},
+	"aratakiitto": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Itto_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Itto_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Itto_04.png",
+		"constellation": "Eff_UI_Talent_Itto"
+	},
+	"shenhe": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_02.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_01.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shenhe_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Shenhe_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Shenhe_04.png",
+		"constellation": "Eff_UI_Talent_Shenhe"
+	},
+	"yunjin": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yunjin_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yunjin_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yunjin_04.png",
+		"constellation": "Eff_UI_Talent_Yunjin"
+	},
+	"yaemiko": {
+		"c1": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_01.png",
+		"c2": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_02.png",
+		"c3": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yae_01.png",
+		"c4": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_03.png",
+		"c5": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_U_Yae_02.png",
+		"c6": "https://upload-os-bbs.mihoyo.com/game_record/genshin/constellation_icon/UI_Talent_S_Yae_04.png",
+		"constellation": "Eff_UI_Talent_Yae"
+	}
+}

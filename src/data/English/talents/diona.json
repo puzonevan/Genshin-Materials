@@ -1,0 +1,209 @@
+{
+	"name": "Diona",
+	"combat1": {
+		"name": "Normal Attack: Kätzlein Style",
+		"info": "**Normal Attack**\nPerform up to 5 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}",
+				"5-Hit DMG|{param5:F1P}",
+				"Aimed Shot|{param7:F1P}",
+				"Fully-Charged Aimed Shot|{param8:P}",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Icy Paws",
+		"info": "Fires an Icy Paw that deals Cryo DMG to opponents and forms a shield on hit.\nThe shield's DMG Absorption scales based on Diona's Max HP, and its duration scales off the number of Icy Paws that hit their target.\n\n**Press**\nRapidly fires off 2 Icy Paws.\n\n**Hold**\nDashes back quickly before firing five Icy Paws.\nThe shield created by a Hold attack will gain a 75% DMG Absorption Bonus.\n\nThe shield has a 250% Cryo DMG Absorption Bonus, and will cause your active character to become affected by Cryo at the point of formation for a short duration.",
+		"description": "When she first started bartending, Diona found that no matter how much ice she put in her cocktails, it would never do a drunkard any harm. That all changed when she received her Vision — now she can form ice cold enough to cause severe brainfreeze. Five out of five stars!",
+		"attributes": {
+			"labels": [
+				"Icy Paw DMG|{param1:F1P} per Paw",
+				"Base Shield DMG Absorption|{param2:F1P} Max HP+{param3:I}",
+				"Duration|{param6:F1}s per Paw",
+				"Press CD|{param4:F1}s",
+				"Holding CD|{param5:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Signature Mix",
+		"info": "Tosses out a special cold brew that deals AoE Cryo DMG and creates a Drunken Mist in an AoE.\n\n**Drunken Mist**\n·Deals continuous Cryo DMG to opponents within the AoE.\n·Continuously regenerates the HP of characters within the AoE.",
+		"description": "A horrific mix that even Diona considers inhumane. The horrifying foretaste should be left for one's opponents. It has a crisp aftertaste, but unfortunately, one can only feel it on one's nose and skin.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"Continuous Field DMG|{param2:F1P}",
+				"HP Regeneration Over Time|{param3:F2P} Max HP+{param4:I}",
+				"Duration|{param7:F1}s",
+				"CD|{param5:F1}s",
+				"Energy Cost|{param6:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Cat's Tail Secret Menu",
+		"info": "Characters shielded by **Icy Paws** have their Movement SPD increased by 10% and their Stamina Consumption decreased by 10%."
+	},
+	"passive2": {
+		"name": "Drunkards' Farce",
+		"info": "Opponents who enter the AoE of **Signature Mix** have 10% decreased ATK for 15s."
+	},
+	"passive3": {
+		"name": "Complimentary Bar Food",
+		"info": "When a Perfect Cooking is achieved on a dish with restorative effects, there is a 12% chance to obtain double the product."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Freedom",
+				"count": 3
+			},
+			{
+				"name": "Firm Arrowhead",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 2
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 4
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 6
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 9
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 4
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 4
+			},
+			{
+				"name": "Shard of a Foul Legacy",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 6
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 6
+			},
+			{
+				"name": "Shard of a Foul Legacy",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 12
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 9
+			},
+			{
+				"name": "Shard of a Foul Legacy",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 16
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 12
+			},
+			{
+				"name": "Shard of a Foul Legacy",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,205 @@
+{
+	"name": "Rosaria",
+	"combat1": {
+		"name": "Normal Attack: Spear of the Church",
+		"info": "**Normal Attack**\nPerforms up to five consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}×2",
+				"4-Hit DMG|{param4:F1P}",
+				"5-Hit DMG|{param5:F1P}+{param6:F1P}",
+				"Charged Attack DMG|{param7:P}",
+				"Charged Attack Stamina Cost|{param8:F1}",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Ravaging Confession",
+		"info": "Rosaria swiftly shifts her position to appear behind her opponent, then stabs and slashes them with her polearm, dealing Cryo DMG.\nThis ability cannot be used to travel behind opponents of a larger build.",
+		"description": "Those who confess to Sister Rosaria will be granted no absolution. All sinners shall be met with the piercing cold of punishment proportionate to the weight of their sins.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}+{param2:P}",
+				"CD|{param3:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Rites of Termination",
+		"info": "Rosaria's unique take on this prayer ritual: First, she swings her weapon to slash surrounding opponents; then, she summons a frigid Ice Lance that strikes the ground. Both actions deal Cryo DMG.\nWhile active, the Ice Lance periodically releases a blast of cold air, dealing Cryo DMG to surrounding opponents.",
+		"description": "Judgment is such a tedious ordeal — much easier to skip that phase and get straight to the last rites. Rosaria was never very devoted to the Anemo God anyway, which makes performing them all too easy.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}+{param2:P}",
+				"Ice Lance DoT|{param3:P}",
+				"Duration|{param4:F1}s",
+				"CD|{param5:F1}s",
+				"Energy Cost|{param6:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Regina Probationum",
+		"info": "When Rosaria strikes an opponent from behind using **Ravaging Confession**, Rosaria's CRIT Rate increases by 12% for 5s."
+	},
+	"passive2": {
+		"name": "Shadow Samaritan",
+		"info": "Casting **Rites of Termination** increases CRIT Rate of all nearby party members (except Rosaria herself) by 15% of Rosaria's CRIT Rate for 10s.\nCRIT Rate Bonus gained this way cannot exceed 15%."
+	},
+	"passive3": {
+		"name": "Night Walk",
+		"info": "At night (18:00–6:00), increases the Movement SPD of your own party members by 10%.\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Ballad",
+				"count": 3
+			},
+			{
+				"name": "Recruit's Insignia",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 2
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 4
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 6
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 9
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 4
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 4
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 6
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 6
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 12
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 9
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 16
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 12
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Amethyst Lump",
+	"description": "An uncut crystal that can only be found in Inazuma. Some professional craftsmanship will bring out its true value.",
+	"sortorder": 1447,
+	"category": "EXCHANGE",
+	"materialtype": "Forging Ore",
+	"source": [
+		"Found in the wild",
+		"Recommendation: Found on Narukami Island"
+	]
+}

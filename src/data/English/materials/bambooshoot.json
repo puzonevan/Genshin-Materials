@@ -1,0 +1,11 @@
+{
+	"name": "Bamboo Shoot",
+	"description": "A fresh young bamboo shoot, straight out of the ground. It is a delicious cooking ingredient with an exotic aroma, found exclusively in bamboo-growing regions.",
+	"sortorder": 1497,
+	"category": "EXCHANGE",
+	"materialtype": "Cooking Ingredient",
+	"source": [
+		"Found in the wild",
+		"Recommendation: Found in the bamboo forest near Qingce Village"
+	]
+}

@@ -1,0 +1,209 @@
+{
+	"name": "Bennett",
+	"combat1": {
+		"name": "Normal Attack: Strike of Fortune",
+		"info": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}",
+				"5-Hit DMG|{param5:F1P}",
+				"Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+				"Charged Attack Stamina Cost|{param8:F1}",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Passion Overload",
+		"info": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...\n\n**Press**\nA single, swift flame strike that deals Pyro DMG.\n\n**Hold (Short)**\nCharges up, resulting in different effects when unleashed based on the Charge Level.\n·Level 1: Strikes twice, dealing Pyro DMG and launching opponents.\n·Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.\nBennett takes no damage from being launched.",
+		"description": "An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
+		"attributes": {
+			"labels": [
+				"Press DMG|{param1:P}",
+				"Charge Level 1 DMG|{param2:F1P}+{param3:F1P}",
+				"Charge Level 2 DMG|{param4:F1P}+{param5:F1P}",
+				"Explosion DMG|{param6:P}",
+				"CD|{param7:F1}/{param8:F1}/{param9:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Fantastic Voyage",
+		"info": "Bennett performs a jumping attack that deals Pyro DMG, creating an Inspiration Field.\n\n**Inspiration Field**\n·If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.\n·If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.\n·Imbues characters within the AoE with Pyro.",
+		"description": "Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"Continuous Regeneration Per Sec|{param2:F2P} Max HP+{param3:I}",
+				"ATK Bonus Ratio|{param4:P}",
+				"Duration|{param5:F1}s",
+				"CD|{param6:F1}s",
+				"Energy Cost|{param7:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Rekindle",
+		"info": "Decreases **Passion Overload**'s CD by 20%."
+	},
+	"passive2": {
+		"name": "Fearnaught",
+		"info": "Within the area created by **Fantastic Voyage**, **Passion Overload** takes on the following effects:\n·CD is reduced by 50%.\n·Bennett will not be launched by the effects of Charge Level 2."
+	},
+	"passive3": {
+		"name": "It Should Be Safe...",
+		"info": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Resistance",
+				"count": 3
+			},
+			{
+				"name": "Treasure Hoarder Insignia",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 2
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 4
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 6
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 9
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 4
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 4
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 6
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 6
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 12
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 9
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 16
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 12
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

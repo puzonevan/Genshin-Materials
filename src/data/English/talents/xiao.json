@@ -1,0 +1,206 @@
+{
+	"name": "Xiao",
+	"combat1": {
+		"name": "Normal Attack: Whirlwind Thrust",
+		"info": "**Normal Attack**\nPerforms up to 6 consecutive spear strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to perform an upward thrust.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.\nXiao does not take DMG from performing Plunging Attacks.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}+{param2:F1P}",
+				"2-Hit DMG|{param3:F1P}",
+				"3-Hit DMG|{param4:F1P}",
+				"4-Hit DMG|{param5:F1P}+{param6:F1P}",
+				"5-Hit DMG|{param7:F1P}",
+				"6-Hit DMG|{param8:F1P}",
+				"Charged Attack DMG|{param9:P}",
+				"Charged Attack Stamina Cost|{param10:F1}",
+				"Plunge DMG|{param11:P}",
+				"Low/High Plunge DMG|{param12:P}/{param13:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Lemniscatic Wind Cycling",
+		"info": "Xiao lunges forward, dealing Anemo DMG to opponents in his path.\nCan be used in mid-air.\nStarts with 2 charges.",
+		"description": "According to the legends of another land, the world will someday be crushed by two great wind wheels. Xiao's mastery over polearms is transcendent, ripping his foes apart like those legendary wind wheels.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"CD|{param2:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Bane of All Evil",
+		"info": "Xiao dons the Yaksha Mask that set gods and demons trembling millennia ago.\n\n**Yaksha's Mask**\n·Greatly increases Xiao's jumping ability.\n·Increases his attack AoE and attack DMG.\n·Converts attack DMG into Anemo DMG, which cannot be overridden by any other elemental infusion.\n\nIn this state, Xiao will continuously lose HP.\nThe effects of this skill end when Xiao leaves the field.",
+		"description": "Donning the Mask of the Yaksha, Xiao takes the terrifying, demon-conquering form of the Vigilant Yaksha. But this great power has also brought him great suffering. Some call him \"The Bane of All Evil.\"",
+		"attributes": {
+			"labels": [
+				"Normal/Charged/Plunging Attack DMG Bonus|{param1:F1P}",
+				"Life Drain|{param2:F1P} Current HP Per Second",
+				"Duration|{param3:F1}s",
+				"CD|{param4:F1}s",
+				"Energy Cost|{param5:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Conqueror of Evil: Tamer of Demons",
+		"info": "While under the effects of **Bane of All Evil**, all DMG dealt by Xiao increases by 5%. DMG increases by a further 5% for every 3s the ability persists.\nThe maximum DMG Bonus is 25%."
+	},
+	"passive2": {
+		"name": "Dissolution Eon: Heaven Fall",
+		"info": "Using **Lemniscatic Wind Cycling** increases the DMG of subsequent uses of Lemniscatic Wind Cycling by 15%.\nThis effect lasts for 7s, and has a maximum of 3 stacks. Gaining a new stack refreshes the effect's duration."
+	},
+	"passive3": {
+		"name": "Transcension: Gravity Defier",
+		"info": "Decreases climbing Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Prosperity",
+				"count": 3
+			},
+			{
+				"name": "Slime Condensate",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 2
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 4
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 9
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 4
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 4
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 6
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 12
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 9
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 16
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 12
+			},
+			{
+				"name": "Shadow of the Warrior",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

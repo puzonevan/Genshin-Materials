@@ -1,0 +1,142 @@
+{
+	"name": "Eye of Perception",
+	"description": "A dim black glaze pearl that is said to have the power to read the purity of one's heart.",
+	"weapontype": "Catalyst",
+	"rarity": "4",
+	"baseatk": 41,
+	"substat": "ATK",
+	"subvalue": "12",
+	"effectname": "Echo",
+	"effect": "Normal and Charged Attacks have a 50% chance to fire a Bolt of Perception, dealing {0} ATK as DMG. This bolt can bounce between opponents a maximum of 4 times. This effect can occur once every {1}.",
+	"r1": [
+		"240%",
+		"12s"
+	],
+	"r2": [
+		"270%",
+		"11s"
+	],
+	"r3": [
+		"300%",
+		"10s"
+	],
+	"r4": [
+		"330%",
+		"9s"
+	],
+	"r5": [
+		"360%",
+		"8s"
+	],
+	"weaponmaterialtype": "Mist Veiled Elixir",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 5000
+			},
+			{
+				"name": "Mist Veiled Lead Elixir",
+				"count": 3
+			},
+			{
+				"name": "Mist Grass Pollen",
+				"count": 3
+			},
+			{
+				"name": "Damaged Mask",
+				"count": 2
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 15000
+			},
+			{
+				"name": "Mist Veiled Mercury Elixir",
+				"count": 3
+			},
+			{
+				"name": "Mist Grass Pollen",
+				"count": 12
+			},
+			{
+				"name": "Damaged Mask",
+				"count": 8
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Mist Veiled Mercury Elixir",
+				"count": 6
+			},
+			{
+				"name": "Mist Grass",
+				"count": 6
+			},
+			{
+				"name": "Stained Mask",
+				"count": 6
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Mist Veiled Gold Elixir",
+				"count": 3
+			},
+			{
+				"name": "Mist Grass",
+				"count": 12
+			},
+			{
+				"name": "Stained Mask",
+				"count": 9
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 35000
+			},
+			{
+				"name": "Mist Veiled Gold Elixir",
+				"count": 6
+			},
+			{
+				"name": "Mist Grass Wick",
+				"count": 9
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 6
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Mist Veiled Primo Elixir",
+				"count": 4
+			},
+			{
+				"name": "Mist Grass Wick",
+				"count": 18
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 12
+			}
+		]
+	}
+}

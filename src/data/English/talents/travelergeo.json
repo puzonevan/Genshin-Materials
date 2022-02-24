@@ -1,0 +1,201 @@
+{
+	"name": "Traveler (Geo)",
+	"combat1": {
+		"name": "Normal Attack: Foreign Rockblade",
+		"info": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}",
+				"5-Hit DMG|{param5:F1P}",
+				"Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+				"Charged Attack Stamina Cost|{param8:F1}",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Starfell Sword",
+		"info": "You disgorge a meteorite from the depths of the earth, dealing AoE Geo DMG.\nThe meteorite is considered a Geo Construct, and can be climbed or used to block attacks.\n\n**Hold**\nThis skill's positioning may be adjusted.",
+		"description": "You spoke with Paimon about the final destination of falling stars.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"Meteorite Duration|{param2:F1}s",
+				"CD|{param3:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Wake of Earth",
+		"info": "Energizing the Geo deep underground, you set off expanding shockwaves.\nLaunches surrounding opponents back and deals AoE Geo DMG.\nA stone wall is erected at the edges of the shockwave.\nThe stone wall is considered a Geo Construct, and may be used to block attacks.",
+		"description": "You and Paimon studied the pulse of the mountains.",
+		"attributes": {
+			"labels": [
+				"DMG Per Shockwave|{param1:P}",
+				"Stonewall Duration|{param2:F1}s",
+				"CD|{param3:F1}s",
+				"Energy Cost|{param4:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Shattered Darkrock",
+		"info": "Reduces **Starfell Sword**'s CD by 2s."
+	},
+	"passive2": {
+		"name": "Frenzied Rockslide",
+		"info": "The final hit of a Normal Attack combo triggers a collapse, dealing 60% of ATK as AoE Geo DMG."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Prosperity",
+				"count": 3
+			},
+			{
+				"name": "Firm Arrowhead",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Diligence",
+				"count": 2
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 4
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Diligence",
+				"count": 9
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 4
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 4
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 6
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Diligence",
+				"count": 12
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 9
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 16
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 12
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

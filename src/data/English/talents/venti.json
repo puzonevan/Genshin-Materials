@@ -1,0 +1,208 @@
+{
+	"name": "Venti",
+	"combat1": {
+		"name": "Normal Attack: Divine Marksmanship",
+		"info": "**Normal Attack**\nPerform up to 6 consecutive shots with a bow.\n\n**Charged Attack**\nPerform a more precise **Aimed Shot** with increased DMG.\nWhile aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.\n\n**Plunging Attack**\nFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}+{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}+{param4:F1P}",
+				"5-Hit DMG|{param5:F1P}",
+				"6-Hit DMG|{param6:F1P}",
+				"Aimed Shot|{param7:F1P}",
+				"Fully-Charged Aimed Shot|{param8:P}",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Skyward Sonnet",
+		"info": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!\n\n**Press**\nSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.\n\n**Hold**\nSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.\nAfter unleashing the Hold version of this ability, Venti rides the wind into the air.\n\nOpponents hit by Skyward Sonnet will fall to the ground slowly.",
+		"description": "In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
+		"attributes": {
+			"labels": [
+				"Press DMG|{param1:P}",
+				"Press CD|{param2:F1}s",
+				"Hold DMG|{param3:P}",
+				"CD (hold)|{param4:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Wind's Grand Ode",
+		"info": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous Anemo DMG.\n\n**Elemental Absorption**\nIf the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+		"description": "Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.",
+		"attributes": {
+			"labels": [
+				"DoT|{param1:F1P}",
+				"Additional Elemental DMG|{param2:F1P}",
+				"Duration|{param3:F1}s",
+				"CD|{param4:F1}s",
+				"Energy Cost|{param5:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Embrace of Winds",
+		"info": "Holding **Skyward Sonnet** creates an upcurrent that lasts for 20s."
+	},
+	"passive2": {
+		"name": "Stormeye",
+		"info": "Regenerates 15 Energy for Venti after the effects of **Wind's Grand Ode** end.\nIf an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party."
+	},
+	"passive3": {
+		"name": "Windrider",
+		"info": "Decreases gliding Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Ballad",
+				"count": 3
+			},
+			{
+				"name": "Slime Condensate",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 2
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 4
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 6
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 9
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 4
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 4
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 6
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 6
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 12
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 9
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 16
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 12
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

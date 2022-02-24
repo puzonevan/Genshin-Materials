@@ -1,0 +1,13 @@
+{
+	"name": "Shivada Jade Chunk",
+	"description": "Character Ascension material.\n\"Sorry...\"\n\"...to also have you shoulder the grievances of the world.\"",
+	"sortorder": 780,
+	"rarity": "4",
+	"category": "AVATAR_MATERIAL",
+	"materialtype": "Character Level-Up Material",
+	"source": [
+		"Dropped by Lv. 60+ Cryo Regisvines",
+		"Dropped by Lv. 60+ Cryo Hypostases",
+		"Crafted"
+	]
+}

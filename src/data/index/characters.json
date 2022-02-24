@@ -1,0 +1,1456 @@
+{
+	"namemap": {
+		"aether": "Aether",
+		"albedo": "Albedo",
+		"aloy": "Aloy",
+		"amber": "Amber",
+		"aratakiitto": "Arataki Itto",
+		"barbara": "Barbara",
+		"beidou": "Beidou",
+		"bennett": "Bennett",
+		"chongyun": "Chongyun",
+		"diluc": "Diluc",
+		"diona": "Diona",
+		"eula": "Eula",
+		"fischl": "Fischl",
+		"ganyu": "Ganyu",
+		"gorou": "Gorou",
+		"hutao": "Hu Tao",
+		"jean": "Jean",
+		"kaedeharakazuha": "Kaedehara Kazuha",
+		"kaeya": "Kaeya",
+		"kamisatoayaka": "Kamisato Ayaka",
+		"keqing": "Keqing",
+		"klee": "Klee",
+		"kujousara": "Kujou Sara",
+		"lisa": "Lisa",
+		"lumine": "Lumine",
+		"mona": "Mona",
+		"ningguang": "Ningguang",
+		"noelle": "Noelle",
+		"qiqi": "Qiqi",
+		"raidenshogun": "Raiden Shogun",
+		"razor": "Razor",
+		"rosaria": "Rosaria",
+		"sangonomiyakokomi": "Sangonomiya Kokomi",
+		"sayu": "Sayu",
+		"shenhe": "Shenhe",
+		"sucrose": "Sucrose",
+		"tartaglia": "Tartaglia",
+		"thoma": "Thoma",
+		"venti": "Venti",
+		"xiangling": "Xiangling",
+		"xiao": "Xiao",
+		"xingqiu": "Xingqiu",
+		"xinyan": "Xinyan",
+		"yaemiko": "Yae Miko",
+		"yanfei": "Yanfei",
+		"yoimiya": "Yoimiya",
+		"yunjin": "Yun Jin",
+		"zhongli": "Zhongli"
+	},
+	"names": {
+		"Aether": "aether",
+		"Albedo": "albedo",
+		"Aloy": "aloy",
+		"Amber": "amber",
+		"Arataki Itto": "aratakiitto",
+		"Barbara": "barbara",
+		"Beidou": "beidou",
+		"Bennett": "bennett",
+		"Chongyun": "chongyun",
+		"Diluc": "diluc",
+		"Diona": "diona",
+		"Eula": "eula",
+		"Fischl": "fischl",
+		"Ganyu": "ganyu",
+		"Gorou": "gorou",
+		"Hu Tao": "hutao",
+		"Jean": "jean",
+		"Kaedehara Kazuha": "kaedeharakazuha",
+		"Kaeya": "kaeya",
+		"Kamisato Ayaka": "kamisatoayaka",
+		"Keqing": "keqing",
+		"Klee": "klee",
+		"Kujou Sara": "kujousara",
+		"Lisa": "lisa",
+		"Lumine": "lumine",
+		"Mona": "mona",
+		"Ningguang": "ningguang",
+		"Noelle": "noelle",
+		"Qiqi": "qiqi",
+		"Raiden Shogun": "raidenshogun",
+		"Razor": "razor",
+		"Rosaria": "rosaria",
+		"Sangonomiya Kokomi": "sangonomiyakokomi",
+		"Sayu": "sayu",
+		"Shenhe": "shenhe",
+		"Sucrose": "sucrose",
+		"Tartaglia": "tartaglia",
+		"Thoma": "thoma",
+		"Venti": "venti",
+		"Xiangling": "xiangling",
+		"Xiao": "xiao",
+		"Xingqiu": "xingqiu",
+		"Xinyan": "xinyan",
+		"Yae Miko": "yaemiko",
+		"Yanfei": "yanfei",
+		"Yoimiya": "yoimiya",
+		"Yun Jin": "yunjin",
+		"Zhongli": "zhongli"
+	},
+	"aliases": {
+		"Viator": "aether",
+		"Kreideprinz": "albedo",
+		"Princeps Cretaceus": "albedo",
+		"Savior From Another World": "aloy",
+		"Nora Fortis": "aloy",
+		"Gliding Champion": "amber",
+		"Lepus": "amber",
+		"Hanamizaka Heroics": "aratakiitto",
+		"Taurus Iracundus": "aratakiitto",
+		"Shining Idol": "barbara",
+		"Crater": "barbara",
+		"Uncrowned Lord of the Ocean": "beidou",
+		"Victor Mare": "beidou",
+		"Trial by Fire": "bennett",
+		"Rota Calamitas": "bennett",
+		"Frozen Ardor": "chongyun",
+		"Nubis Caesor": "chongyun",
+		"The Dark Side of Dawn": "diluc",
+		"Noctua": "diluc",
+		"Kätzlein Cocktail": "diona",
+		"Feles": "diona",
+		"Dance of the Shimmering Wave": "eula",
+		"Aphros Delos": "eula",
+		"Prinzessin der Verurteilung!": "fischl",
+		"Corvus": "fischl",
+		"Plenilune Gaze": "ganyu",
+		"Sinae Unicornis": "ganyu",
+		"Canine Warrior": "gorou",
+		"Canis Bellatoris": "gorou",
+		"Fragrance in Thaw": "hutao",
+		"Papilio Charontis": "hutao",
+		"Dandelion Knight": "jean",
+		"Leo Minor": "jean",
+		"Scarlet Leaves Pursue Wild Waves": "kaedeharakazuha",
+		"Acer Palmatum": "kaedeharakazuha",
+		"Frostwind Swordsman": "kaeya",
+		"Pavo Ocellus": "kaeya",
+		"Frostflake Heron": "kamisatoayaka",
+		"Grus Nivis": "kamisatoayaka",
+		"Driving Thunder": "keqing",
+		"Trulla Cementarii": "keqing",
+		"Fleeing Sunlight": "klee",
+		"Trifolium": "klee",
+		"Crowfeather Kaburaya": "kujousara",
+		"Flabellum": "kujousara",
+		"Witch of Purple Rose": "lisa",
+		"Tempus Fugit": "lisa",
+		"Viatrix": "lumine",
+		"Astral Reflection": "mona",
+		"Astrolabos": "mona",
+		"Eclipsing Star": "ningguang",
+		"Opus Aequilibrium": "ningguang",
+		"Chivalric Blossom": "noelle",
+		"Parma Cordis": "noelle",
+		"Icy Resurrection": "qiqi",
+		"Pristina Nola": "qiqi",
+		"Plane of Euthymia": "raidenshogun",
+		"Imperatrix Umbrosa": "raidenshogun",
+		"Wolf Boy": "razor",
+		"Lupus Minor": "razor",
+		"Thorny Benevolence": "rosaria",
+		"Spinea Corona": "rosaria",
+		"Pearl of Wisdom": "sangonomiyakokomi",
+		"Dracaena Somnolenta": "sangonomiyakokomi",
+		"Mujina Ninja": "sayu",
+		"Nyctereutes Minor": "sayu",
+		"Lonesome Transcendence": "shenhe",
+		"Crista Doloris": "shenhe",
+		"Harmless Sweetie": "sucrose",
+		"Ampulla": "sucrose",
+		"Childe": "tartaglia",
+		"Monoceros Caeli": "tartaglia",
+		"Protector From Afar": "thoma",
+		"Rubeum Scutum": "thoma",
+		"Windborne Bard": "venti",
+		"Carmen Dei": "venti",
+		"Exquisite Delicacy": "xiangling",
+		"Trulla": "xiangling",
+		"Vigilant Yaksha": "xiao",
+		"Alatus Nemeseos": "xiao",
+		"Juvenile Galant": "xingqiu",
+		"Fabulae Textile": "xingqiu",
+		"Blazing Riff": "xinyan",
+		"Fila Ignium": "xinyan",
+		"Astute Amusement": "yaemiko",
+		"Divina Vulpes": "yaemiko",
+		"Wise Innocence": "yanfei",
+		"Bestia Iustitia": "yanfei",
+		"Frolicking Flames": "yoimiya",
+		"Carassius Auratus": "yoimiya",
+		"Stage Lucida": "yunjin",
+		"Opera Grandis": "yunjin",
+		"Vago Mundo": "zhongli",
+		"Lapis Dei": "zhongli"
+	},
+	"categories": {
+		"4": [
+			"amber",
+			"barbara",
+			"beidou",
+			"bennett",
+			"chongyun",
+			"diona",
+			"fischl",
+			"gorou",
+			"kaeya",
+			"kujousara",
+			"lisa",
+			"ningguang",
+			"noelle",
+			"razor",
+			"rosaria",
+			"sayu",
+			"sucrose",
+			"thoma",
+			"xiangling",
+			"xingqiu",
+			"xinyan",
+			"yanfei",
+			"yunjin"
+		],
+		"5": [
+			"aether",
+			"albedo",
+			"aloy",
+			"aratakiitto",
+			"diluc",
+			"eula",
+			"ganyu",
+			"hutao",
+			"jean",
+			"kaedeharakazuha",
+			"kamisatoayaka",
+			"keqing",
+			"klee",
+			"lumine",
+			"mona",
+			"qiqi",
+			"raidenshogun",
+			"sangonomiyakokomi",
+			"shenhe",
+			"tartaglia",
+			"venti",
+			"xiao",
+			"yaemiko",
+			"yoimiya",
+			"zhongli"
+		],
+		"None": [
+			"aether",
+			"lumine"
+		],
+		"Sword": [
+			"aether",
+			"albedo",
+			"bennett",
+			"jean",
+			"kaedeharakazuha",
+			"kaeya",
+			"kamisatoayaka",
+			"keqing",
+			"lumine",
+			"qiqi",
+			"xingqiu"
+		],
+		"ATK": [
+			"aether",
+			"amber",
+			"chongyun",
+			"fischl",
+			"kujousara",
+			"lumine",
+			"rosaria",
+			"shenhe",
+			"thoma",
+			"xingqiu",
+			"xinyan"
+		],
+		"Male": [
+			"aether",
+			"albedo",
+			"aratakiitto",
+			"bennett",
+			"chongyun",
+			"diluc",
+			"gorou",
+			"kaedeharakazuha",
+			"kaeya",
+			"razor",
+			"tartaglia",
+			"thoma",
+			"venti",
+			"xiao",
+			"xingqiu",
+			"zhongli"
+		],
+		"Mora": [
+			"aether",
+			"albedo",
+			"aloy",
+			"amber",
+			"aratakiitto",
+			"barbara",
+			"beidou",
+			"bennett",
+			"chongyun",
+			"diluc",
+			"diona",
+			"eula",
+			"fischl",
+			"ganyu",
+			"gorou",
+			"hutao",
+			"jean",
+			"kaedeharakazuha",
+			"kaeya",
+			"kamisatoayaka",
+			"keqing",
+			"klee",
+			"kujousara",
+			"lisa",
+			"lumine",
+			"mona",
+			"ningguang",
+			"noelle",
+			"qiqi",
+			"raidenshogun",
+			"razor",
+			"rosaria",
+			"sangonomiyakokomi",
+			"sayu",
+			"shenhe",
+			"sucrose",
+			"tartaglia",
+			"thoma",
+			"venti",
+			"xiangling",
+			"xiao",
+			"xingqiu",
+			"xinyan",
+			"yaemiko",
+			"yanfei",
+			"yoimiya",
+			"yunjin",
+			"zhongli"
+		],
+		"Brilliant Diamond Sliver": [
+			"aether",
+			"lumine"
+		],
+		"Windwheel Aster": [
+			"aether",
+			"bennett",
+			"lumine",
+			"sucrose"
+		],
+		"Damaged Mask": [
+			"aether",
+			"chongyun",
+			"eula",
+			"jean",
+			"kujousara",
+			"lumine",
+			"noelle",
+			"razor",
+			"xingqiu",
+			"yunjin"
+		],
+		"Brilliant Diamond Fragment": [
+			"aether",
+			"lumine"
+		],
+		"Stained Mask": [
+			"aether",
+			"chongyun",
+			"eula",
+			"jean",
+			"kujousara",
+			"lumine",
+			"noelle",
+			"razor",
+			"xingqiu",
+			"yunjin"
+		],
+		"Brilliant Diamond Chunk": [
+			"aether",
+			"lumine"
+		],
+		"Ominous Mask": [
+			"aether",
+			"chongyun",
+			"eula",
+			"jean",
+			"kujousara",
+			"lumine",
+			"noelle",
+			"razor",
+			"xingqiu",
+			"yunjin"
+		],
+		"Brilliant Diamond Gemstone": [
+			"aether",
+			"lumine"
+		],
+		"Geo": [
+			"albedo",
+			"aratakiitto",
+			"gorou",
+			"ningguang",
+			"noelle",
+			"yunjin",
+			"zhongli"
+		],
+		"Geo DMG Bonus": [
+			"albedo",
+			"gorou",
+			"ningguang",
+			"zhongli"
+		],
+		"Mondstadt": [
+			"albedo",
+			"amber",
+			"barbara",
+			"bennett",
+			"diluc",
+			"diona",
+			"eula",
+			"fischl",
+			"jean",
+			"kaeya",
+			"klee",
+			"lisa",
+			"mona",
+			"noelle",
+			"razor",
+			"rosaria",
+			"sucrose",
+			"venti"
+		],
+		"September": [
+			"albedo",
+			"chongyun",
+			"kamisatoayaka",
+			"razor"
+		],
+		"Prithiva Topaz Sliver": [
+			"albedo",
+			"aratakiitto",
+			"gorou",
+			"ningguang",
+			"noelle",
+			"yunjin",
+			"zhongli"
+		],
+		"Cecilia": [
+			"albedo",
+			"venti"
+		],
+		"Divining Scroll": [
+			"albedo",
+			"barbara",
+			"klee",
+			"qiqi",
+			"yoimiya"
+		],
+		"Prithiva Topaz Fragment": [
+			"albedo",
+			"aratakiitto",
+			"gorou",
+			"ningguang",
+			"noelle",
+			"yunjin",
+			"zhongli"
+		],
+		"Basalt Pillar": [
+			"albedo",
+			"ningguang",
+			"noelle",
+			"zhongli"
+		],
+		"Sealed Scroll": [
+			"albedo",
+			"barbara",
+			"klee",
+			"qiqi",
+			"yoimiya"
+		],
+		"Prithiva Topaz Chunk": [
+			"albedo",
+			"aratakiitto",
+			"gorou",
+			"ningguang",
+			"noelle",
+			"yunjin",
+			"zhongli"
+		],
+		"Forbidden Curse Scroll": [
+			"albedo",
+			"barbara",
+			"klee",
+			"qiqi",
+			"yoimiya"
+		],
+		"Prithiva Topaz Gemstone": [
+			"albedo",
+			"aratakiitto",
+			"gorou",
+			"ningguang",
+			"noelle",
+			"yunjin",
+			"zhongli"
+		],
+		"Cryo": [
+			"aloy",
+			"chongyun",
+			"diona",
+			"eula",
+			"ganyu",
+			"kaeya",
+			"kamisatoayaka",
+			"qiqi",
+			"rosaria",
+			"shenhe"
+		],
+		"Bow": [
+			"aloy",
+			"amber",
+			"diona",
+			"fischl",
+			"ganyu",
+			"gorou",
+			"kujousara",
+			"tartaglia",
+			"venti",
+			"yoimiya"
+		],
+		"Cryo DMG Bonus": [
+			"aloy",
+			"diona"
+		],
+		"Female": [
+			"aloy",
+			"amber",
+			"barbara",
+			"beidou",
+			"diona",
+			"eula",
+			"fischl",
+			"ganyu",
+			"hutao",
+			"jean",
+			"kamisatoayaka",
+			"keqing",
+			"klee",
+			"kujousara",
+			"lisa",
+			"lumine",
+			"mona",
+			"ningguang",
+			"noelle",
+			"qiqi",
+			"raidenshogun",
+			"rosaria",
+			"sangonomiyakokomi",
+			"sayu",
+			"shenhe",
+			"sucrose",
+			"xiangling",
+			"xinyan",
+			"yaemiko",
+			"yanfei",
+			"yoimiya",
+			"yunjin"
+		],
+		"April": [
+			"aloy",
+			"diluc",
+			"xiao"
+		],
+		"Shivada Jade Sliver": [
+			"aloy",
+			"chongyun",
+			"diona",
+			"eula",
+			"ganyu",
+			"kaeya",
+			"kamisatoayaka",
+			"qiqi",
+			"rosaria",
+			"shenhe"
+		],
+		"Crystal Marrow": [
+			"aloy",
+			"sayu"
+		],
+		"Spectral Husk": [
+			"aloy",
+			"gorou",
+			"sangonomiyakokomi"
+		],
+		"Shivada Jade Fragment": [
+			"aloy",
+			"chongyun",
+			"diona",
+			"eula",
+			"ganyu",
+			"kaeya",
+			"kamisatoayaka",
+			"qiqi",
+			"rosaria",
+			"shenhe"
+		],
+		"Crystalline Bloom": [
+			"aloy",
+			"eula"
+		],
+		"Spectral Heart": [
+			"aloy",
+			"gorou",
+			"sangonomiyakokomi"
+		],
+		"Shivada Jade Chunk": [
+			"aloy",
+			"chongyun",
+			"diona",
+			"eula",
+			"ganyu",
+			"kaeya",
+			"kamisatoayaka",
+			"qiqi",
+			"rosaria",
+			"shenhe"
+		],
+		"Spectral Nucleus": [
+			"aloy",
+			"gorou",
+			"sangonomiyakokomi"
+		],
+		"Shivada Jade Gemstone": [
+			"aloy",
+			"chongyun",
+			"diona",
+			"eula",
+			"ganyu",
+			"kaeya",
+			"kamisatoayaka",
+			"qiqi",
+			"rosaria",
+			"shenhe"
+		],
+		"Pyro": [
+			"amber",
+			"bennett",
+			"diluc",
+			"hutao",
+			"klee",
+			"thoma",
+			"xiangling",
+			"xinyan",
+			"yanfei",
+			"yoimiya"
+		],
+		"August": [
+			"amber",
+			"mona",
+			"ningguang"
+		],
+		"Agnidus Agate Sliver": [
+			"amber",
+			"bennett",
+			"diluc",
+			"hutao",
+			"klee",
+			"thoma",
+			"xiangling",
+			"xinyan",
+			"yanfei",
+			"yoimiya"
+		],
+		"Small Lamp Grass": [
+			"amber",
+			"diluc",
+			"fischl"
+		],
+		"Firm Arrowhead": [
+			"amber",
+			"diona",
+			"fischl"
+		],
+		"Agnidus Agate Fragment": [
+			"amber",
+			"bennett",
+			"diluc",
+			"hutao",
+			"klee",
+			"thoma",
+			"xiangling",
+			"xinyan",
+			"yanfei",
+			"yoimiya"
+		],
+		"Everflame Seed": [
+			"amber",
+			"bennett",
+			"diluc",
+			"klee",
+			"xiangling",
+			"xinyan"
+		],
+		"Sharp Arrowhead": [
+			"amber",
+			"diona",
+			"fischl"
+		],
+		"Agnidus Agate Chunk": [
+			"amber",
+			"bennett",
+			"diluc",
+			"hutao",
+			"klee",
+			"thoma",
+			"xiangling",
+			"xinyan",
+			"yanfei",
+			"yoimiya"
+		],
+		"Weathered Arrowhead": [
+			"amber",
+			"diona",
+			"fischl"
+		],
+		"Agnidus Agate Gemstone": [
+			"amber",
+			"bennett",
+			"diluc",
+			"hutao",
+			"klee",
+			"thoma",
+			"xiangling",
+			"xinyan",
+			"yanfei",
+			"yoimiya"
+		],
+		"Claymore": [
+			"aratakiitto",
+			"beidou",
+			"chongyun",
+			"diluc",
+			"eula",
+			"noelle",
+			"razor",
+			"sayu",
+			"xinyan"
+		],
+		"CRIT Rate": [
+			"aratakiitto",
+			"diluc",
+			"xiao",
+			"yaemiko",
+			"yoimiya"
+		],
+		"Inazuma": [
+			"aratakiitto",
+			"gorou",
+			"kaedeharakazuha",
+			"kamisatoayaka",
+			"kujousara",
+			"raidenshogun",
+			"sangonomiyakokomi",
+			"sayu",
+			"thoma",
+			"yaemiko",
+			"yoimiya"
+		],
+		"June": [
+			"aratakiitto",
+			"lisa",
+			"raidenshogun",
+			"venti",
+			"yaemiko",
+			"yoimiya"
+		],
+		"Onikabuto": [
+			"aratakiitto"
+		],
+		"Slime Condensate": [
+			"aratakiitto",
+			"lisa",
+			"venti",
+			"xiangling",
+			"xiao",
+			"zhongli"
+		],
+		"Riftborn Regalia": [
+			"aratakiitto",
+			"yunjin"
+		],
+		"Slime Secretions": [
+			"aratakiitto",
+			"lisa",
+			"venti",
+			"xiangling",
+			"xiao",
+			"zhongli"
+		],
+		"Slime Concentrate": [
+			"aratakiitto",
+			"lisa",
+			"venti",
+			"xiangling",
+			"xiao",
+			"zhongli"
+		],
+		"Hydro": [
+			"barbara",
+			"mona",
+			"sangonomiyakokomi",
+			"tartaglia",
+			"xingqiu"
+		],
+		"Catalyst": [
+			"barbara",
+			"klee",
+			"lisa",
+			"mona",
+			"ningguang",
+			"sangonomiyakokomi",
+			"sucrose",
+			"yaemiko",
+			"yanfei"
+		],
+		"HP": [
+			"barbara"
+		],
+		"July": [
+			"barbara",
+			"hutao",
+			"klee",
+			"kujousara",
+			"tartaglia",
+			"yanfei"
+		],
+		"Varunada Lazurite Sliver": [
+			"barbara",
+			"mona",
+			"sangonomiyakokomi",
+			"tartaglia",
+			"xingqiu"
+		],
+		"Philanemo Mushroom": [
+			"barbara",
+			"klee",
+			"mona"
+		],
+		"Varunada Lazurite Fragment": [
+			"barbara",
+			"mona",
+			"sangonomiyakokomi",
+			"tartaglia",
+			"xingqiu"
+		],
+		"Cleansing Heart": [
+			"barbara",
+			"mona",
+			"tartaglia",
+			"xingqiu"
+		],
+		"Varunada Lazurite Chunk": [
+			"barbara",
+			"mona",
+			"sangonomiyakokomi",
+			"tartaglia",
+			"xingqiu"
+		],
+		"Varunada Lazurite Gemstone": [
+			"barbara",
+			"mona",
+			"sangonomiyakokomi",
+			"tartaglia",
+			"xingqiu"
+		],
+		"Electro": [
+			"beidou",
+			"fischl",
+			"keqing",
+			"kujousara",
+			"lisa",
+			"raidenshogun",
+			"razor",
+			"yaemiko"
+		],
+		"Electro DMG Bonus": [
+			"beidou"
+		],
+		"Liyue": [
+			"beidou",
+			"chongyun",
+			"ganyu",
+			"hutao",
+			"keqing",
+			"ningguang",
+			"qiqi",
+			"shenhe",
+			"xiangling",
+			"xiao",
+			"xingqiu",
+			"xinyan",
+			"yanfei",
+			"yunjin",
+			"zhongli"
+		],
+		"February": [
+			"beidou",
+			"bennett",
+			"sangonomiyakokomi"
+		],
+		"Vajrada Amethyst Sliver": [
+			"beidou",
+			"fischl",
+			"keqing",
+			"kujousara",
+			"lisa",
+			"raidenshogun",
+			"razor",
+			"yaemiko"
+		],
+		"Noctilucous Jade": [
+			"beidou",
+			"yanfei"
+		],
+		"Treasure Hoarder Insignia": [
+			"beidou",
+			"bennett",
+			"kaedeharakazuha",
+			"kaeya",
+			"thoma",
+			"xinyan",
+			"yanfei"
+		],
+		"Vajrada Amethyst Fragment": [
+			"beidou",
+			"fischl",
+			"keqing",
+			"kujousara",
+			"lisa",
+			"raidenshogun",
+			"razor",
+			"yaemiko"
+		],
+		"Lightning Prism": [
+			"beidou",
+			"fischl",
+			"keqing",
+			"lisa",
+			"razor"
+		],
+		"Silver Raven Insignia": [
+			"beidou",
+			"bennett",
+			"kaedeharakazuha",
+			"kaeya",
+			"thoma",
+			"xinyan",
+			"yanfei"
+		],
+		"Vajrada Amethyst Chunk": [
+			"beidou",
+			"fischl",
+			"keqing",
+			"kujousara",
+			"lisa",
+			"raidenshogun",
+			"razor",
+			"yaemiko"
+		],
+		"Golden Raven Insignia": [
+			"beidou",
+			"bennett",
+			"kaedeharakazuha",
+			"kaeya",
+			"thoma",
+			"xinyan",
+			"yanfei"
+		],
+		"Vajrada Amethyst Gemstone": [
+			"beidou",
+			"fischl",
+			"keqing",
+			"kujousara",
+			"lisa",
+			"raidenshogun",
+			"razor",
+			"yaemiko"
+		],
+		"Energy Recharge": [
+			"bennett",
+			"kaeya",
+			"mona",
+			"raidenshogun",
+			"venti",
+			"yunjin"
+		],
+		"Cor Lapis": [
+			"chongyun",
+			"keqing",
+			"zhongli"
+		],
+		"Hoarfrost Core": [
+			"chongyun",
+			"diona",
+			"ganyu",
+			"kaeya",
+			"qiqi",
+			"rosaria"
+		],
+		"Recruit's Insignia": [
+			"diluc",
+			"ningguang",
+			"rosaria",
+			"tartaglia"
+		],
+		"Sergeant's Insignia": [
+			"diluc",
+			"ningguang",
+			"rosaria",
+			"tartaglia"
+		],
+		"Lieutenant's Insignia": [
+			"diluc",
+			"ningguang",
+			"rosaria",
+			"tartaglia"
+		],
+		"January": [
+			"diona",
+			"rosaria",
+			"thoma"
+		],
+		"Calla Lily": [
+			"diona",
+			"kaeya"
+		],
+		"CRIT DMG": [
+			"eula",
+			"ganyu",
+			"hutao",
+			"kamisatoayaka",
+			"keqing"
+		],
+		"October": [
+			"eula",
+			"kaedeharakazuha",
+			"sayu",
+			"xingqiu",
+			"xinyan"
+		],
+		"Dandelion Seed": [
+			"eula",
+			"jean"
+		],
+		"May": [
+			"fischl",
+			"gorou",
+			"yunjin"
+		],
+		"December": [
+			"ganyu",
+			"zhongli"
+		],
+		"Qingxin": [
+			"ganyu",
+			"shenhe",
+			"xiao"
+		],
+		"Whopperflower Nectar": [
+			"ganyu",
+			"hutao",
+			"keqing",
+			"mona",
+			"sayu",
+			"shenhe",
+			"sucrose"
+		],
+		"Shimmering Nectar": [
+			"ganyu",
+			"hutao",
+			"keqing",
+			"mona",
+			"sayu",
+			"shenhe",
+			"sucrose"
+		],
+		"Energy Nectar": [
+			"ganyu",
+			"hutao",
+			"keqing",
+			"mona",
+			"sayu",
+			"shenhe",
+			"sucrose"
+		],
+		"Sango Pearl": [
+			"gorou",
+			"sangonomiyakokomi"
+		],
+		"Perpetual Heart": [
+			"gorou",
+			"kamisatoayaka"
+		],
+		"Polearm": [
+			"hutao",
+			"raidenshogun",
+			"rosaria",
+			"shenhe",
+			"thoma",
+			"xiangling",
+			"xiao",
+			"yunjin",
+			"zhongli"
+		],
+		"Silk Flower": [
+			"hutao",
+			"xingqiu"
+		],
+		"Juvenile Jade": [
+			"hutao",
+			"xiao",
+			"yanfei"
+		],
+		"Anemo": [
+			"jean",
+			"kaedeharakazuha",
+			"sayu",
+			"sucrose",
+			"venti",
+			"xiao"
+		],
+		"Healing Bonus": [
+			"jean",
+			"qiqi"
+		],
+		"March": [
+			"jean",
+			"noelle",
+			"qiqi",
+			"shenhe"
+		],
+		"Vayuda Turquoise Sliver": [
+			"jean",
+			"kaedeharakazuha",
+			"sayu",
+			"sucrose",
+			"venti",
+			"xiao"
+		],
+		"Vayuda Turquoise Fragment": [
+			"jean",
+			"kaedeharakazuha",
+			"sayu",
+			"sucrose",
+			"venti",
+			"xiao"
+		],
+		"Hurricane Seed": [
+			"jean",
+			"sucrose",
+			"venti"
+		],
+		"Vayuda Turquoise Chunk": [
+			"jean",
+			"kaedeharakazuha",
+			"sayu",
+			"sucrose",
+			"venti",
+			"xiao"
+		],
+		"Vayuda Turquoise Gemstone": [
+			"jean",
+			"kaedeharakazuha",
+			"sayu",
+			"sucrose",
+			"venti",
+			"xiao"
+		],
+		"Elemental Mastery": [
+			"kaedeharakazuha",
+			"lisa",
+			"sayu",
+			"xiangling"
+		],
+		"Sea Ganoderma": [
+			"kaedeharakazuha",
+			"yaemiko"
+		],
+		"Marionette Core": [
+			"kaedeharakazuha",
+			"sayu"
+		],
+		"November": [
+			"kaeya",
+			"keqing",
+			"sucrose",
+			"xiangling"
+		],
+		"Sakura Bloom": [
+			"kamisatoayaka"
+		],
+		"Old Handguard": [
+			"kamisatoayaka",
+			"raidenshogun",
+			"yaemiko"
+		],
+		"Kageuchi Handguard": [
+			"kamisatoayaka",
+			"raidenshogun",
+			"yaemiko"
+		],
+		"Famed Handguard": [
+			"kamisatoayaka",
+			"raidenshogun",
+			"yaemiko"
+		],
+		"Pyro DMG Bonus": [
+			"klee",
+			"yanfei"
+		],
+		"Dendrobium": [
+			"kujousara"
+		],
+		"Storm Beads": [
+			"kujousara",
+			"raidenshogun"
+		],
+		"Valberry": [
+			"lisa",
+			"noelle",
+			"rosaria"
+		],
+		"Glaze Lily": [
+			"ningguang",
+			"yunjin"
+		],
+		"DEF": [
+			"noelle"
+		],
+		"Violetgrass": [
+			"qiqi",
+			"xinyan"
+		],
+		"Amakumo Fruit": [
+			"raidenshogun"
+		],
+		"Physical DMG Bonus": [
+			"razor"
+		],
+		"Wolfhook": [
+			"razor"
+		],
+		"Hydro DMG Bonus": [
+			"sangonomiyakokomi",
+			"tartaglia"
+		],
+		"Dew of Repudiation": [
+			"sangonomiyakokomi"
+		],
+		"Dragonheir's False Fin": [
+			"shenhe",
+			"yaemiko"
+		],
+		"Anemo DMG Bonus": [
+			"sucrose"
+		],
+		"Snezhnaya": [
+			"tartaglia"
+		],
+		"Starconch": [
+			"tartaglia"
+		],
+		"Fluorescent Fungus": [
+			"thoma"
+		],
+		"Smoldering Pearl": [
+			"thoma",
+			"yoimiya"
+		],
+		"Jueyun Chili": [
+			"xiangling"
+		],
+		"Naku Weed": [
+			"yoimiya"
+		]
+	},
+	"properties": {
+		"rarity": [
+			"5",
+			"4"
+		],
+		"element": [
+			"None",
+			"Geo",
+			"Cryo",
+			"Pyro",
+			"Hydro",
+			"Electro",
+			"Anemo"
+		],
+		"weapontype": [
+			"Sword",
+			"Bow",
+			"Claymore",
+			"Catalyst",
+			"Polearm"
+		],
+		"substat": [
+			"ATK",
+			"Geo DMG Bonus",
+			"Cryo DMG Bonus",
+			"CRIT Rate",
+			"HP",
+			"Electro DMG Bonus",
+			"Energy Recharge",
+			"CRIT DMG",
+			"Healing Bonus",
+			"Elemental Mastery",
+			"Pyro DMG Bonus",
+			"DEF",
+			"Physical DMG Bonus",
+			"Hydro DMG Bonus",
+			"Anemo DMG Bonus"
+		],
+		"gender": [
+			"Male",
+			"Female"
+		],
+		"costs": [
+			"Mora",
+			"Brilliant Diamond Sliver",
+			"Windwheel Aster",
+			"Damaged Mask",
+			"Brilliant Diamond Fragment",
+			"Stained Mask",
+			"Brilliant Diamond Chunk",
+			"Ominous Mask",
+			"Brilliant Diamond Gemstone",
+			"Prithiva Topaz Sliver",
+			"Cecilia",
+			"Divining Scroll",
+			"Prithiva Topaz Fragment",
+			"Basalt Pillar",
+			"Sealed Scroll",
+			"Prithiva Topaz Chunk",
+			"Forbidden Curse Scroll",
+			"Prithiva Topaz Gemstone",
+			"Shivada Jade Sliver",
+			"Crystal Marrow",
+			"Spectral Husk",
+			"Shivada Jade Fragment",
+			"Crystalline Bloom",
+			"Spectral Heart",
+			"Shivada Jade Chunk",
+			"Spectral Nucleus",
+			"Shivada Jade Gemstone",
+			"Agnidus Agate Sliver",
+			"Small Lamp Grass",
+			"Firm Arrowhead",
+			"Agnidus Agate Fragment",
+			"Everflame Seed",
+			"Sharp Arrowhead",
+			"Agnidus Agate Chunk",
+			"Weathered Arrowhead",
+			"Agnidus Agate Gemstone",
+			"Onikabuto",
+			"Slime Condensate",
+			"Riftborn Regalia",
+			"Slime Secretions",
+			"Slime Concentrate",
+			"Varunada Lazurite Sliver",
+			"Philanemo Mushroom",
+			"Varunada Lazurite Fragment",
+			"Cleansing Heart",
+			"Varunada Lazurite Chunk",
+			"Varunada Lazurite Gemstone",
+			"Vajrada Amethyst Sliver",
+			"Noctilucous Jade",
+			"Treasure Hoarder Insignia",
+			"Vajrada Amethyst Fragment",
+			"Lightning Prism",
+			"Silver Raven Insignia",
+			"Vajrada Amethyst Chunk",
+			"Golden Raven Insignia",
+			"Vajrada Amethyst Gemstone",
+			"Cor Lapis",
+			"Hoarfrost Core",
+			"Recruit's Insignia",
+			"Sergeant's Insignia",
+			"Lieutenant's Insignia",
+			"Calla Lily",
+			"Dandelion Seed",
+			"Qingxin",
+			"Whopperflower Nectar",
+			"Shimmering Nectar",
+			"Energy Nectar",
+			"Sango Pearl",
+			"Perpetual Heart",
+			"Silk Flower",
+			"Juvenile Jade",
+			"Vayuda Turquoise Sliver",
+			"Vayuda Turquoise Fragment",
+			"Hurricane Seed",
+			"Vayuda Turquoise Chunk",
+			"Vayuda Turquoise Gemstone",
+			"Sea Ganoderma",
+			"Marionette Core",
+			"Sakura Bloom",
+			"Old Handguard",
+			"Kageuchi Handguard",
+			"Famed Handguard",
+			"Dendrobium",
+			"Storm Beads",
+			"Valberry",
+			"Glaze Lily",
+			"Violetgrass",
+			"Amakumo Fruit",
+			"Wolfhook",
+			"Dew of Repudiation",
+			"Dragonheir's False Fin",
+			"Starconch",
+			"Fluorescent Fungus",
+			"Smoldering Pearl",
+			"Jueyun Chili",
+			"Naku Weed"
+		],
+		"region": [
+			"Mondstadt",
+			"Inazuma",
+			"Liyue",
+			"Snezhnaya"
+		],
+		"birthday": [
+			"September",
+			"April",
+			"August",
+			"June",
+			"July",
+			"February",
+			"January",
+			"October",
+			"May",
+			"December",
+			"March",
+			"November"
+		]
+	}
+}

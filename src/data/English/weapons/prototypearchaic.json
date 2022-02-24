@@ -1,0 +1,137 @@
+{
+	"name": "Prototype Archaic",
+	"description": "An ancient greatsword discovered in the Blackcliff Forge. It swings with such an immense force that one feels it could cut straight through reality itself.",
+	"weapontype": "Claymore",
+	"rarity": "4",
+	"baseatk": 44,
+	"substat": "ATK",
+	"subvalue": "6",
+	"effectname": "Crush",
+	"effect": "On hit, Normal or Charged Attacks have a 50% chance to deal an additional {0} ATK DMG to opponents within a small AoE. Can only occur once every 15s.",
+	"r1": [
+		"240%"
+	],
+	"r2": [
+		"300%"
+	],
+	"r3": [
+		"360%"
+	],
+	"r4": [
+		"420%"
+	],
+	"r5": [
+		"480%"
+	],
+	"weaponmaterialtype": "Aerosiderite",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 5000
+			},
+			{
+				"name": "Grain of Aerosiderite",
+				"count": 3
+			},
+			{
+				"name": "Fragile Bone Shard",
+				"count": 3
+			},
+			{
+				"name": "Damaged Mask",
+				"count": 2
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 15000
+			},
+			{
+				"name": "Piece of Aerosiderite",
+				"count": 3
+			},
+			{
+				"name": "Fragile Bone Shard",
+				"count": 12
+			},
+			{
+				"name": "Damaged Mask",
+				"count": 8
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Piece of Aerosiderite",
+				"count": 6
+			},
+			{
+				"name": "Sturdy Bone Shard",
+				"count": 6
+			},
+			{
+				"name": "Stained Mask",
+				"count": 6
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Bit of Aerosiderite",
+				"count": 3
+			},
+			{
+				"name": "Sturdy Bone Shard",
+				"count": 12
+			},
+			{
+				"name": "Stained Mask",
+				"count": 9
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 35000
+			},
+			{
+				"name": "Bit of Aerosiderite",
+				"count": 6
+			},
+			{
+				"name": "Fossilized Bone Shard",
+				"count": 9
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 6
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Chunk of Aerosiderite",
+				"count": 4
+			},
+			{
+				"name": "Fossilized Bone Shard",
+				"count": 18
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 12
+			}
+		]
+	}
+}

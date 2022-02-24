@@ -1,0 +1,147 @@
+{
+	"name": "Skyward Harp",
+	"description": "A greatbow that symbolizes Dvalin's affiliation with the Anemo Archon. The sound of the bow firing is music to the Anemo Archon's ears. It contains the power of the sky and wind within.",
+	"weapontype": "Bow",
+	"rarity": "5",
+	"baseatk": 48,
+	"substat": "CRIT Rate",
+	"subvalue": "4.8",
+	"effectname": "Echoing Ballad",
+	"effect": "Increases CRIT DMG by {0}. Hits have a {1} chance to inflict a small AoE attack, dealing 125% Physical ATK DMG. Can only occur once every {2}.",
+	"r1": [
+		"20%",
+		"60%",
+		"4s"
+	],
+	"r2": [
+		"25%",
+		"70%",
+		"3.5s"
+	],
+	"r3": [
+		"30%",
+		"80%",
+		"3s"
+	],
+	"r4": [
+		"35%",
+		"90%",
+		"2.5s"
+	],
+	"r5": [
+		"40%",
+		"100%",
+		"2s"
+	],
+	"weaponmaterialtype": "Boreal Wolf",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 10000
+			},
+			{
+				"name": "Boreal Wolf's Milk Tooth",
+				"count": 5
+			},
+			{
+				"name": "Dead Ley Line Branch",
+				"count": 5
+			},
+			{
+				"name": "Firm Arrowhead",
+				"count": 3
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Boreal Wolf's Cracked Tooth",
+				"count": 5
+			},
+			{
+				"name": "Dead Ley Line Branch",
+				"count": 18
+			},
+			{
+				"name": "Firm Arrowhead",
+				"count": 12
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Boreal Wolf's Cracked Tooth",
+				"count": 9
+			},
+			{
+				"name": "Dead Ley Line Leaves",
+				"count": 9
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 9
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Boreal Wolf's Broken Fang",
+				"count": 5
+			},
+			{
+				"name": "Dead Ley Line Leaves",
+				"count": 18
+			},
+			{
+				"name": "Sharp Arrowhead",
+				"count": 14
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 55000
+			},
+			{
+				"name": "Boreal Wolf's Broken Fang",
+				"count": 9
+			},
+			{
+				"name": "Ley Line Sprout",
+				"count": 14
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 9
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 65000
+			},
+			{
+				"name": "Boreal Wolf's Nostalgia",
+				"count": 6
+			},
+			{
+				"name": "Ley Line Sprout",
+				"count": 27
+			},
+			{
+				"name": "Weathered Arrowhead",
+				"count": 18
+			}
+		]
+	}
+}

@@ -1,0 +1,137 @@
+{
+	"name": "Lost Prayer to the Sacred Winds",
+	"description": "An educational tome written by anonymous early inhabitants who worshiped the wind. It has been blessed by the wind for its faithfulness and influence over the millennia.",
+	"weapontype": "Catalyst",
+	"rarity": "5",
+	"baseatk": 46,
+	"substat": "CRIT Rate",
+	"subvalue": "7.2",
+	"effectname": "Boundless Blessing",
+	"effect": "Increases Movement SPD by 10%. When in battle, gain a {0} Elemental DMG Bonus every 4s. Max 4 stacks. Lasts until the character falls or leaves combat.",
+	"r1": [
+		"8%"
+	],
+	"r2": [
+		"10%"
+	],
+	"r3": [
+		"12%"
+	],
+	"r4": [
+		"14%"
+	],
+	"r5": [
+		"16%"
+	],
+	"weaponmaterialtype": "Dandelion Gladiator",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 10000
+			},
+			{
+				"name": "Fetters of the Dandelion Gladiator",
+				"count": 5
+			},
+			{
+				"name": "Chaos Device",
+				"count": 5
+			},
+			{
+				"name": "Slime Condensate",
+				"count": 3
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Chains of the Dandelion Gladiator",
+				"count": 5
+			},
+			{
+				"name": "Chaos Device",
+				"count": 18
+			},
+			{
+				"name": "Slime Condensate",
+				"count": 12
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Chains of the Dandelion Gladiator",
+				"count": 9
+			},
+			{
+				"name": "Chaos Circuit",
+				"count": 9
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 9
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Shackles of the Dandelion Gladiator",
+				"count": 5
+			},
+			{
+				"name": "Chaos Circuit",
+				"count": 18
+			},
+			{
+				"name": "Slime Secretions",
+				"count": 14
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 55000
+			},
+			{
+				"name": "Shackles of the Dandelion Gladiator",
+				"count": 9
+			},
+			{
+				"name": "Chaos Core",
+				"count": 14
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 9
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 65000
+			},
+			{
+				"name": "Dream of the Dandelion Gladiator",
+				"count": 6
+			},
+			{
+				"name": "Chaos Core",
+				"count": 27
+			},
+			{
+				"name": "Slime Concentrate",
+				"count": 18
+			}
+		]
+	}
+}

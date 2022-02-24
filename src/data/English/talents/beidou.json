@@ -1,0 +1,210 @@
+{
+	"name": "Beidou",
+	"combat1": {
+		"name": "Normal Attack: Oceanborne",
+		"info": "**Normal Attack**\nPerform up to 5 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}",
+				"5-Hit DMG|{param5:P}",
+				"Charged Attack Spinning DMG|{param6:F1P}",
+				"Charged Attack Final DMG|{param7:P}",
+				"Charged Attack Stamina Cost|{param8:F1}/s",
+				"Max Duration|{param9:F1}s",
+				"Plunge DMG|{param10:F1P}",
+				"Low/High Plunge DMG|{param11:P}/{param12:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Tidecaller",
+		"info": "Nothing to worry about. Should anyone raise a hand against her or her men, she will avenge it ten-fold with sword and thunder.\n\n**Press**\nAccumulating the power of lightning, Beidou swings her blade forward fiercely, dealing Electro DMG.\n\n**Hold**\nLifts her weapon up as a shield. Max DMG absorbed scales off Beidou's Max HP.\nAttacks using the energy stored within the greatsword upon release or once this ability's duration expires, dealing Electro DMG. DMG dealt scales with the number of times Beidou is attacked in the skill's duration. The greatest DMG Bonus will be attained once this effect is triggered twice.\nThe shield possesses the following properties:\n·Has 250% Electro DMG Absorption Efficiency.\n·Applies the Electro element to Beidou upon activation.",
+		"description": "Conquer the high seas! Pursue the waves and chase the storm!",
+		"attributes": {
+			"labels": [
+				"Shield DMG Absorption|{param1:F1P} Max HP+{param2:I}",
+				"Base DMG|{param3:P}",
+				"DMG Bonus on Hit Taken|{param4:P}",
+				"CD|{param5:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Stormbreaker",
+		"info": "Recalling her slaying of the great beast Haishan, Beidou calls upon that monstrous strength and the lightning to create a Thunderbeast's Targe around herself, dealing Electro DMG to nearby opponents.\n\n**Thunderbeast's Targe**\n·When Normal and Charged Attacks hit, they create a lightning discharge that can jump between opponents, dealing Electro DMG.\n·Increases the character's resistance to interruption, and decreases DMG taken.\n\nA maximum of 1 lightning discharge can be triggered per second.",
+		"description": "With a peal of thunder, Haishan is slain.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"Lightning DMG|{param2:F1P}",
+				"DMG Reduction|{param3:P}",
+				"Duration|{param4:F1}s",
+				"CD|{param5:F1}s",
+				"Energy Cost|{param6:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Retribution",
+		"info": "Counterattacking with **Tidecaller** at the precise moment when the character is hit grants the maximum DMG Bonus."
+	},
+	"passive2": {
+		"name": "Lightning Storm",
+		"info": "Gain the following effects for 10s after unleashing **Tidecaller** with its maximum DMG Bonus: \n·DMG dealt by Normal and Charged Attacks is increased by 15%. ATK SPD of Normal and Charged Attacks is increased by 15%.\n·Greatly reduced delay before unleashing Charged Attacks."
+	},
+	"passive3": {
+		"name": "Conqueror of Tides",
+		"info": "Decreases swimming Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Gold",
+				"count": 3
+			},
+			{
+				"name": "Treasure Hoarder Insignia",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 2
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 4
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 6
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 9
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 4
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 4
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 6
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 6
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 12
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 9
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 16
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 12
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

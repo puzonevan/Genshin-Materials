@@ -1,0 +1,12 @@
+{
+	"name": "Qingxin",
+	"description": "A translucent white flower that only grows on the highest stone peaks. It eschews the warmth and moisture of the plains to gaze out afar from the solitary mountaintops.",
+	"sortorder": 1513,
+	"category": "EXCHANGE",
+	"materialtype": "Local Specialty (Liyue)",
+	"source": [
+		"Found in the heights of stone forests",
+		"Recommendation: Found in Jueyun Karst",
+		"Recommendation: Found in Guyun Stone Forest"
+	]
+}

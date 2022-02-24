@@ -1,0 +1,209 @@
+{
+	"name": "Qiqi",
+	"combat1": {
+		"name": "Normal Attack: Ancient Sword Art",
+		"info": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}+{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}+{param4:F1P}",
+				"5-Hit DMG|{param5:F1P}",
+				"Charged Attack DMG|{param6:F1P}+{param6:F1P}",
+				"Charged Attack Stamina Cost|{param7:F1}",
+				"Plunge DMG|{param8:F1P}",
+				"Low/High Plunge DMG|{param9:P}/{param10:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Adeptus Art: Herald of Frost",
+		"info": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.\n\n**Herald of Frost**\n·On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.\n·Periodically regenerates your active character's HP.\n·Follows the character around, dealing Cryo DMG to opponents in their path.",
+		"description": "I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param8:P}",
+				"Regeneration on Hit|{param1:F2P} ATK+{param2:I}",
+				"Continuous Regeneration|{param3:F2P} ATK+{param4:I}",
+				"Herald of Frost DMG|{param5:F1P}",
+				"Duration|{param6:F1}s",
+				"CD|{param7:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Adeptus Art: Preserver of Fortune",
+		"info": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.\n\n**Fortune-Preserving Talisman**\nWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.",
+		"description": "\"I am the Fortune Preserver, the Maiden of Resurrection.\"\n— Qiqi does not remember these words.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param3:P}",
+				"Healing|{param1:F1P} ATK+{param2:I}",
+				"Duration|{param4:F1}s",
+				"CD|{param5:F1}s",
+				"Energy Cost|{param6:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Life-Prolonging Methods",
+		"info": "When a character under the effects of **Adeptus Art: Herald of Frost** triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s."
+	},
+	"passive2": {
+		"name": "A Glimpse Into Arcanum",
+		"info": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s."
+	},
+	"passive3": {
+		"name": "Former Life Memories",
+		"info": "Displays the location of nearby **resources unique to Liyue** on the mini-map."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Prosperity",
+				"count": 3
+			},
+			{
+				"name": "Divining Scroll",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 2
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 4
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Prosperity",
+				"count": 9
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 4
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 4
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 6
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 6
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 12
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 9
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Prosperity",
+				"count": 16
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 12
+			},
+			{
+				"name": "Tail of Boreas",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

@@ -1,0 +1,204 @@
+{
+	"name": "Sucrose",
+	"combat1": {
+		"name": "Normal Attack: Wind Spirit Creation",
+		"info": "**Normal Attack**\nPerforms up to 4 attacks using Wind Spirits, dealing Anemo DMG.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.\n\n**Plunging Attack**\nCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}",
+				"Charged Attack DMG|{param5:P}",
+				"Charged Attack Stamina Cost|{param6:F1}",
+				"Plunge DMG|{param7:F1P}",
+				"Low/High Plunge DMG|{param8:P}/{param9:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Astable Anemohypostasis Creation - 6308",
+		"info": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG.",
+		"description": "This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"CD|{param2:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Forbidden Creation - Isomer 75 / Type II",
+		"info": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.\nWhile it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal Anemo DMG.\n\n**Elemental Absorption**\nIf the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro energy, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+		"description": "Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.",
+		"attributes": {
+			"labels": [
+				"DoT|{param1:P}",
+				"Additional Elemental DMG|{param2:F1P}",
+				"Duration|{param3:F1}s",
+				"CD|{param4:F1}s",
+				"Energy Cost|{param5:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Catalyst Conversion",
+		"info": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s."
+	},
+	"passive2": {
+		"name": "Mollis Favonius",
+		"info": "When **Astable Anemohypostasis Creation - 6308** or **Forbidden Creation - Isomer 75 / Type II** hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s."
+	},
+	"passive3": {
+		"name": "Astable Invention",
+		"info": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Freedom",
+				"count": 3
+			},
+			{
+				"name": "Whopperflower Nectar",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 2
+			},
+			{
+				"name": "Shimmering Nectar",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 4
+			},
+			{
+				"name": "Shimmering Nectar",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 6
+			},
+			{
+				"name": "Shimmering Nectar",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 9
+			},
+			{
+				"name": "Shimmering Nectar",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 4
+			},
+			{
+				"name": "Energy Nectar",
+				"count": 4
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 6
+			},
+			{
+				"name": "Energy Nectar",
+				"count": 6
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 12
+			},
+			{
+				"name": "Energy Nectar",
+				"count": 9
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 16
+			},
+			{
+				"name": "Energy Nectar",
+				"count": 12
+			},
+			{
+				"name": "Spirit Locket of Boreas",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

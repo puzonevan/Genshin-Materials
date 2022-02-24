@@ -1,0 +1,19 @@
+{
+	"namemap": {
+		"fivestar": "Five Stars",
+		"fourstar": "Four Stars",
+		"onestar": "One Stars",
+		"threestar": "Three Stars",
+		"twostar": "Two Stars"
+	},
+	"names": {
+		"Five Stars": "fivestar",
+		"Four Stars": "fourstar",
+		"One Stars": "onestar",
+		"Three Stars": "threestar",
+		"Two Stars": "twostar"
+	},
+	"aliases": {},
+	"categories": {},
+	"properties": {}
+}

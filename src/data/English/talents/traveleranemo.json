@@ -1,0 +1,205 @@
+{
+	"name": "Traveler (Anemo)",
+	"combat1": {
+		"name": "Normal Attack: Foreign Ironwind",
+		"info": "**Normal Attack**\nPerform up to 5 rapid strikes.\n\n**Charged Attack**\nConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:F1P}",
+				"5-Hit DMG|{param5:F1P}",
+				"Charged Attack DMG|{param6:F1P}+{param7:F1P}",
+				"Charged Attack Stamina Cost|{param8:F1}",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Palm Vortex",
+		"info": "Grasping the wind's might, you form a vortex of vacuum in your palm, causing continuous Anemo DMG to opponents in front of you.\nThe vacuum vortex explodes when the skill duration ends, causing a greater amount of Anemo DMG over a larger area.\n\n**Hold**\nDMG and AoE will gradually increase.\n\n**Elemental Absorption**\nIf the vortex comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+		"description": "You discussed the way to grasp the formless wind with Paimon.",
+		"attributes": {
+			"labels": [
+				"Initial Cutting DMG|{param1:F1P}",
+				"Max Cutting DMG|{param2:F1P}",
+				"Initial Storm DMG|{param3:P}",
+				"Max Storm DMG|{param4:P}",
+				"Base CD|{param5:F1}s",
+				"Max Charging CD|{param6:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Gust Surge",
+		"info": "Guiding the path of the wind currents, you summon a forward-moving tornado that pulls objects and opponents towards itself, dealing continuous Anemo DMG.\n\n**Elemental Absorption**\nIf the tornado comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.\nElemental Absorption may only occur once per use.",
+		"description": "You and Paimon studied the flapping of a butterfly's wings.",
+		"attributes": {
+			"labels": [
+				"Tornado DMG|{param1:F1P}",
+				"Additional Elemental DMG|{param2:F1P}",
+				"Duration|{param3:F1}s",
+				"CD|{param4:F1}s",
+				"Energy Cost|{param5:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Slitting Wind",
+		"info": "The last hit of a Normal Attack combo unleashes a wind blade, dealing 60% of ATK as Anemo DMG to all opponents in its path."
+	},
+	"passive2": {
+		"name": "Second Wind",
+		"info": "**Palm Vortex** kills regenerate 2% HP for 5s. This effect can only occur once every 5s."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Freedom",
+				"count": 3
+			},
+			{
+				"name": "Divining Scroll",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 2
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Ballad",
+				"count": 4
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 6
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 9
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 4
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 4
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 6
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 6
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 12
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 9
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Ballad",
+				"count": 16
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 12
+			},
+			{
+				"name": "Dvalin's Sigh",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

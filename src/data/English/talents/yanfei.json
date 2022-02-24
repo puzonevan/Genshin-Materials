@@ -1,0 +1,206 @@
+{
+	"name": "Yanfei",
+	"combat1": {
+		"name": "Normal Attack: Seal of Approval",
+		"info": "**Normal Attack**\nShoots fireballs that deal up to three counts of Pyro DMG.\nWhen Yanfei's Normal Attacks hit enemies, they will grant her a single Scarlet Seal. Yanfei may possess a maximum of 3 Scarlet Seals, and each time this effect is triggered, the duration of currently possessed Scarlet Seals will refresh.\nEach Scarlet Seal will decrease Yanfei's Stamina consumption and will disappear when she leaves the field.\n\n**Charged Attack**\nConsumes Stamina and all Scarlet Seals before dealing AoE Pyro DMG to opponents after a short casting time.\nThis Charged Attack's AoE and DMG will increase according to the amount of Scarlet Seals consumed.\n\n**Plunging Attack**\nGathering the power of Pyro, Yanfei plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"Charged Attack|{param4:P}/{param5:P}/{param6:P}/{param7:P}/{param8:P}",
+				"Charged Attack Stamina Cost|{param14:F1}",
+				"Scarlet Seal Stamina Consumption Decrease|{param15:F1P} Per Seal",
+				"Scarlet Seal Duration|{param19:F1}s",
+				"Plunge DMG|{param16:F1P}",
+				"Low/High Plunge DMG|{param17:P}/{param18:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Signed Edict",
+		"info": "Summons blistering flames that deal AoE Pyro DMG.\nOpponents hit by the flames will grant Yanfei the maximum number of Scarlet Seals.",
+		"description": "Apart from their legal uses, Yanfei's seals also come with her customized additional terms and conditions. Well, it's not as if the Ministry of Civil Affairs can change the laws of nature.",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"CD|{param2:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Done Deal",
+		"info": "Triggers a spray of intense flames that rush at nearby opponents, dealing AoE Pyro DMG, granting Yanfei the maximum number of Scarlet Seals, and applying Brilliance to her.\n\n**Brilliance**\nHas the following effects:\n·Grants Yanfei a Scarlet Seal at fixed intervals.\n·Increases the DMG dealt by her Charged Attacks.\nThe effects of Brilliance will end if Yanfei leaves the field or falls in battle.",
+		"description": "\"Here are the full terms for this matter of life and death — by which I mean my life and your death!\"",
+		"attributes": {
+			"labels": [
+				"Skill DMG|{param1:P}",
+				"Scarlet Seal Grant Interval|{param4:F1}s",
+				"Charged Attack DMG Bonus|{param2:P}",
+				"Duration|{param3:F1}s",
+				"CD|{param5:F1}s",
+				"Energy Cost|{param6:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Proviso",
+		"info": "When Yanfei consumes Scarlet Seals by using a Charged Attack, each Scarlet Seal will increase Yanfei's Pyro DMG Bonus by 5%. This effects lasts for 6s. When a Charged Attack is used again during the effect's duration, it will dispel the previous effect."
+	},
+	"passive2": {
+		"name": "Blazing Eye",
+		"info": "When Yanfei's Charged Attack deals a CRIT Hit to opponents, she will deal an additional instance of AoE Pyro DMG equal to 80% of her ATK. This DMG counts as Charged Attack DMG."
+	},
+	"passive3": {
+		"name": "Encyclopedic Expertise",
+		"info": "Displays the location of nearby **resources unique to Liyue** on the mini-map."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Gold",
+				"count": 3
+			},
+			{
+				"name": "Treasure Hoarder Insignia",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 2
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 4
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 6
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Gold",
+				"count": 9
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 4
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 4
+			},
+			{
+				"name": "Bloodjade Branch",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 6
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 6
+			},
+			{
+				"name": "Bloodjade Branch",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 12
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 9
+			},
+			{
+				"name": "Bloodjade Branch",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Gold",
+				"count": 16
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 12
+			},
+			{
+				"name": "Bloodjade Branch",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

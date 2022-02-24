@@ -1,0 +1,209 @@
+{
+	"name": "Diluc",
+	"combat1": {
+		"name": "Normal Attack: Tempered Sword",
+		"info": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous slashes.\nAt the end of the sequence, perform a more powerful slash.\n\n**Plunging Attack**\nPlunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"4-Hit DMG|{param4:P}",
+				"Charged Attack Spinning DMG|{param5:F1P}",
+				"Charged Attack Final DMG|{param6:P}",
+				"Charged Attack Stamina Cost|{param7:F1}/s",
+				"Max Duration|{param8:F1}s",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Searing Onslaught",
+		"info": "Performs a forward slash that deals Pyro DMG.\n\nThis skill can be consecutively used 3 times. Enters CD if not cast again within a short period.",
+		"description": "The slashes represent the values that Diluc holds dear: one for justice, one for courage, and one for duty.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:P}",
+				"CD|{param4:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Dawn",
+		"info": "Releases intense flames to knock back nearby opponents, dealing Pyro DMG. The flames then converge into the weapon, summoning a Phoenix that flies forward and deals massive Pyro DMG to all opponents in its path. The Phoenix explodes upon reaching its destination, causing a large amount of AoE Pyro DMG.\nThe searing flames that run down his blade cause it to be infused with Pyro.",
+		"description": "The only reason to walk in the darkness is to light it up. Behold, that fleeing light in the dead of night is the herald of the coming dawn.",
+		"attributes": {
+			"labels": [
+				"Slashing DMG|{param1:P}",
+				"DoT|{param2:F1P}",
+				"Explosion DMG|{param3:P}",
+				"CD|{param4:F1}s",
+				"Infusion Duration|{param5:F1}s",
+				"Energy Cost|{param6:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Relentless",
+		"info": "Diluc's Charged Attack Stamina Cost is decreased by 50%, and its duration is increased by 3s."
+	},
+	"passive2": {
+		"name": "Blessing of Phoenix",
+		"info": "The Pyro Infusion provided by **Dawn** lasts for 4s longer. Additionally, Diluc gains 20% Pyro DMG Bonus during the duration of this effect."
+	},
+	"passive3": {
+		"name": "Tradition of the Dawn Knight",
+		"info": "Refunds 15% of the ore used when crafting Claymore-type weapons."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Resistance",
+				"count": 3
+			},
+			{
+				"name": "Recruit's Insignia",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 2
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 4
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 6
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 9
+			},
+			{
+				"name": "Sergeant's Insignia",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 4
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 4
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 6
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 6
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 12
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 9
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 16
+			},
+			{
+				"name": "Lieutenant's Insignia",
+				"count": 12
+			},
+			{
+				"name": "Dvalin's Plume",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

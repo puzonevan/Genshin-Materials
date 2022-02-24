@@ -1,0 +1,11 @@
+{
+	"name": "Cabbage",
+	"description": "A layered, leafy vegetable. Said to have originally been an ornamental plant, it certainly looks great in the pot.",
+	"sortorder": 1475,
+	"category": "EXCHANGE",
+	"materialtype": "Cooking Ingredient",
+	"source": [
+		"Found in the wild",
+		"Sold at general goods shops"
+	]
+}

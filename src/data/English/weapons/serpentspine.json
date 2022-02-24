@@ -1,0 +1,142 @@
+{
+	"name": "Serpent Spine",
+	"description": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+	"weapontype": "Claymore",
+	"rarity": "4",
+	"baseatk": 42,
+	"substat": "CRIT Rate",
+	"subvalue": "6",
+	"effectname": "Wavesplitter",
+	"effect": "Every 4s a character is on the field, they will deal {0} more DMG and take {1} more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+	"r1": [
+		"6%",
+		"3%"
+	],
+	"r2": [
+		"7%",
+		"2.7%"
+	],
+	"r3": [
+		"8%",
+		"2.4%"
+	],
+	"r4": [
+		"9%",
+		"2.2%"
+	],
+	"r5": [
+		"10%",
+		"2%"
+	],
+	"weaponmaterialtype": "Aerosiderite",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 5000
+			},
+			{
+				"name": "Grain of Aerosiderite",
+				"count": 3
+			},
+			{
+				"name": "Fragile Bone Shard",
+				"count": 3
+			},
+			{
+				"name": "Whopperflower Nectar",
+				"count": 2
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 15000
+			},
+			{
+				"name": "Piece of Aerosiderite",
+				"count": 3
+			},
+			{
+				"name": "Fragile Bone Shard",
+				"count": 12
+			},
+			{
+				"name": "Whopperflower Nectar",
+				"count": 8
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Piece of Aerosiderite",
+				"count": 6
+			},
+			{
+				"name": "Sturdy Bone Shard",
+				"count": 6
+			},
+			{
+				"name": "Shimmering Nectar",
+				"count": 6
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Bit of Aerosiderite",
+				"count": 3
+			},
+			{
+				"name": "Sturdy Bone Shard",
+				"count": 12
+			},
+			{
+				"name": "Shimmering Nectar",
+				"count": 9
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 35000
+			},
+			{
+				"name": "Bit of Aerosiderite",
+				"count": 6
+			},
+			{
+				"name": "Fossilized Bone Shard",
+				"count": 9
+			},
+			{
+				"name": "Energy Nectar",
+				"count": 6
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Chunk of Aerosiderite",
+				"count": 4
+			},
+			{
+				"name": "Fossilized Bone Shard",
+				"count": 18
+			},
+			{
+				"name": "Energy Nectar",
+				"count": 12
+			}
+		]
+	}
+}

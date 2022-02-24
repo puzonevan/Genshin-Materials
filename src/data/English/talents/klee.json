@@ -1,0 +1,204 @@
+{
+	"name": "Klee",
+	"combat1": {
+		"name": "Normal Attack: Kaboom!",
+		"info": "**Normal Attack**\nThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.\n\n**Charged Attack**\nConsumes a certain amount of Stamina and deals AoE Pyro DMG to opponents after a short casting time.\n\n**Plunging Attack**\nGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:F1P}",
+				"Charged Attack DMG|{param4:P}",
+				"Charged Attack Stamina Cost|{param5:F1}",
+				"Plunge DMG|{param6:F1P}",
+				"Low/High Plunge DMG|{param7:P}/{param8:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Jumpy Dumpty",
+		"info": "Jumpy Dumpty is tons of boom-bang-fun! \nWhen thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.\n\nOn the third bounce, the bomb splits into many mines.\nThe mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.\n\nStarts with 2 charges.",
+		"description": "Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.",
+		"attributes": {
+			"labels": [
+				"Jumpy Dumpty DMG|{param1:F1P}",
+				"Mine DMG|{param4:F1P}",
+				"Mine Duration|{param5:F1}s",
+				"CD|{param6:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Sparks 'n' Splash",
+		"info": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG.",
+		"description": "The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...",
+		"attributes": {
+			"labels": [
+				"Sparks 'n' Splash DMG|{param1:F1P}",
+				"Duration|{param5:F1}s",
+				"CD|{param2:F1}s",
+				"Energy Cost|{param3:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Pounding Surprise",
+		"info": "When **Jumpy Dumpty** and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.\nThis Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG."
+	},
+	"passive2": {
+		"name": "Sparkling Burst",
+		"info": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy."
+	},
+	"passive3": {
+		"name": "All Of My Treasures!",
+		"info": "Displays the location of nearby **resources unique to Mondstadt** on the mini-map."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Freedom",
+				"count": 3
+			},
+			{
+				"name": "Divining Scroll",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 2
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 4
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 6
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Freedom",
+				"count": 9
+			},
+			{
+				"name": "Sealed Scroll",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 4
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 4
+			},
+			{
+				"name": "Ring of Boreas",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 6
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 6
+			},
+			{
+				"name": "Ring of Boreas",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 12
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 9
+			},
+			{
+				"name": "Ring of Boreas",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Freedom",
+				"count": 16
+			},
+			{
+				"name": "Forbidden Curse Scroll",
+				"count": 12
+			},
+			{
+				"name": "Ring of Boreas",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

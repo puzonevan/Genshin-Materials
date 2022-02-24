@@ -1,0 +1,213 @@
+{
+	"name": "Razor",
+	"combat1": {
+		"name": "Normal Attack: Steel Fang",
+		"info": "**Normal Attack**\nPerform up to 4 consecutive strikes.\n\n**Charged Attack**\nDrains Stamina over time to perform continuous spinning attacks against all nearby opponents.\nAt the end of the sequence, perform a more powerful slash. \n\n**Plunging Attack**\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+		"attributes": {
+			"labels": [
+				"1-Hit DMG|{param1:F1P}",
+				"2-Hit DMG|{param2:F1P}",
+				"3-Hit DMG|{param3:P}",
+				"4-Hit DMG|{param4:P}",
+				"Charged Attack Spinning DMG|{param5:F1P}",
+				"Charged Attack Final DMG|{param6:P}",
+				"Charged Attack Stamina Cost|{param7:F1}/s",
+				"Max Duration|{param8:F1}s",
+				"Plunge DMG|{param9:F1P}",
+				"Low/High Plunge DMG|{param10:P}/{param11:P}"
+			]
+		}
+	},
+	"combat2": {
+		"name": "Claw and Thunder",
+		"info": "Hunts his prey using the techniques taught to him by his master and his lupical.\n\n**Press**\nSwings the Thunder Wolf Claw, dealing Electro DMG to opponents in front of Razor.\nUpon striking an opponent, Razor will gain an Electro Sigil, which increases his Energy Recharge rate.\nRazor can have up to 3 Electro Sigils simultaneously, and gaining a new Electro Sigil refreshes their duration.\n\n**Hold**\nGathers Electro energy to unleash a lightning storm over a small AoE, causing massive Electro DMG, and clears all of Razor's Electro Sigils.\nEach Electro Sigil cleared in this manner will be converted into Energy for Razor.",
+		"description": "In the moment when lightning strikes, you can sometimes glimpse the look of a predator sizing up his prey deep within Razor's eyes.",
+		"attributes": {
+			"labels": [
+				"Press Skill DMG|{param1:P}",
+				"Hold Skill DMG|{param2:P}",
+				"Energy Recharge Bonus|{param3:P} per Electro Sigil",
+				"Energy Regenerated|{param4:F1} per Electro Sigil Absorbed",
+				"Electro Sigil duration|{param5:F1}s",
+				"Press CD|{param6:F1}s",
+				"CD (hold)|{param7:F1}s"
+			]
+		}
+	},
+	"combat3": {
+		"name": "Lightning Fang",
+		"info": "Summons the Wolf Within, which deals Electro DMG to all nearby opponents. This clears all of Razor's Electro Sigils, which will be converted into Elemental Energy for him.\nThe Wolf Within will fight alongside Razor for the skill's duration.\n\n**The Wolf Within**\n·Strikes alongside Razor's normal attacks, dealing Electro DMG.\n·Raises Razor's ATK SPD and Electro RES.\n·Causes Razor to be immune to DMG inflicted by the Electro-Charged status.\n·Disables Razor's Charged Attacks.\n·Increases Razor's resistance to interruption.\n\nThese effects end when Razor leaves the battlefield.\nWhen Razor leaves the field, a maximum of 10 Energy will be returned to him based off the duration remaining on this skill.",
+		"description": "The wolf has awoken. The hunt is on.",
+		"attributes": {
+			"labels": [
+				"Elemental Burst DMG|{param1:P}",
+				"Soul Companion DMG|{param2:F1P} Normal Attack DMG",
+				"Normal ATK SPD Bonus|{param3:P}",
+				"Electro RES Bonus|{param4:P}",
+				"Duration|{param5:F1}s",
+				"CD|{param6:F1}s",
+				"Energy Cost|{param7:I}"
+			]
+		}
+	},
+	"passive1": {
+		"name": "Awakening",
+		"info": "Decreases **Claw and Thunder**'s CD by 18%.\nUsing **Lightning Fang** resets the CD of **Claw and Thunder**."
+	},
+	"passive2": {
+		"name": "Hunger",
+		"info": "When Razor's Energy is below 50%, increases Energy Recharge by 30%."
+	},
+	"passive3": {
+		"name": "Wolvensprint",
+		"info": "Decreases sprinting Stamina consumption for your own party members by 20%.\nNot stackable with Passive Talents that provide the exact same effects."
+	},
+	"costs": {
+		"lvl2": [
+			{
+				"name": "Mora",
+				"count": 12500
+			},
+			{
+				"name": "Teachings of Resistance",
+				"count": 3
+			},
+			{
+				"name": "Damaged Mask",
+				"count": 6
+			}
+		],
+		"lvl3": [
+			{
+				"name": "Mora",
+				"count": 17500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 2
+			},
+			{
+				"name": "Stained Mask",
+				"count": 3
+			}
+		],
+		"lvl4": [
+			{
+				"name": "Mora",
+				"count": 25000
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 4
+			},
+			{
+				"name": "Stained Mask",
+				"count": 4
+			}
+		],
+		"lvl5": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 6
+			},
+			{
+				"name": "Stained Mask",
+				"count": 6
+			}
+		],
+		"lvl6": [
+			{
+				"name": "Mora",
+				"count": 37500
+			},
+			{
+				"name": "Guide to Resistance",
+				"count": 9
+			},
+			{
+				"name": "Stained Mask",
+				"count": 9
+			}
+		],
+		"lvl7": [
+			{
+				"name": "Mora",
+				"count": 120000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 4
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 4
+			},
+			{
+				"name": "Dvalin's Claw",
+				"count": 1
+			}
+		],
+		"lvl8": [
+			{
+				"name": "Mora",
+				"count": 260000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 6
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 6
+			},
+			{
+				"name": "Dvalin's Claw",
+				"count": 1
+			}
+		],
+		"lvl9": [
+			{
+				"name": "Mora",
+				"count": 450000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 12
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 9
+			},
+			{
+				"name": "Dvalin's Claw",
+				"count": 2
+			}
+		],
+		"lvl10": [
+			{
+				"name": "Mora",
+				"count": 700000
+			},
+			{
+				"name": "Philosophies of Resistance",
+				"count": 16
+			},
+			{
+				"name": "Ominous Mask",
+				"count": 12
+			},
+			{
+				"name": "Dvalin's Claw",
+				"count": 2
+			},
+			{
+				"name": "Crown of Insight",
+				"count": 1
+			}
+		]
+	}
+}

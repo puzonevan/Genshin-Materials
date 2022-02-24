@@ -1,0 +1,137 @@
+{
+	"name": "Prototype Crescent",
+	"description": "A prototype longbow discovered in the Blackcliff Forge. The arrow fired from this bow glimmers like a ray of moonlight.",
+	"weapontype": "Bow",
+	"rarity": "4",
+	"baseatk": 42,
+	"substat": "ATK",
+	"subvalue": "9",
+	"effectname": "Unreturning",
+	"effect": "Charged Attack hits on weak points increase Movement SPD by 10% and ATK by {0} for 10s.",
+	"r1": [
+		"36%"
+	],
+	"r2": [
+		"45%"
+	],
+	"r3": [
+		"54%"
+	],
+	"r4": [
+		"63%"
+	],
+	"r5": [
+		"72%"
+	],
+	"weaponmaterialtype": "Mist Veiled Elixir",
+	"costs": {
+		"ascend1": [
+			{
+				"name": "Mora",
+				"count": 5000
+			},
+			{
+				"name": "Mist Veiled Lead Elixir",
+				"count": 3
+			},
+			{
+				"name": "Mist Grass Pollen",
+				"count": 3
+			},
+			{
+				"name": "Treasure Hoarder Insignia",
+				"count": 2
+			}
+		],
+		"ascend2": [
+			{
+				"name": "Mora",
+				"count": 15000
+			},
+			{
+				"name": "Mist Veiled Mercury Elixir",
+				"count": 3
+			},
+			{
+				"name": "Mist Grass Pollen",
+				"count": 12
+			},
+			{
+				"name": "Treasure Hoarder Insignia",
+				"count": 8
+			}
+		],
+		"ascend3": [
+			{
+				"name": "Mora",
+				"count": 20000
+			},
+			{
+				"name": "Mist Veiled Mercury Elixir",
+				"count": 6
+			},
+			{
+				"name": "Mist Grass",
+				"count": 6
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 6
+			}
+		],
+		"ascend4": [
+			{
+				"name": "Mora",
+				"count": 30000
+			},
+			{
+				"name": "Mist Veiled Gold Elixir",
+				"count": 3
+			},
+			{
+				"name": "Mist Grass",
+				"count": 12
+			},
+			{
+				"name": "Silver Raven Insignia",
+				"count": 9
+			}
+		],
+		"ascend5": [
+			{
+				"name": "Mora",
+				"count": 35000
+			},
+			{
+				"name": "Mist Veiled Gold Elixir",
+				"count": 6
+			},
+			{
+				"name": "Mist Grass Wick",
+				"count": 9
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 6
+			}
+		],
+		"ascend6": [
+			{
+				"name": "Mora",
+				"count": 45000
+			},
+			{
+				"name": "Mist Veiled Primo Elixir",
+				"count": 4
+			},
+			{
+				"name": "Mist Grass Wick",
+				"count": 18
+			},
+			{
+				"name": "Golden Raven Insignia",
+				"count": 12
+			}
+		]
+	}
+}

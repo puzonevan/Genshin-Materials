@@ -1,0 +1,10 @@
+{
+	"name": "Smoked Fish",
+	"description": "",
+	"sortorder": 1682,
+	"category": "EXCHANGE",
+	"materialtype": "Cooking Ingredient",
+	"source": [
+		"Processed"
+	]
+}
