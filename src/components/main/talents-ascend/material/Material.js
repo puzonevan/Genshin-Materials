@@ -3,9 +3,9 @@ import React from 'react';
 export function Material(props){
 
     return (
-        <div>
+        <figure>
             <img src="" alt="material" />
-            <h3>Material Name <span>x64</span></h3>
-        </div>
+            <figcaption>Material Name <span>x64</span></figcaption>
+        </figure>
     );
 };
