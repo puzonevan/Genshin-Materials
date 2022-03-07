@@ -11,6 +11,8 @@ export function TalentsAscend(props){
             <Menu />
             <Display />
             <Menu />
+            <img src="" alt="img1" />
+            <img src="" alt="img2" />
         </section>
     );
 };
