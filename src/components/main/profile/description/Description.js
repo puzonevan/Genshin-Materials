@@ -7,6 +7,15 @@ export function Description(props){
             <p>Character Description</p>
             <div>
                 {/* Icons */}
+                <div>
+                    Element
+                </div>
+                <div>
+                    Weapon
+                </div>
+                <div>
+                    Nation
+                </div>
             </div>
         </section>
     );
