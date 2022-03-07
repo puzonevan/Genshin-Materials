@@ -1,9 +1,16 @@
 import React from 'react';
+import { Display } from './display/Display';
+import { Menu } from './menu/Menu';
+
 
 export function TalentsAscend(props){
     return (
         <section>
-            Talents and Ascension Materials
+            <h2>Talents and Ascensions</h2>
+            <Display />
+            <Menu />
+            <Display />
+            <Menu />
         </section>
     );
 };
