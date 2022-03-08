@@ -1,4 +1,5 @@
 import React from 'react';
+import './Main.css';
 import { Profile } from './profile/Profile';
 import { TalentsAscend } from './talents-ascend/TalentsAscend';
 import { WeapArt } from './weapons-artifacts/WeapArt';
