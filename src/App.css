@@ -2,6 +2,8 @@
 
 :root{
     --liyue-primary: brown;
+    --font-title: 'Yeseva One', cursive;
+    --font-text: 'Merriweather', serif;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -11,6 +13,3 @@ p{
     font-family: 'Merriweather', serif;
 }
 
-h2{
-    color: var(--liyue-primary);
-}

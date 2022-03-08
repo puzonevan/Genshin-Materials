@@ -1,0 +1,10 @@
+.character-menu{
+    list-style: none;
+    overflow: scroll;
+    height: 80%;
+}
+.character-menu li{
+    font-family: var(--font-text);
+    font-size: 1.2rem;
+    margin: 1rem;
+}

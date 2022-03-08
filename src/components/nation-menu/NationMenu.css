@@ -1,0 +1,13 @@
+#nation-menu{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#nation-menu{
+
+}
+#nation-menu figcaption{
+    font-size: 1rem;
+    font-family: var(--font-text);
+}
