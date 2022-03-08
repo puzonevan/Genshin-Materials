@@ -9,11 +9,7 @@ export function CharacterMenu(props){
                 <li>Character 2</li>
                 <li>Character 3</li>
                 <li>Character 4</li>
-                <li>Character 5</li>
-                <li>Character 6</li>
-                <li>Character 6</li>
-                <li>Character 6</li>
-                <li>Character 6</li>
+                
             </ul>
         </nav>
     );

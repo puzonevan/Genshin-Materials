@@ -1,12 +1,9 @@
 #nation-menu{
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
 }
 
-#nation-menu{
-
-}
 #nation-menu figcaption{
     font-size: 1rem;
     font-family: var(--font-text);
