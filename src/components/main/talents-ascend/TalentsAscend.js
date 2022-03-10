@@ -1,12 +1,12 @@
 import React from 'react';
+import './TalentsAscend.css';
 import { Display } from './display/Display';
 import { Menu } from './menu/Menu';
 
 
 export function TalentsAscend(props){
     return (
-        <section>
-            <h2>Talents and Ascensions</h2>
+        <section className="talents-ascend" id="talents-ascend">
             <Display />
             <Menu />
             <Display />
