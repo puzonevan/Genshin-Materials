@@ -4,3 +4,20 @@
     right: 5vw;
     top: 8vh;
 }
+
+#description h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    margin: 0;
+}
+#description h3{
+    font-size: 2rem;
+    font: var(--font-text);
+}
+
+#description *{
+    text-align: center;
+}

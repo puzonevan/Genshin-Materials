@@ -4,12 +4,19 @@
     --liyue-primary: brown;
     --font-title: 'Yeseva One', cursive;
     --font-text: 'Merriweather', serif;
+    font-size: 12px;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Yeseva One', cursive;
+    color: #FFFFFF;
 }
-p{
+p, figcaption, li, div{
     font-family: 'Merriweather', serif;
+    color: #FFFFFF;
+}
+
+body{
+    background-color: #0F0F0F;
 }
 
