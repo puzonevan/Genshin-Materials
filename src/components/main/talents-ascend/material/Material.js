@@ -5,7 +5,7 @@ import './Material.css';
 export function Material(props){
 
     return (
-        <figure class="material-container">
+        <figure className="material-container">
             <img src={img} alt="material" />
             <figcaption>Slime Condensate <span>x64</span></figcaption>
         </figure>
