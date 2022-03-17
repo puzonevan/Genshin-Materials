@@ -7,8 +7,8 @@ export function Header(props) {
 
     return (
         <header>
-            <h1></h1>
-            <NationMenu />
+            <h1>Genshin Pages</h1>
+            <NationMenu changeNation={props.changeNation}/>
             <CharacterMenu characters={props.characters}/>
         </header>
     );

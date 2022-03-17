@@ -2,19 +2,25 @@ import React from 'react';
 import './NationMenu.css';
 
 export function NationMenu(props){
+    const { changeNation } = props;
+    
+    const handleNation = (nation) =>{
+        changeNation(nation)
+    }
+
     return (
         <nav className="nation-menu" id="nation-menu">
             <figure>
-                <img />
-                <figcaption>Nation 1</figcaption>
+                <img onClick={() => changeNation('Mondstadt')}/>
+                <figcaption onClick={() => changeNation('Mondstadt')}>Mondstadt</figcaption>
             </figure>
             <figure>
-                <img />
-                <figcaption>Nation 2</figcaption>
+                <img onClick={() => changeNation('Liyue')}/>
+                <figcaption onClick={() => changeNation('Liyue')}>Liyue</figcaption>
             </figure>
             <figure>
-                <img />
-                <figcaption>Nation 2</figcaption>
+                <img onClick={() => changeNation('Inazuma')}/>
+                <figcaption onClick={() => changeNation('Inazuma')}>Inazuma</figcaption>
             </figure>
         </nav>
     );

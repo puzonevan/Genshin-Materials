@@ -12,9 +12,15 @@ export function App(props){
     const [nation, setNation] = useState('Liyue');
     const [characters, setCharacters] = useState(require('./data/index/characters.json')['categories'][nation]);
     
+    useEffect(() => {
+        setCharacters(require('./data/index/characters.json')['categories'][nation]);
+    }, [nation]);
+
+    const changeNation = (nation) => setNation(nation);
+
     return (
         <>
-            <Header characters={characters}/>
+            <Header characters={characters} changeNation={changeNation}/>
             <Main />
             <Footer />
         </>
