@@ -9,14 +9,12 @@ import { Footer } from './components/footer/Footer';
 // Necessary data passed down to Header Main and Footer
 
 export function App(props){
-    const [nation, setNation] = useState('liyue');
-    const [character, setCharacter] = useState('aether');
-
-    const changeCharacter = (character) => setCharacter(character);
-
+    const [nation, setNation] = useState('Liyue');
+    const [characters, setCharacters] = useState(require('./data/index/characters.json')['categories'][nation]);
+    
     return (
         <>
-            <Header character={character} changeCharacter={changeCharacter}/>
+            <Header characters={characters}/>
             <Main />
             <Footer />
         </>
