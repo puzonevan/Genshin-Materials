@@ -8,6 +8,7 @@ export const getAscendInfo = (name) =>{
 }
 
 export const getTalentInfo = (name) => {
+    if(name === "aether" || name === "lumine") return [];
     const character = require(`../data/English/talents/${name}.json`);
     return character["costs"];
 }

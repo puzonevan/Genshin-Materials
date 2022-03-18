@@ -4,17 +4,21 @@ import { Profile } from './profile/Profile';
 import { TalentsAscend } from './talents-ascend/TalentsAscend';
 import { WeapArt } from './weapons-artifacts/WeapArt';
 import { AbilitiesConst } from './abilities-const/AbilitiesConst';
+import { getTalentInfo } from '../../util/character';
 
 export function Main(props) {
 
     const { currentCharacter, characterInfo } = props;
+    const talents = getTalentInfo(currentCharacter);
 
     return(
         <main>
             <Profile 
                 currentCharacter={currentCharacter} characterInfo={characterInfo}
             />
-            <TalentsAscend />
+            <TalentsAscend 
+                talents={talents}
+            />
             <WeapArt />
             <AbilitiesConst />
         </main>

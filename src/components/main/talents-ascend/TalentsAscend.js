@@ -5,9 +5,12 @@ import { Menu } from './menu/Menu';
 
 
 export function TalentsAscend(props){
+
+    const { talents } = props;
+
     return (
         <section className="talents-ascend" id="talents-ascend">
-            <Display />
+            <Display talents={talents}/>
             <Menu />
             <Display />
             <Menu />
