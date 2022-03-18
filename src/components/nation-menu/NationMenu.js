@@ -3,21 +3,28 @@ import './NationMenu.css';
 
 export function NationMenu(props){
     
-    const { changeNation } = props;
+    const { characterIndex, changeCharacters, changeNation } = props;
+
+    const handleChangeNation = (e, nation) => {
+        e.preventDefault();
+        changeNation(nation);
+        const newCharacters = characterIndex["categories"][nation].map(character => characterIndex["namemap"][character]);
+        changeCharacters(newCharacters);
+    }
 
     return (
         <nav className="nation-menu" id="nation-menu">
             <figure>
-                <img onClick={() => changeNation('Mondstadt')}/>
-                <figcaption onClick={() => changeNation('Mondstadt')}>Mondstadt</figcaption>
+                <img onClick={(e) => handleChangeNation(e, 'Mondstadt')}/>
+                <figcaption onClick={(e) => handleChangeNation(e, 'Mondstadt')}>Mondstadt</figcaption>
             </figure>
             <figure>
-                <img onClick={() => changeNation('Liyue')}/>
-                <figcaption onClick={() => changeNation('Liyue')}>Liyue</figcaption>
+                <img onClick={(e) => handleChangeNation(e, 'Liyue')}/>
+                <figcaption onClick={(e) => handleChangeNation(e, 'Liyue')}>Liyue</figcaption>
             </figure>
             <figure>
-                <img onClick={() => changeNation('Inazuma')}/>
-                <figcaption onClick={() => changeNation('Inazuma')}>Inazuma</figcaption>
+                <img onClick={(e) => handleChangeNation(e, 'Inazuma')}/>
+                <figcaption onClick={(e) => handleChangeNation(e, 'Inazuma')}>Inazuma</figcaption>
             </figure>
         </nav>
     );

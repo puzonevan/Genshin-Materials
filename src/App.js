@@ -13,35 +13,33 @@ export function App(props){
     const characterIndex = require('./data/index/characters.json');
 
     const [nation, setNation] = useState('Liyue');
-    const [characters, setCharacters] = useState([]);
+    const [characters, setCharacters] = useState(['Aether', 'Lumine']);
     const [currentCharacter, setCurrentCharacter] = useState('aether');
 
     const[characterInfo, setCharacterInfo] = useState(require(`./data/English/characters/${currentCharacter}.json`))
 
     useEffect(() => {
-        const characters = [];
-        characterIndex['categories'][nation].forEach(name => {
-            characters.push(characterIndex['namemap'][name]);
-        });
-        setCharacters(characters);
-        console.log(characters);
-    }, [nation]);
-
-    useEffect(() => {
-        setCharacterInfo(require(`./data/English/characters/${currentCharacter}.json`));
+        console.log(`Nation: ${nation}`);
+        console.log(currentCharacter);
         console.log(characterInfo);
-    }, [currentCharacter, characterInfo]);
+        console.log(characters);
+    })
 
-    
     const changeNation = (nation) => setNation(nation);
+    const changeCharacters = (characterList) => setCharacters(characterList);
     const changeCurrentCharacter = (character) => setCurrentCharacter(character);
+    const changeCharacterInfo = (info) => setCharacterInfo(info);
+
 
     return (
         <>
             <Header 
+                characterIndex={characterIndex}
                 characters={characters} 
+                changeCharacters={changeCharacters}
                 changeNation={changeNation}
                 changeCurrentCharacter={changeCurrentCharacter}
+                changeCharacterInfo={changeCharacterInfo}
             />
             <Main character={currentCharacter}/>
             <Footer />

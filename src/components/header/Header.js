@@ -4,14 +4,21 @@ import { NationMenu } from '../nation-menu/NationMenu';
 import { CharacterMenu } from '../character-menu/CharacterMenu';
 
 export function Header(props) {
+    const { characterIndex, characters, changeCharacters, 
+            changeNation, changeCurrentCharacter, changeCharacterInfo } = props;
 
     return (
         <header>
             <h1>Genshin Pages</h1>
-            <NationMenu changeNation={props.changeNation}/>
+            <NationMenu 
+                characterIndex={characterIndex}
+                changeNation={changeNation}
+                changeCharacters={changeCharacters}
+            />
             <CharacterMenu 
-                characters={props.characters} 
-                changeCurrentCharacter={props.changeCurrentCharacter}
+                characters={characters} 
+                changeCurrentCharacter={changeCurrentCharacter}
+                changeCharacterInfo={changeCharacterInfo}
             />
         </header>
     );
