@@ -29,6 +29,7 @@ export function App(props){
         console.log(currentCharacter);
     }, [currentCharacter]);
 
+
     const changeNation = (nation) => setNation(nation);
     const changeCurrentCharacter = (character) => setCurrentCharacter(character);
 
@@ -39,7 +40,7 @@ export function App(props){
                 changeNation={changeNation}
                 changeCurrentCharacter={changeCurrentCharacter}
             />
-            <Main />
+            <Main character={currentCharacter}/>
             <Footer />
         </>
     );

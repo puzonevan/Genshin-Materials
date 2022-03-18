@@ -4,13 +4,14 @@ import './CharacterMenu.css';
 export function CharacterMenu(props){
     const { characters, changeCurrentCharacter } = props;
 
-    const handleCharacterChange = (name) =>{
+
+    const handleCharacterChange = (name, event) =>{
         changeCurrentCharacter(name);
     };
 
     const characterList = characters.map((character) => {
         return <li 
-            onClick={() => handleCharacterChange(character.toLowerCase().replace(/\s/g, ''))}
+            onClick={(e) => handleCharacterChange(character.toLowerCase().replace(/\s/g, ''), e)}
             key={`${character.toLowerCase().replace(/\s/g, '')}`}>
                 {character}
         </li>;
