@@ -3,9 +3,7 @@ import './Description.css';
 
 export function Description(props){
 
-    const { characterInfo } = props;
-
-    const element = characterInfo["element"];
+    const { element, characterInfo } = props;
     const weapon = characterInfo["weapontype"];
     const region = characterInfo["region"]
 
@@ -17,9 +15,7 @@ export function Description(props){
             <hr />
             <div>
                 {/* Icons */}
-                <div>
-                    {element}
-                </div>
+                <img src={element} alt="character element" width="32" height="32"/>
                 <div>
                     {weapon}
                 </div>
