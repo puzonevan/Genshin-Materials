@@ -2,11 +2,8 @@ import React from 'react';
 import './NationMenu.css';
 
 export function NationMenu(props){
-    const { changeNation } = props;
     
-    const handleNation = (nation) =>{
-        changeNation(nation)
-    }
+    const { changeNation } = props;
 
     return (
         <nav className="nation-menu" id="nation-menu">

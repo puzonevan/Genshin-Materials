@@ -9,11 +9,17 @@ import { Footer } from './components/footer/Footer';
 // Necessary data passed down to Header Main and Footer
 
 export function App(props){
+    const characterIndex = require('./data/index/characters.json');
     const [nation, setNation] = useState('Liyue');
-    const [characters, setCharacters] = useState(require('./data/index/characters.json')['categories'][nation]);
-    
+    const [characters, setCharacters] = useState([]);
+
     useEffect(() => {
-        setCharacters(require('./data/index/characters.json')['categories'][nation]);
+        const characters = [];
+        characterIndex['categories'][nation].forEach(name => {
+            characters.push(characterIndex['namemap'][name]);
+        });
+        setCharacters(characters);
+        console.log(characters);
     }, [nation]);
 
     const changeNation = (nation) => setNation(nation);
