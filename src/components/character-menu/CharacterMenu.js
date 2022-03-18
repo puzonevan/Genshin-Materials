@@ -6,6 +6,7 @@ export function CharacterMenu(props){
 
 
     const handleCharacterChange = (name, event) =>{
+        event.preventDefault();
         changeCurrentCharacter(name);
     };
 

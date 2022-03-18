@@ -10,7 +10,6 @@
 .image-container{
     width: 100%;
     height: auto;
-    overflow: hidden;
 }
 .image-container img{
     max-width: 100%;

@@ -5,6 +5,10 @@ export function Description(props){
 
     const { characterInfo } = props;
 
+    const element = characterInfo["element"];
+    const weapon = characterInfo["weapontype"];
+    const region = characterInfo["region"]
+
     return (
         <section className="description" id="description">
             <h2>{characterInfo["name"]}</h2>
@@ -14,13 +18,13 @@ export function Description(props){
             <div>
                 {/* Icons */}
                 <div>
-                    Element
+                    {element}
                 </div>
                 <div>
-                    Weapon
+                    {weapon}
                 </div>
                 <div>
-                    Nation
+                    {region}
                 </div>
             </div>
             <hr />

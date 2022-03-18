@@ -16,6 +16,8 @@ export function App(props){
     const [characters, setCharacters] = useState([]);
     const [currentCharacter, setCurrentCharacter] = useState('aether');
 
+    const[characterInfo, setCharacterInfo] = useState(require(`./data/English/characters/${currentCharacter}.json`))
+
     useEffect(() => {
         const characters = [];
         characterIndex['categories'][nation].forEach(name => {
@@ -26,10 +28,11 @@ export function App(props){
     }, [nation]);
 
     useEffect(() => {
-        console.log(currentCharacter);
-    }, [currentCharacter]);
+        setCharacterInfo(require(`./data/English/characters/${currentCharacter}.json`));
+        console.log(characterInfo);
+    }, [currentCharacter, characterInfo]);
 
-
+    
     const changeNation = (nation) => setNation(nation);
     const changeCurrentCharacter = (character) => setCurrentCharacter(character);
 
