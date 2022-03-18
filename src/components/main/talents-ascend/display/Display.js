@@ -9,14 +9,15 @@ export function Display(props) {
     const totals = {};
     for(let key in talents){
         talents[key].forEach(item => {
-            if(Object.keys(totals).includes(item["name"])){
-                totals[item["name"]] = totals[item["name"]] + (item["count"] * 3);
+            let { name, count } = item;
+            if(Object.keys(totals).includes(name)){
+                totals[name] = totals[name] + (count * 3);
             }
             else{
-                totals[item["name"]] = item["count"] * 3;
+                totals[name] = count * 3;
             }
         });
-    }
+    };
 
     return (
         <section className="materials">
