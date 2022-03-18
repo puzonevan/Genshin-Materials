@@ -10,9 +10,9 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend">
-            <Display talents={talents}/>
+            <Display name={"Talents"} talents={talents}/>
             <Menu />
-            <Display />
+            <Display name={"Ascension"}/>
             <Menu />
             <img src="" alt="img1" />
             <img src="" alt="img2" />
