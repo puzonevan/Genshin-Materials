@@ -19,19 +19,13 @@ export function Display(props) {
         });
     };
 
+    const talentList = Object.keys(totals).map(name => <Material name={name} count={totals[name]}/>)
+
     return (
         <section className="materials">
             <h2>{name}</h2>
             <div className="materials-list">
-                <Material />
-                <Material />
-                <Material />
-                <Material />
-                <Material />
-                <Material />
-                <Material />
-                <Material />
-                <Material />
+                {talentList}
             </div>
         </section>
     )

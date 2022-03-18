@@ -4,10 +4,12 @@ import './Material.css';
 
 export function Material(props){
 
+    const { name, count } = props;
+
     return (
         <figure className="material-container">
             <img src={img} alt="material" />
-            <figcaption>Slime Condensate <span>x64</span></figcaption>
+            <figcaption>{name} <span>x{count}</span></figcaption>
         </figure>
     );
 };
