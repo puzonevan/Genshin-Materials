@@ -9,7 +9,10 @@ export function Header(props) {
         <header>
             <h1>Genshin Pages</h1>
             <NationMenu changeNation={props.changeNation}/>
-            <CharacterMenu characters={props.characters}/>
+            <CharacterMenu 
+                characters={props.characters} 
+                changeCurrentCharacter={props.changeCurrentCharacter}
+            />
         </header>
     );
 };

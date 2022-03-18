@@ -9,9 +9,12 @@ import { Footer } from './components/footer/Footer';
 // Necessary data passed down to Header Main and Footer
 
 export function App(props){
+
     const characterIndex = require('./data/index/characters.json');
+
     const [nation, setNation] = useState('Liyue');
     const [characters, setCharacters] = useState([]);
+    const [currentCharacter, setCurrentCharacter] = useState('aether');
 
     useEffect(() => {
         const characters = [];
@@ -22,11 +25,20 @@ export function App(props){
         console.log(characters);
     }, [nation]);
 
+    useEffect(() => {
+        console.log(currentCharacter);
+    }, [currentCharacter]);
+
     const changeNation = (nation) => setNation(nation);
+    const changeCurrentCharacter = (character) => setCurrentCharacter(character);
 
     return (
         <>
-            <Header characters={characters} changeNation={changeNation}/>
+            <Header 
+                characters={characters} 
+                changeNation={changeNation}
+                changeCurrentCharacter={changeCurrentCharacter}
+            />
             <Main />
             <Footer />
         </>
