@@ -7,12 +7,13 @@ import { AbilitiesConst } from './abilities-const/AbilitiesConst';
 
 export function Main(props) {
 
-    const { character } = props;
-    const characterInfo = require(`../../data/English/characters/${character}.json`);
+    const { currentCharacter, characterInfo } = props;
 
     return(
         <main>
-            <Profile character={character} characterInfo={characterInfo}/>
+            <Profile 
+                currentCharacter={currentCharacter} characterInfo={characterInfo}
+            />
             <TalentsAscend />
             <WeapArt />
             <AbilitiesConst />

@@ -41,7 +41,11 @@ export function App(props){
                 changeCurrentCharacter={changeCurrentCharacter}
                 changeCharacterInfo={changeCharacterInfo}
             />
-            <Main character={currentCharacter}/>
+            <Main 
+                nation={nation}
+                currentCharacter={currentCharacter}
+                characterInfo={characterInfo}
+            />
             <Footer />
         </>
     );
