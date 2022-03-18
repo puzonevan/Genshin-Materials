@@ -1,17 +1,13 @@
 import React from 'react';
 import './Profile.css';
 import { Description } from './description/Description';
-import { getElement } from '../../../util/images.js';
+import { getElement, getCharacterImage } from '../../../util/images.js';
 
 export function Profile(props) {
     
     const { currentCharacter, characterInfo } = props;
-    const images = require('../../../data/image/characters.json');
-    const image = images[currentCharacter]["portrait"];
+    const image = getCharacterImage(currentCharacter);
     const element = getElement(characterInfo["element"]);
-    console.log(element)
-
-    
 
     return (
         <section className="profile" id="profile">
