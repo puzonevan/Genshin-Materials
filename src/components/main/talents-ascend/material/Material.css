@@ -1,19 +1,16 @@
+
 .material-container{
-    width: 15%;
-    height: auto;
-    overflow: hidden;
-    margin: 0 .5rem;
-    
+    margin: 0;
 }
+
 .material-container img{
-    max-width: 70%;
+    width: 60%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
 .material-container figcaption{
-    width: 80%;
-    font-size: .7rem;
-    margin: 0 auto;
+    font-size: 12px;
     text-align: center;
 }

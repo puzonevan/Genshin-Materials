@@ -19,14 +19,14 @@ export function Display(props) {
         });
     };
 
-    const talentList = Object.keys(totals).map(name => <Material name={name} count={totals[name]}/>)
+    const talentList = Object.keys(totals).map(name => <li key={`${name}-${totals[name]}`}><Material name={name} count={totals[name]}/></li>)
 
     return (
         <section className="materials">
             <h2>{name}</h2>
-            <div className="materials-list">
+            <ul className="materials-list">
                 {talentList}
-            </div>
+            </ul>
         </section>
     )
 }
