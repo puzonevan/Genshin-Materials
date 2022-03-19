@@ -4,17 +4,18 @@ import { Material } from '../material/Material';
 
 export function Display(props) {
 
-    const { name, talents } = props;
+    const { name, materials } = props;
+    const multiplier = name === "Talents" ? 3 : 1;
 
     const totals = {};
-    for(let key in talents){
-        talents[key].forEach(item => {
+    for(let key in materials){
+        materials[key].forEach(item => {
             let { name, count } = item;
             if(Object.keys(totals).includes(name)){
-                totals[name] = totals[name] + (count * 3);
+                totals[name] = totals[name] + (count * multiplier);
             }
             else{
-                totals[name] = count * 3;
+                totals[name] = count * multiplier;
             }
         });
     };
