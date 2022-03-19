@@ -11,6 +11,6 @@ export const getCharacterImage = (name) => {
     return characters[name]["portrait"];
 }
 
-export const getMaterial = (name) => {
-    return materials[name]["redirect"];
+export const getMaterialImage = (name) => {
+    return materials[name.toLowerCase().replace(/\s/g, '').replace(/'/g, '')]["fandom"];
 }

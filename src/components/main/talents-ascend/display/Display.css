@@ -4,10 +4,13 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 70%;
+    width: 50%;
+    height: 30vh;
+    overflow: hidden;
+    
 }
 .materials-list li{
-    width: 20%;
+    width: 15%;
     height: auto;
     display: block;
     overflow: hidden;
