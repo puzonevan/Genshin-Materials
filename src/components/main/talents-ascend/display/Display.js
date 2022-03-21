@@ -4,7 +4,7 @@ import { Material } from '../material/Material';
 
 export function Display(props) {
 
-    const { level, name, materials } = props;
+    const { name, materials } = props;
     let sortedList = Object.keys(materials).sort();
 
     const createMaterial = (name, count) => {

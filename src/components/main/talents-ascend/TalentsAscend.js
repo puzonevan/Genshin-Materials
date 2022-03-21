@@ -41,10 +41,10 @@ export function TalentsAscend(props){
             itemSet.forEach(item => {
                 let { name, count } = item;
                 if(Object.keys(totals).includes(name)){
-                    totals[name] = totals[name] + (count * 3);
+                    totals[name] = totals[name] + count;
                 }
                 else{
-                    totals[name] = count * 3;
+                    totals[name] = count;
                 }
             });
         }
@@ -64,7 +64,6 @@ export function TalentsAscend(props){
             <Display 
                 name={"Talents"} 
                 materials={getTalentMaterials()}
-                level={talentLevel}
             />
             <Menu 
                 name={"talent"} 
@@ -75,7 +74,6 @@ export function TalentsAscend(props){
             <Display 
                 name={"Ascension"} 
                 materials={getAscensionMaterials()}
-                level={ascendLevel}
             />
             <Menu 
                 name={"ascend"} 
