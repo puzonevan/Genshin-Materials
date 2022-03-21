@@ -3,10 +3,10 @@ import './Menu.css';
 
 export function Menu(props){
     
-    const { name, low, high } = props;
+    const { name, low, high, changeLevel } = props;
     const options = [];
     for(let i = low; i <= high; i++){
-        options.push(<td key={`${name}-${i}`}>{i}</td>);
+        options.push(<td onClick={() => changeLevel(i)} key={`${name}-${i}`}>{i}</td>);
     }
 
     return (

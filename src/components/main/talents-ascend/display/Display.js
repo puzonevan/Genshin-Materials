@@ -4,8 +4,16 @@ import { Material } from '../material/Material';
 
 export function Display(props) {
 
-    const { name, materials } = props;
+    const { level, name, materials } = props;
     const multiplier = name === "Talents" ? 3 : 1;
+
+    const createMaterial = (name, count) => {
+        return (
+            <li key={`${name}-${count}`}>
+                <Material name={name} count={count}/>
+            </li>
+        );
+    };
 
     const totals = {};
     for(let key in materials){
@@ -19,8 +27,9 @@ export function Display(props) {
             }
         });
     };
+    let sortedKeys = Object.keys(totals).sort();
 
-    const talentList = Object.keys(totals).map(name => <li key={`${name}-${totals[name]}`}><Material name={name} count={totals[name]}/></li>)
+    const talentList = sortedKeys.map(name => createMaterial(name, totals[name]));
 
     return (
         <section className="materials">
