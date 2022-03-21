@@ -15,7 +15,8 @@ export function Main(props) {
     return(
         <main>
             <Profile 
-                currentCharacter={currentCharacter} characterInfo={characterInfo}
+                currentCharacter={currentCharacter} 
+                characterInfo={characterInfo}
             />
             <TalentsAscend 
                 talents={talents}

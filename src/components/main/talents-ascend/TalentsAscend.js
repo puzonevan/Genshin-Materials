@@ -52,8 +52,7 @@ export function TalentsAscend(props){
     }
 
     useEffect(() => {
-        console.log(`talent: ${talentLevel}`);
-        console.log(`ascend: ${ascendLevel}`);
+        console.log("Menu Change");
     });
 
     const changeTalentLevel = (level) => setTalentLevel(level);
