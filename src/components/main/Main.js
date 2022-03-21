@@ -23,7 +23,9 @@ export function Main(props) {
                 ascension={ascension}
             />
             <WeapArt />
-            <AbilitiesConst />
+            <AbilitiesConst 
+                currentCharacter={currentCharacter}
+            />
         </main>
     );
 };

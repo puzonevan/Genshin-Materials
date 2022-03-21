@@ -14,16 +14,31 @@ export const getTalentCosts = (name) => {
 }
 
 export const getCombat = (name, value) => {
-    const character = require(`../data/English/talents/${name}.json`);
+    let character;
+    if(name === "aether" || name === "lumine"){
+        character = require(`../data/English/talents/traveleranemo.json`);
+    }else{
+        character = require(`../data/English/talents/${name}.json`);
+    }
     return character[`combat${value}`]
 }
 
 export const getPassive = (name, value) => {
-    const character = require(`../data/English/talents/${name}.json`);
+    let character;
+    if(name === "aether" || name === "lumine"){
+        character = require(`../data/English/talents/traveleranemo.json`);
+    }else{
+        character = require(`../data/English/talents/${name}.json`);
+    }
     return character[`passive${value}`]
 }
 
 export const getConstellation = (name, value) => {
-    const character = require(`../data/English/constellations/${name}.json`);
-    return character[`constellation${value}`]
+    let character;
+    if(name === "aether" || name === "lumine"){
+        character = require(`../data/English/constellations/traveleranemo.json`);
+    }else{
+        character = require(`../data/English/constellations/${name}.json`);
+    }
+    return character[`c${value}`]
 }
