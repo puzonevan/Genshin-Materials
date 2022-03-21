@@ -31,6 +31,26 @@ export function TalentsAscend(props){
         return totals;
     }
 
+    const getAscensionMaterials = () => {
+        if(Object.keys(ascension).length === 0) return {};
+        const totals = {};
+        for(let i = 0; i < ascendLevel; i++){
+            let level = Object.keys(ascension)[i]
+            const itemSet = ascension[level];
+
+            itemSet.forEach(item => {
+                let { name, count } = item;
+                if(Object.keys(totals).includes(name)){
+                    totals[name] = totals[name] + (count * 3);
+                }
+                else{
+                    totals[name] = count * 3;
+                }
+            });
+        }
+        return totals;
+    }
+
     useEffect(() => {
         console.log(`talent: ${talentLevel}`);
         console.log(`ascend: ${ascendLevel}`);
@@ -54,7 +74,7 @@ export function TalentsAscend(props){
 
             <Display 
                 name={"Ascension"} 
-                materials={getTalentMaterials()}
+                materials={getAscensionMaterials()}
                 level={ascendLevel}
             />
             <Menu 
