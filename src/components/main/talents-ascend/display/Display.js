@@ -5,7 +5,7 @@ import { Material } from '../material/Material';
 export function Display(props) {
 
     const { level, name, materials } = props;
-    const multiplier = name === "Talents" ? 3 : 1;
+    let sortedList = Object.keys(materials).sort();
 
     const createMaterial = (name, count) => {
         return (
@@ -14,28 +14,14 @@ export function Display(props) {
             </li>
         );
     };
-
-    const totals = {};
-    for(let key in materials){
-        materials[key].forEach(item => {
-            let { name, count } = item;
-            if(Object.keys(totals).includes(name)){
-                totals[name] = totals[name] + (count * multiplier);
-            }
-            else{
-                totals[name] = count * multiplier;
-            }
-        });
-    };
-    let sortedKeys = Object.keys(totals).sort();
-
-    const talentList = sortedKeys.map(name => createMaterial(name, totals[name]));
+    
+    const materialsList = sortedList.map(name => createMaterial(name, materials[name]));
 
     return (
         <section className="materials">
             <h2>{name}</h2>
             <ul className="materials-list">
-                {talentList}
+                {materialsList}
             </ul>
         </section>
     )

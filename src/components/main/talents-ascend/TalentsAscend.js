@@ -8,8 +8,28 @@ import { Menu } from './menu/Menu';
 export function TalentsAscend(props){
 
     const { talents, ascension } = props;
-    const [talentLevel, setTalentLevel] = useState(-1);
-    const [ascendLevel, setAscendLevel] = useState(-1);
+    const [talentLevel, setTalentLevel] = useState(10);
+    const [ascendLevel, setAscendLevel] = useState(6);
+
+    const getTalentMaterials = () => {
+        if(Object.keys(talents).length === 0) return {};
+        const totals = {};
+        for(let i = 0; i < talentLevel - 1; i++){
+            let level = Object.keys(talents)[i]
+            const itemSet = talents[level];
+
+            itemSet.forEach(item => {
+                let { name, count } = item;
+                if(Object.keys(totals).includes(name)){
+                    totals[name] = totals[name] + (count * 3);
+                }
+                else{
+                    totals[name] = count * 3;
+                }
+            });
+        }
+        return totals;
+    }
 
     useEffect(() => {
         console.log(`talent: ${talentLevel}`);
@@ -23,7 +43,7 @@ export function TalentsAscend(props){
         <section className="talents-ascend" id="talents-ascend">
             <Display 
                 name={"Talents"} 
-                materials={talents}
+                materials={getTalentMaterials()}
                 level={talentLevel}
             />
             <Menu 
@@ -34,7 +54,7 @@ export function TalentsAscend(props){
 
             <Display 
                 name={"Ascension"} 
-                materials={ascension}
+                materials={getTalentMaterials()}
                 level={ascendLevel}
             />
             <Menu 
