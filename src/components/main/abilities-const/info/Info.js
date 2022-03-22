@@ -1,11 +1,14 @@
 import React from 'react';
 
 export function Info(props){
+
+    const { currentAbility } = props;
+
     return (
         <section>
-            <h3>Ability Name</h3>
+            <h3>{currentAbility["name"]}</h3>
             <hr />
-            <p>Description</p>
+            <p>{currentAbility["info"] || currentAbility["effect"]}</p>
             <video>
                 Soon to be video
             </video>

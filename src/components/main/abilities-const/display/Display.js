@@ -4,11 +4,11 @@ export function Display(props){
 
     const { abilities, changeCurrentAbility } = props;
 
-    const createAbility = (name) => {
+    const createAbility = (ability) => {
         return (
-            <figure key={name}>
+            <figure key={ability["name"]} onClick={() => changeCurrentAbility(ability)}>
                 <img src="" alt=""/>
-                <figcaption>{name}</figcaption>
+                <figcaption>{ability["name"]}</figcaption>
             </figure>
         );
     };
@@ -16,7 +16,7 @@ export function Display(props){
     return (
         <div>
             <h2 hidden>Abilities</h2>
-            {abilities.map(ability => createAbility(ability["name"]))}
+            {abilities.map(ability => createAbility(ability))}
         </div>
     )
 }

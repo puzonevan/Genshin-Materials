@@ -31,7 +31,7 @@ export function AbilitiesConst(props){
         console.log(currentAbility);
     })
 
-    const changeCurrentAbility = (name) => setCurrentAbility(name);
+    const changeCurrentAbility = (ability) => setCurrentAbility(ability);
 
     return (
         <section>
