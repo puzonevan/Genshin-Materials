@@ -13,7 +13,7 @@ export function Profile(props) {
         <section className="profile" id="profile">
             {/* Main Image */}
             <div className="image-container" >
-                <img src={image} alt="Character Bottom Half" width="500" height="1000"/>
+                <img src={image} alt="Character Bottom Half"/>
             </div>
             {/*  Description */}
             <Description 

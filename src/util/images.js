@@ -9,7 +9,7 @@ export const getElementImage = (element) => {
 }
 
 export const getCharacterImage = (name) => {
-    return characters[name]["portrait"];
+    return characters[name]["cover1"];
 }
 
 export const getMaterialImage = (name) => {
