@@ -1,8 +1,8 @@
 {
     "aether": {
         "weapons": [
-            "weapon1", 
-            "weapon2", 
+            "ironsting", 
+            "sacrificialsword", 
             "weapon3"
         ],
         "artifacts": [
