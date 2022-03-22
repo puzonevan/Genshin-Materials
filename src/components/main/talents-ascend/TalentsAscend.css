@@ -1,0 +1,8 @@
+.talents-ascend{
+    background: no-repeat url('./liyue-materials.png');
+    background-position: 20% 20%;
+}
+
+.talents-ascend h2{
+    margin: 0;
+}

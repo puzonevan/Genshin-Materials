@@ -1,4 +1,5 @@
 import React from 'react';
+import './AbilitiesConst.css';
 import { useState, useEffect } from 'react';
 import { Display } from './display/Display';
 import { Info } from './info/Info';
@@ -34,7 +35,7 @@ export function AbilitiesConst(props){
     const changeCurrentAbility = (ability) => setCurrentAbility(ability);
 
     return (
-        <section>
+        <section className="abilities-constellations" id="abilities-constellations">
             <Display 
                 abilities={abilities}
                 changeCurrentAbility={changeCurrentAbility}
