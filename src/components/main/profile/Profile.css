@@ -3,6 +3,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: no-repeat url('./liyue-main.png');
+    background-position: 50% 45%;
 }
 #profile .image-container{
     position: absolute;
