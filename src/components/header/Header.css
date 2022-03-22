@@ -1,6 +1,8 @@
 header{
     width: 40vw;
     height: 100vh;
+    position: absolute;
+    z-index: 5;
 }
 
 h1{

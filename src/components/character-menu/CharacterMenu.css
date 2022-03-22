@@ -15,4 +15,12 @@
 
 .character-menu figcaption{
     font-size: 24px;
+    transition: font-size .5s;
+    transition: color .5s;
+    text-transform: uppercase;
+    margin: 0 6px;
+}
+.character-menu figcaption:hover{
+    cursor: pointer;
+    color: gold;
 }
