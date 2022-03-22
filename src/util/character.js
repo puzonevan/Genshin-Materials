@@ -44,6 +44,7 @@ export const getConstellation = (name, value) => {
 }
 
 export const getElement = (name) => {
+    name = name.toLowerCase().replace(/\s/g, '');
     if(name === "aether" || name === "lumine") return "";
     
     let character = require(`../data/English/characters/${name}.json`);

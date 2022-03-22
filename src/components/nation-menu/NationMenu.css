@@ -1,9 +1,25 @@
-#nation-menu{
+.nation-menu{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#nation-menu figcaption{
-    font-size: 1rem;
+.nation-menu figure{
+    padding: 0; 
+    margin: 0 12px;
 }
+
+.nation-menu figcaption{
+    font-size: 12px;
+    text-align: center;
+}
+
+.nation-menu img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+
+
+

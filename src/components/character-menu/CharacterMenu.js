@@ -8,20 +8,20 @@ export function CharacterMenu(props){
     const { characters, changeCurrentCharacter, changeCharacterInfo } = props;
 
     const handleCharacterChange = (name, event) =>{
+        name = name.toLowerCase().replace(/\s/g, '');
         event.preventDefault();
         changeCurrentCharacter(name);
         changeCharacterInfo(require(`../../data/English/characters/${name}.json`))
     };
-    
 
     const characterList = characters.map((character) => {
         return (
             
             <li 
-                onClick={(e) => handleCharacterChange(character.toLowerCase().replace(/\s/g, ''), e)}
-                key={`${character.toLowerCase().replace(/\s/g, '')}`}>
+                onClick={(e) => handleCharacterChange(character, e)}
+                key={character}>
                 <figure>
-                    <img src={getElementImage(getElement(character.toLowerCase().replace(/\s/g, '')))} width="64" height="64"/>
+                    <img src={getElementImage(getElement(character))} width="32" height="32" alt="element"/>
                     <figcaption>{character}</figcaption>
                 </figure>
             </li>
