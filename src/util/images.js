@@ -2,7 +2,8 @@ const elements = require('../data/image/elements.json');
 const characters = require('../data/image/characters.json');
 const materials = require('../data/image/materials.json');
 
-export const getElement = (element) => {
+export const getElementImage = (element) => {
+    if(element === "") return "";
     if(element === "None") return "";
     return elements[element.toLowerCase()]["wikia"];
 }

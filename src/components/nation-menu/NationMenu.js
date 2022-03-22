@@ -4,8 +4,6 @@ import mondstadt from './mondstadt-symbol.png';
 import liyue from './liyue-symbol.png';
 import inazuma from './inazuma-symbol.png';
 
-
-
 export function NationMenu(props){
     
     const { characterIndex, changeCharacters, changeNation } = props;
