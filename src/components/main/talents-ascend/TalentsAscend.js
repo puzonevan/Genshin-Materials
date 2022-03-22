@@ -60,28 +60,30 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend">
-            <Display 
-                name={"Talents"} 
-                materials={getTalentMaterials()}
-            />
-            <Menu 
-                name={"talent"} 
-                low={2} high={10}
-                changeLevel={changeTalentLevel}
-            />
-
-            <Display 
-                name={"Ascension"} 
-                materials={getAscensionMaterials()}
-            />
-            <Menu 
-                name={"ascend"} 
-                low={1} high={6}
-                changeLevel={changeAscendLevel}
-            />
-
             <img src="" alt="img1" />
             <img src="" alt="img2" />
+            <div class="display-menu">
+                <Display 
+                    name={"Talents"} 
+                    materials={getTalentMaterials()}
+                />
+                <Menu 
+                    name={"talent"} 
+                    low={2} high={10}
+                    changeLevel={changeTalentLevel}
+                />
+
+                <Display 
+                    name={"Ascension"} 
+                    materials={getAscensionMaterials()}
+                />
+                <Menu 
+                    name={"ascend"} 
+                    low={1} high={6}
+                    changeLevel={changeAscendLevel}
+                />
+            </div>
+            
         </section>
     );
 };

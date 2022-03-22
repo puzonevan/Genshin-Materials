@@ -35,7 +35,7 @@ export function AbilitiesConst(props){
     const changeCurrentAbility = (ability) => setCurrentAbility(ability);
 
     return (
-        <section className="abilities-constellations" id="abilities-constellations">
+        <section className="abilities-constellations" id="abilities-constellations" hidden>
             <Display 
                 abilities={abilities}
                 changeCurrentAbility={changeCurrentAbility}
