@@ -7,17 +7,19 @@ import { getTalentCosts, getAscendCosts } from '../../util/character';
 
 export function Main(props) {
 
-    const { currentCharacter, characterInfo } = props;
+    const { nation, currentCharacter, characterInfo } = props;
     const talents = getTalentCosts(currentCharacter);
     const ascension = getAscendCosts(currentCharacter);
 
     return(
         <main>
             <Profile 
+                nation={nation}
                 currentCharacter={currentCharacter} 
                 characterInfo={characterInfo}
             />
             <TalentsAscend 
+                nation={nation}
                 talents={talents}
                 ascension={ascension}
             />

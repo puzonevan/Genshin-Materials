@@ -62,7 +62,7 @@ export function TalentsAscend(props){
         <section className="talents-ascend" id="talents-ascend">
             <img src="" alt="img1" />
             <img src="" alt="img2" />
-            <div class="display-menu">
+            <div className="display-menu">
                 <Display 
                     name={"Talents"} 
                     materials={getTalentMaterials()}
