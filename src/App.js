@@ -42,7 +42,7 @@ export function App(props){
                 changeCharacterInfo={changeCharacterInfo}
             />
             <Main 
-                nation={nation}
+                nation={characterInfo["region"]}
                 currentCharacter={currentCharacter}
                 characterInfo={characterInfo}
             />
