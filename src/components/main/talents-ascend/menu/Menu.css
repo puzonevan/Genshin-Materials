@@ -1,0 +1,20 @@
+.menu{
+    margin: 6px auto;
+}
+.menu:hover{
+    cursor: pointer;
+}
+
+.menu td{
+    padding: 6px 0;
+    transition: .2s;
+}
+.menu td:hover{
+    color: gold;
+}
+
+.menu td+td:before {
+    padding: 8px;
+    color: white;
+    content: "\00B7";
+}

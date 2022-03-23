@@ -83,7 +83,6 @@ export function TalentsAscend(props){
                     changeLevel={changeAscendLevel}
                 />
             </div>
-            
         </section>
     );
 };

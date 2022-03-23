@@ -5,6 +5,7 @@
     align-items: center;
     background: no-repeat url('./liyue-main.png');
     background-position: 50% 45%;
+    background-size: cover;
 }
 #profile .image-container{
     position: absolute;

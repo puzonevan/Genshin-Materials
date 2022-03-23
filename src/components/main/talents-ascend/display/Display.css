@@ -1,17 +1,24 @@
+.materials h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 0;
+    letter-spacing: 3px;
+}
+
 .materials-list {
     list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    width: 85%;
     height: 30vh;
     overflow: hidden;
-    
+    margin: 6px auto;
 }
 
 .materials-list li{
-    width: 15%;
+    width: 20%;
     height: auto;
     display: block;
     overflow: hidden;

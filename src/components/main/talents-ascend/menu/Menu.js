@@ -10,7 +10,7 @@ export function Menu(props){
     }
 
     return (
-        <table>
+        <table className="menu">
             <tbody>
                 <tr>
                     {options}
