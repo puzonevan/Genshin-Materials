@@ -19,7 +19,7 @@ export function Display(props) {
 
     return (
         <section className="materials">
-            <h2>{name}</h2>
+            <h2><span>{name}</span></h2>
             <ul className="materials-list">
                 {materialsList}
             </ul>

@@ -5,6 +5,28 @@
     letter-spacing: 3px;
 }
 
+.materials h2 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.materials h2:before,
+.materials h2:after {
+    content: '';
+    border-top: 1px solid;
+    color: gold;    
+    margin: 0 15px 0 0;
+    flex: 1 0 20px;
+}
+
+.materials h2:after {
+    margin: 0 0 0 20px;
+}
+
 .materials-list {
     list-style: none;
     display: flex;
