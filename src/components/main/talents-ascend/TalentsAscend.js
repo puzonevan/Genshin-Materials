@@ -53,7 +53,7 @@ export function TalentsAscend(props){
                 }
             });
         }
-        return sortMaterials(totals);
+        return totals;
     }
 
     const getAscensionMaterials = () => {
