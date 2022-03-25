@@ -5,7 +5,7 @@ import { Material } from '../material/Material';
 export function Display(props) {
 
     const { name, materials } = props;
-    let sortedList = Object.keys(materials).sort();
+    console.log(materials);
 
     const createMaterial = (name, count) => {
         return (
@@ -15,7 +15,7 @@ export function Display(props) {
         );
     };
     
-    const materialsList = sortedList.map(name => createMaterial(name, materials[name]));
+    const materialsList = Object.keys(materials).map(name => createMaterial(name, materials[name]));
 
     return (
         <section className="materials">
