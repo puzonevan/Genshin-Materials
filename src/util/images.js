@@ -2,6 +2,7 @@ const elements = require('../data/image/elements.json');
 const characters = require('../data/image/characters.json');
 const materials = require('../data/image/materials.json');
 const bosses = require('../data/image/bosses.json');
+const indexMaterial = require('../data/index/materials.json')
 
 export const getElementImage = (element) => {
     if(element === "") return elements["anemo"]["wikia"];
@@ -16,7 +17,13 @@ export const getCharacterImage = (name) => {
 export const getMaterialImage = (name) => {
     return materials[name.toLowerCase().replace(/\s/g, '').replace(/'/g, '')]["fandom"];
 }
+export const getMaterialAlt = (name) => {
+    return indexMaterial["namemap"][name.toLowerCase().replace(/\s/g, '').replace(/'/g, '')];
+}
 
 export const getBossImage = (category, name) => {
-    return bosses[category][name];
+    let image =  bosses[category][name];
+    console.log(image);
+    fetch(image)
+    .then(response => { return response });
 }

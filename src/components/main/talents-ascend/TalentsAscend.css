@@ -2,13 +2,26 @@
     background: no-repeat url('./liyue-materials.png');
     background-position: 20% 20%;
     background-size: cover;
+    position: relative;
 }
 
 .talents-ascend h2{
     margin: 0;
 }
-.talents-ascend > img{
+.talents-ascend #normal-boss{
     position: absolute;
+    left: 0;
+    top: 0;
+}
+.talents-ascend #weekly-boss{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.talents-ascend #normal-boss, .talents-ascend #weekly-boss{
+    height: 50vh;
+    width: auto;
+    image-rendering: auto;
 }
 
 .display-menu{

@@ -15,7 +15,7 @@ export function TalentsAscend(props){
     const [talentLevel, setTalentLevel] = useState(10);
     const [ascendLevel, setAscendLevel] = useState(6);
 
-    const normalBoss = getBossImage("normal", "anemohypostasis");
+    const normalBoss = getBossImage("normal", "primogeovishap");
     const weeklyBoss = getBossImage("weekly", "dvalin");
     console.log(normalBoss);
     console.log(weeklyBoss);
@@ -86,8 +86,8 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend" style={background}>
-            <img id="normal-boss" src={normalBoss} alt="normal boss" />
-            <img id="weekly-boss" src={weeklyBoss} alt="weekly boss" />
+            <img id="normal-boss" src="" alt="normal boss" />
+            <img id="weekly-boss" src="" alt="weekly boss" width="800" height="600"/>
             <div className="display-menu">
                 <Display 
                     name={"Talents"} 
