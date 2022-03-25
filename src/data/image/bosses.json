@@ -1,27 +1,27 @@
 {
     "normal": {
-        "anemohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Enemy_Anemo_Hypostasis.png/revision/latest?cb=20210817033644",
-        "coraldefenders": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Enemy_Primordial_Bathysmal_Vishap.png/revision/latest?cb=20220113035647",
-        "cryohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Cryo_Hypostasis.png/revision/latest?cb=20210817033529",
-        "cryoregisvine": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Enemy_Cryo_Regisvine.png/revision/latest/scale-to-width-down/1200?cb=20210523095256", 
-        "electrohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Enemy_Electro_Hypostasis.png/revision/latest?cb=20210817033929", 
-        "geohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Enemy_Geo_Hypostasis.png/revision/latest?cb=20210817033300",
-        "goldenwolflord": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Enemy_Golden_Wolflord.png/revision/latest?cb=20211113043309",
-        "hydrohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Enemy_Hydro_Hypostasis.png/revision/latest?cb=20210827094314", 
-        "maguukenki": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Enemy_Maguu_Kenki.png/revision/latest?cb=20211005182254", 
-        "perpetualmechanicalarray": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Enemy_Perpetual_Mechanical_Array.png/revision/latest?cb=20211006065506", 
-        "primogeovishap": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Enemy_Primo_Geovishap.png/revision/latest?cb=20210625221447", 
-        "pyrohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Pyro_Hypostasis.png/revision/latest?cb=20210817033405", 
-        "pyroregisvine": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Enemy_Pyro_Regisvine.png/revision/latest/scale-to-width-down/1200?cb=20210523095244", 
-        "rhodeiaofloch": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Enemy_Oceanid.png/revision/latest?cb=20210718074221", 
-        "thundermanifestation": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Thunder_Manifestation.png/revision/latest?cb=20211014101229"
-    }, 
+        "anemohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/3/37/Enemy_Anemo_Hypostasis.png",
+        "coraldefenders": "https://static.wikia.nocookie.net/gensin-impact/images/3/34/Enemy_Primordial_Bathysmal_Vishap.png",
+        "cryohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Cryo_Hypostasis.png",
+        "cryoregisvine": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Enemy_Cryo_Regisvine.png", 
+        "electrohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/1/1b/Enemy_Electro_Hypostasis.png", 
+        "geohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Enemy_Geo_Hypostasis.png",
+        "goldenwolflord": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Enemy_Golden_Wolflord.png",
+        "hydrohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/1/13/Enemy_Hydro_Hypostasis.png", 
+        "maguukenki": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Enemy_Maguu_Kenki.png", 
+        "perpetualmechanicalarray": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Enemy_Perpetual_Mechanical_Array.png", 
+        "primogeovishap": "https://static.wikia.nocookie.net/gensin-impact/images/4/41/Enemy_Primo_Geovishap.png", 
+        "pyrohypostasis": "https://static.wikia.nocookie.net/gensin-impact/images/d/d0/Enemy_Pyro_Hypostasis.png", 
+        "pyroregisvine": "https://static.wikia.nocookie.net/gensin-impact/images/f/f0/Enemy_Pyro_Regisvine.png", 
+        "rhodeiaofloch": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Enemy_Oceanid.png", 
+        "thundermanifestation": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Enemy_Thunder_Manifestation.png"
+}, 
     "weekly": {
-        "azhdaha": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Enemy_Azhdaha.png/revision/latest?cb=20210508225637", 
-        "dvalin": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Dvalin.png/revision/latest?cb=20210426200736", 
-        "childe": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Childe_Foul_Legacy_Transformation.png/revision/latest?cb=20210703134306", 
-        "signora": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Enemy_Signora_Cropped.png/revision/latest?cb=20210919203454", 
-        "andrius": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Andrius.png/revision/latest?cb=20210426192800", 
+        "azhdaha": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Enemy_Azhdaha.png", 
+        "dvalin": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Dvalin.png", 
+        "childe": "https://static.wikia.nocookie.net/gensin-impact/images/3/32/Childe_Foul_Legacy_Transformation.png", 
+        "signora": "https://static.wikia.nocookie.net/gensin-impact/images/a/a6/Enemy_Signora_Cropped.png", 
+        "andrius": "https://static.wikia.nocookie.net/gensin-impact/images/6/6a/Andrius.png", 
         "raiden": "http://static.marriedgames.com.br/73bcd7de-raiden2.png"
     }
 }

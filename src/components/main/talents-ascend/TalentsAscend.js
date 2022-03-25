@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import './TalentsAscend.css';
 import { Display } from './display/Display';
 import { Menu } from './menu/Menu';
+import { getBossImage } from '../../../util/images';
 
 import mondstadtBackground from './mondstadt-materials.png';
 import liyueBackground from './liyue-materials.png';
@@ -13,6 +14,11 @@ export function TalentsAscend(props){
     const { nation, talents, ascension } = props;
     const [talentLevel, setTalentLevel] = useState(10);
     const [ascendLevel, setAscendLevel] = useState(6);
+
+    const normalBoss = getBossImage("normal", "anemohypostasis");
+    const weeklyBoss = getBossImage("weekly", "dvalin");
+    console.log(normalBoss);
+    console.log(weeklyBoss);
 
     let background = { backgroundImage: `url(${liyueBackground})`};
 
@@ -80,8 +86,8 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend" style={background}>
-            <img id="normal-boss" src="" alt="normal boss" />
-            <img id="weekly-boss" src="" alt="weekly boss" />
+            <img id="normal-boss" src={normalBoss} alt="normal boss" />
+            <img id="weekly-boss" src={weeklyBoss} alt="weekly boss" />
             <div className="display-menu">
                 <Display 
                     name={"Talents"} 
