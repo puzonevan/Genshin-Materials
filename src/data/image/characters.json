@@ -6,6 +6,7 @@
 		"icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerBoy.png",
 		"sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_PlayerBoy.png",
 		"hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/762377aee992cb1dfd4e0e0a7911096d.png",
+		"cover1": "https://wallpapercave.com/wp/wp8932715.png",
 		"nameicon": "UI_AvatarIcon_PlayerBoy",
 		"nameiconcard": "UI_AvatarIcon_PlayerBoy_Card",
 		"namesideicon": "UI_AvatarIcon_Side_PlayerBoy"
@@ -240,6 +241,7 @@
 		"icon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_icon/UI_AvatarIcon_PlayerGirl.png",
 		"sideicon": "https://upload-os-bbs.mihoyo.com/game_record/genshin/character_side_icon/UI_AvatarIcon_Side_PlayerGirl.png",
 		"hoyolab-avatar": "https://img-os-static.hoyolab.com/communityWeb/upload/f11f153ff86acab65e3610f73b0d1728.png",
+		"cover1": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96d4a0a0-1733-4468-94db-d3eade9b3a80/de7pg68-2590130a-cc64-4909-8002-663c53ccea07.png/v1/fill/w_1280,h_844,strp/lumine_new__render__webstrika__by_webstrika_de7pg68-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODQ0IiwicGF0aCI6IlwvZlwvOTZkNGEwYTAtMTczMy00NDY4LTk0ZGItZDNlYWRlOWIzYTgwXC9kZTdwZzY4LTI1OTAxMzBhLWNjNjQtNDkwOS04MDAyLTY2M2M1M2NjZWEwNy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.SUbPMKm-iZNfzfrYsR2lqY4JODgoKDOKyX01IhUEQwY", 
 		"nameicon": "UI_AvatarIcon_PlayerGirl",
 		"nameiconcard": "UI_AvatarIcon_PlayerGirl_Card",
 		"namesideicon": "UI_AvatarIcon_Side_PlayerGirl"

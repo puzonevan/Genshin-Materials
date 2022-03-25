@@ -12,7 +12,7 @@ export function App(props){
 
     const characterIndex = require('./data/index/characters.json');
 
-    const [nation, setNation] = useState('Liyue');
+    const [nation, setNation] = useState('Mondstadt');
     const [characters, setCharacters] = useState(['Aether', 'Lumine']);
     const [currentCharacter, setCurrentCharacter] = useState('aether');
 

@@ -55,7 +55,7 @@ export function Description(props){
             <hr />
             <div>
                 {/* Icons */}
-                <img src={element} alt="character element" width="64" height="64"/>
+                <img src={element} alt="character element" width="52" height="52"/>
                 <img src={weaponImage(weapon.toLowerCase())} alt="character weapon" width="64" height="64"/>
                 <img src={nationImage(region.toLowerCase())} alt="character nation" width="64" height="64"/>
             </div>

@@ -3,8 +3,8 @@ const characters = require('../data/image/characters.json');
 const materials = require('../data/image/materials.json');
 
 export const getElementImage = (element) => {
-    if(element === "") return "";
-    if(element === "None") return "";
+    if(element === "") return elements["anemo"]["wikia"];
+    if(element === "None") return elements["anemo"]["wikia"];
     return elements[element.toLowerCase()]["wikia"];
 }
 
