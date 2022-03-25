@@ -80,8 +80,8 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend" style={background}>
-            <img src="" alt="img1" />
-            <img src="" alt="img2" />
+            <img id="normal-boss" src="" alt="normal boss" />
+            <img id="weekly-boss" src="" alt="weekly boss" />
             <div className="display-menu">
                 <Display 
                     name={"Talents"} 
