@@ -4,7 +4,7 @@ import './TalentsAscend.css';
 import { Display } from './display/Display';
 import { Menu } from './menu/Menu';
 import { getBossImage } from '../../../util/images';
-import { sortMaterials } from '../../../util/materials';
+import { sortAscendMaterials, sortTalentMaterials } from '../../../util/materials';
 
 import mondstadtBackground from './mondstadt-materials.png';
 import liyueBackground from './liyue-materials.png';
@@ -53,7 +53,7 @@ export function TalentsAscend(props){
                 }
             });
         }
-        return totals;
+        return sortTalentMaterials(totals);
     }
 
     const getAscensionMaterials = () => {
@@ -73,7 +73,7 @@ export function TalentsAscend(props){
                 }
             });
         }
-        return totals;
+        return sortAscendMaterials(totals);
     }
 
     useEffect(() => {

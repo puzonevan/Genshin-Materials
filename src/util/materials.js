@@ -1,7 +1,12 @@
 const talentsList = [
     "Insignia", 
     "Mask", 
-    "Scroll"
+    "Scroll", 
+    "Arrowhead", 
+    "Slime", 
+    "Nectar",
+    "Spectral",
+    "Handguard"
 ]
 
 const bookList = [
@@ -10,18 +15,23 @@ const bookList = [
     "Philosophies of"
 ]
 
-const sortMaterials = (materials) => {
+const gemsList = [
+    "Sliver", 
+    "Fragment",
+    "Chunk", 
+    "Gemstone"
+]
 
-}
 
-const sortTalentMaterials = (materials) => {
+
+export const sortTalentMaterials = (materials) => {
     
     // Filter books
     const books = {
         ...filterByName(materials, bookList[0]), 
         ...filterByName(materials, bookList[1]),
         ...filterByName(materials, bookList[2])
-    }
+    };
     // Remove books from materials
     Object.keys(books).forEach(book => {
         delete materials[book];
@@ -38,11 +48,44 @@ const sortTalentMaterials = (materials) => {
     // Remove talents from materials
     Object.keys(talents).forEach(talent => {
         delete materials[talent];
-    })
+    });
 
     return {
         ...sortByNumber(materials), 
         ...sortByNumber(books), 
+        ...sortByNumber(talents)
+    }
+}
+
+export const sortAscendMaterials = (materials) => {
+    // Filter gems
+    const gems = {
+        ...filterByName(materials, gemsList[0]), 
+        ...filterByName(materials, gemsList[1]),
+        ...filterByName(materials, gemsList[2]),
+        ...filterByName(materials, gemsList[3])
+    }
+    // Remove books from materials
+    Object.keys(gems).forEach(gem => {
+        delete materials[gem];
+    });
+
+    // Filter talents
+    let talents = {};
+    talentsList.forEach(talent => {
+        let filter = filterByName(materials, talent);
+        if(Object.keys(filter).length > 0){
+            talents = filter;
+        }
+    }); 
+    // Remove talents from materials
+    Object.keys(talents).forEach(talent => {
+        delete materials[talent];
+    });
+
+    return {
+        ...sortByNumber(materials),
+        ...sortByNumber(gems), 
         ...sortByNumber(talents)
     }
 }
@@ -113,4 +156,5 @@ let testAscend = {
 // console.log(sortMaterials(test));
 // console.log(filterByName(test, "Sliver"));
 // console.log(filterByName(test, "Insignia"));
-console.log(sortTalentMaterials(testTalent));
+// console.log(sortTalentMaterials(testTalent));
+// console.log(sortAscendMaterials(testAscend));
