@@ -3,6 +3,9 @@ header{
     height: 100vh;
     position: absolute;
     z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h1{

@@ -12,6 +12,7 @@
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 1;
 }
 .talents-ascend #weekly-boss{
     position: absolute;
@@ -19,7 +20,7 @@
     bottom: 0;
 }
 .talents-ascend #normal-boss, .talents-ascend #weekly-boss{
-    height: 50vh;
+    height: 60vh;
     width: auto;
     image-rendering: auto;
 }

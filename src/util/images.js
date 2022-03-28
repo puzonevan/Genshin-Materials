@@ -1,7 +1,6 @@
 const elements = require('../data/image/elements.json');
 const characters = require('../data/image/characters.json');
 const materials = require('../data/image/materials.json');
-const bosses = require('../data/image/bosses.json');
 const indexMaterial = require('../data/index/materials.json')
 
 export const getElementImage = (element) => {
@@ -19,11 +18,4 @@ export const getMaterialImage = (name) => {
 }
 export const getMaterialAlt = (name) => {
     return indexMaterial["namemap"][name.toLowerCase().replace(/\s/g, '').replace(/'/g, '')];
-}
-
-export const getBossImage = (category, name) => {
-    let image =  bosses[category][name];
-    console.log(image);
-    fetch(image)
-    .then(response => { return response });
 }

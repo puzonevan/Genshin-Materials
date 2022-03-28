@@ -15,8 +15,8 @@ export function Material(props){
     return (
        
         <figure className="material-container">
-            <a href={link} target="_blank"><img src={image} alt={alt} /></a>
-            <figcaption><span>x{count}</span></figcaption>
+            <a href={link} target="_blank" rel="noopener noreferrer"><img src={image} alt={alt} /></a>
+            <figcaption>x{count}</figcaption>
         </figure>
         
     );

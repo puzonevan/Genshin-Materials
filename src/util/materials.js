@@ -23,7 +23,6 @@ const gemsList = [
 ]
 
 
-
 export const sortTalentMaterials = (materials) => {
     
     // Filter books
@@ -127,30 +126,30 @@ function findSmallestCount(materials){
     return currentSmallKey;
 }
 
-let testTalent = {
-    "Mora": 4957500,
-    "Teachings of Gold": 9,
-    "Treasure Hoarder Insignia": 18,
-    "Guide to Gold": 63,
-    "Silver Raven Insignia": 66,
-    "Philosophies of Gold": 114,
-    "Golden Raven Insignia": 93,
-    "Dvalin's Sigh": 18,
-    "Crown of Insight": 3
-};
+// let testTalent = {
+//     "Mora": 4957500,
+//     "Teachings of Gold": 9,
+//     "Treasure Hoarder Insignia": 18,
+//     "Guide to Gold": 63,
+//     "Silver Raven Insignia": 66,
+//     "Philosophies of Gold": 114,
+//     "Golden Raven Insignia": 93,
+//     "Dvalin's Sigh": 18,
+//     "Crown of Insight": 3
+// };
 
-let testAscend = {
-    "Mora": 420000,
-    "Vajrada Amethyst Sliver": 1,
-    "Noctilucous Jade": 168,
-    "Treasure Hoarder Insignia": 18,
-    "Vajrada Amethyst Fragment": 9,
-    "Lightning Prism": 46,
-    "Silver Raven Insignia": 30,
-    "Vajrada Amethyst Chunk": 9,
-    "Golden Raven Insignia": 36,
-    "Vajrada Amethyst Gemstone": 6
-};
+// let testAscend = {
+//     "Mora": 420000,
+//     "Vajrada Amethyst Sliver": 1,
+//     "Noctilucous Jade": 168,
+//     "Treasure Hoarder Insignia": 18,
+//     "Vajrada Amethyst Fragment": 9,
+//     "Lightning Prism": 46,
+//     "Silver Raven Insignia": 30,
+//     "Vajrada Amethyst Chunk": 9,
+//     "Golden Raven Insignia": 36,
+//     "Vajrada Amethyst Gemstone": 6
+// };
 
 // console.log(findSmallestCount({ 'mora': 5, 'fruit': 8 }));
 // console.log(sortMaterials(test));

@@ -1,9 +1,10 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import andrius from './bossImages/Enemy_Azhdaha.webp';
+import anemo from './bossImages/Enemy_Anemo_Hypostasis.webp';
 import './TalentsAscend.css';
 import { Display } from './display/Display';
 import { Menu } from './menu/Menu';
-import { getBossImage } from '../../../util/images';
 import { sortAscendMaterials, sortTalentMaterials } from '../../../util/materials';
 
 import mondstadtBackground from './mondstadt-materials.png';
@@ -15,9 +16,6 @@ export function TalentsAscend(props){
     const { nation, talents, ascension } = props;
     const [talentLevel, setTalentLevel] = useState(10);
     const [ascendLevel, setAscendLevel] = useState(6);
-
-    const normalBoss = getBossImage("normal", "primogeovishap");
-    const weeklyBoss = getBossImage("weekly", "dvalin");
 
     let background = { backgroundImage: `url(${liyueBackground})`};
 
@@ -85,8 +83,8 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend" style={background}>
-            <img id="normal-boss" src="" alt="normal boss" />
-            <img id="weekly-boss" src="" alt="weekly boss" width="800" height="600"/>
+            <img id="normal-boss" src={andrius} alt="normal boss" />
+            <img id="weekly-boss" src={anemo} alt="weekly boss" width="800" height="600"/>
             <div className="display-menu">
                 <Display 
                     name={"Talents"} 
