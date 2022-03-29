@@ -11,13 +11,13 @@
 .talents-ascend #normal-boss{
     position: absolute;
     left: 0;
-    top: 0;
+    bottom: 0;
     z-index: 1;
 }
 .talents-ascend #weekly-boss{
     position: absolute;
     left: 0;
-    bottom: 0;
+    top: 0;
 }
 .talents-ascend #normal-boss, .talents-ascend #weekly-boss{
     height: 60vh;

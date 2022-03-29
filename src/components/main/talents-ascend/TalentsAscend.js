@@ -1,11 +1,11 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import andrius from './bossImages/Enemy_Azhdaha.webp';
-import anemo from './bossImages/Enemy_Anemo_Hypostasis.webp';
 import './TalentsAscend.css';
 import { Display } from './display/Display';
 import { Menu } from './menu/Menu';
+import { Boss } from './boss/Boss';
 import { sortAscendMaterials, sortTalentMaterials } from '../../../util/materials';
+
 
 import mondstadtBackground from './mondstadt-materials.png';
 import liyueBackground from './liyue-materials.png';
@@ -83,8 +83,8 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend" style={background}>
-            <img id="normal-boss" src={andrius} alt="normal boss" width="800" height="600"/>
-            <img id="weekly-boss" src={anemo} alt="weekly boss" width="800" height="600"/>
+            <Boss name={"normal-boss"} materials={getTalentMaterials()}/>
+            <Boss name={"weekly-boss"} materials={getAscensionMaterials()}/>
             <div className="display-menu">
                 <Display 
                     name={"Talents"} 
