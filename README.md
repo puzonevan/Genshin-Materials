@@ -1,71 +1,43 @@
-# Getting Started with Create React App
+# Genshin Materials 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Banner](./public/images/banner.png)
 
-## Available Scripts
+# Overview
+Genshin Impact is an adventure game with a variety of playable characters. In order to strengthen your characters and level them up, they require materials. Genshin Materials is a SPA(Single Page Application) that effectively display the materials and amounts needed for each character. 
 
-In the project directory, you can run:
+This site was formerly an MPA(Multi Page Application) using only HTML/CSS/JS and can be found: [here](https://genshinpages.netlify.app/)
 
-### `npm start`
+Check out the new Genshin Materials Page Below: 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+    <a href="https://genshin-materials.netlify.app/">Live Demo</a>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Tech Stack 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-### `npm test`
+# Problem 
+There are many Genshin information sites out there and they all portray the same or similar information. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Some only display the materials and not the amount you need.
 
-### `npm run build`
+Some display way too much information and statistics about the character. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+People even create their own pdfs or saveable images of the materials you need like below: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Diluc Materials](./public/images/materialexample.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I simplified these problems in an effective and practical way. 
 
-### `npm run eject`
+# Solution
+The site is divided into the following two sections: 
+![Main Section](/public/images/sitesection1.png)
+![Material Section](/public/images/sitesection2.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The first section, the home page or front page, is for navigating between the characters as well as a concise description of the current charracter displayed. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The second section, the materials, displays the necessary materials in order to fully max level the character. However, if you do not plan to fully max a character since most players do not, there is a menu specifically for selecting the level you desire. A feature not provided in many other sites. The boss images as well change according to the necessary bosses needed to defeat for the character to level. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+The minimal designs in combination with the interactive menus overall provides for a simple to use application. 

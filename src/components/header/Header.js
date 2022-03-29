@@ -9,7 +9,7 @@ export function Header(props) {
 
     return (
         <header>
-            <h1>Genshin Pages</h1>
+            <h1>Genshin Materials</h1>
             <NationMenu 
                 characterIndex={characterIndex}
                 changeNation={changeNation}
