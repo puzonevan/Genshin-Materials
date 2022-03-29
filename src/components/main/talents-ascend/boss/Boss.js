@@ -1,6 +1,6 @@
 import React from "react";
 import andrius from './bossImages/Andrius.webp';
-import childe from './bossImages/Childe_Foul_Legacy_Transformation.webp';
+import childe from './bossImages/Enemy_Childe.png';
 import anemoH from './bossImages/Enemy_Anemo_Hypostasis.webp';
 import azhdaha from './bossImages/Enemy_Azhdaha.webp';
 import cryoH from './bossImages/Enemy_Cryo_Hypostasis.webp';
