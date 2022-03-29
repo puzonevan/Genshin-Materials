@@ -83,7 +83,7 @@ export function TalentsAscend(props){
 
     return (
         <section className="talents-ascend" id="talents-ascend" style={background}>
-            <img id="normal-boss" src={andrius} alt="normal boss" />
+            <img id="normal-boss" src={andrius} alt="normal boss" width="800" height="600"/>
             <img id="weekly-boss" src={anemo} alt="weekly boss" width="800" height="600"/>
             <div className="display-menu">
                 <Display 
