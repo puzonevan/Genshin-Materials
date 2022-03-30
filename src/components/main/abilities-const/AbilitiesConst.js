@@ -1,6 +1,6 @@
 import React from 'react';
 import './AbilitiesConst.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Display } from './display/Display';
 import { Info } from './info/Info';
 import { getCombat, getConstellation, getPassive } from '../../../util/character';
@@ -27,10 +27,6 @@ export function AbilitiesConst(props){
     ];
 
     const [ currentAbility, setCurrentAbility ] = useState(abilities[0]);
-
-    useEffect(() => {
-        console.log(currentAbility);
-    })
 
     const changeCurrentAbility = (ability) => setCurrentAbility(ability);
 
