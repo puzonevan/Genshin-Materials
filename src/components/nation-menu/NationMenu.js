@@ -6,11 +6,10 @@ import inazuma from './inazuma-symbol.png';
 
 export function NationMenu(props){
     
-    const { characterIndex, changeCharacters, changeNation } = props;
+    const { characterIndex, changeCharacters } = props;
 
     const handleChangeNation = (e, nation) => {
         e.preventDefault();
-        changeNation(nation);
         const newCharacters = characterIndex["categories"][nation].map(character => characterIndex["namemap"][character]);
         changeCharacters(newCharacters);
     }
