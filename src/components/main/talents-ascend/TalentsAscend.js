@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './TalentsAscend.css';
 import { Display } from './display/Display';
 import { Menu } from './menu/Menu';
@@ -74,9 +74,6 @@ export function TalentsAscend(props){
         return sortAscendMaterials(totals);
     }
 
-    useEffect(() => {
-        console.log("Menu Change");
-    });
 
     const changeTalentLevel = (level) => setTalentLevel(level);
     const changeAscendLevel = (level) => setAscendLevel(level);

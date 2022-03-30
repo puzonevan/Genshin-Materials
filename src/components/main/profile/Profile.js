@@ -7,8 +7,6 @@ import mondstadtBackground from './mondstadt-main.png';
 import liyueBackground from './liyue-main.png';
 import inazumaBackground from './inazuma-main.png';
 
-
-
 export function Profile(props) {
     
     const { nation, currentCharacter, characterInfo } = props;

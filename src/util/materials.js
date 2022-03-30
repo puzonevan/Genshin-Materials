@@ -105,7 +105,6 @@ function sortByNumber(materials){
     let nMaterials = {};
 
     while(Object.keys(materials).length > 0){
-        console.log(materials);
         let smallestKey = findSmallestCount(materials);
         nMaterials[smallestKey] = materials[smallestKey];
         delete materials[smallestKey];

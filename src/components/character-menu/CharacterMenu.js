@@ -5,18 +5,18 @@ import { getElement } from '../../util/character';
 
 
 export function CharacterMenu(props){
+
     const { characters, changeCurrentCharacter, changeCharacterInfo } = props;
 
     const handleCharacterChange = (name, event) =>{
         name = name.toLowerCase().replace(/\s/g, '');
         event.preventDefault();
         changeCurrentCharacter(name);
-        changeCharacterInfo(require(`../../data/English/characters/${name}.json`))
+        changeCharacterInfo(require(`../../data/English/characters/${name}.json`));
     };
 
     const characterList = characters.map((character) => {
         return (
-            
             <li 
                 onClick={(e) => handleCharacterChange(character, e)}
                 key={character}>

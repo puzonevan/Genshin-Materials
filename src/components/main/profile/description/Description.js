@@ -46,7 +46,6 @@ export function Description(props){
         }
     }
 
-
     return (
         <section className="description" id="description">
             <h2>{characterInfo["name"]}</h2>

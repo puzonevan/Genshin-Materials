@@ -7,8 +7,7 @@ export function Header(props) {
 
     const characterIndex = require('../../data/index/characters.json');
 
-    const { characters, changeCharacters, 
-             changeCurrentCharacter, changeCharacterInfo } = props;
+    const { characters, changeCharacters, changeCurrentCharacter, changeCharacterInfo } = props;
 
     return (
         <header>

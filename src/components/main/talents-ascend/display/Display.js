@@ -5,7 +5,6 @@ import { Material } from '../material/Material';
 export function Display(props) {
 
     const { name, materials } = props;
-    console.log(materials);
 
     const createMaterial = (name, count) => {
         return (
