@@ -22,4 +22,10 @@
 }
 
     
-
+@media (max-width: 767.98px) { 
+    
+    .image-container img{
+        display: none;
+    }
+    
+}

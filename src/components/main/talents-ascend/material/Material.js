@@ -1,5 +1,4 @@
 import React from 'react';
-import img from './material-test.png';
 import './Material.css';
 import { getMaterialImage, getMaterialAlt } from '../../../../util/images';
 import { getMaterialLink } from '../../../../util/url';

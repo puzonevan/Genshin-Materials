@@ -22,7 +22,6 @@
 .talents-ascend #normal-boss, .talents-ascend #weekly-boss{
     height: 60vh;
     width: auto;
-    image-rendering: auto;
 }
 
 .display-menu{
@@ -35,4 +34,14 @@
     justify-content: center;
     background: rgba(25, 25, 25, 0.9);
     box-shadow: 0px 4px 50px 25px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767.98px) { 
+    .talents-ascend #normal-boss, .talents-ascend #weekly-boss{
+        display: none;
+    }
+    .display-menu{
+        width: 90%;
+        margin: 0 auto;
+    }
 }
