@@ -12,10 +12,20 @@ import polearm from './Icon_Polearm.png';
 
 export function Description(props){
 
+    // Props
+    //  - element: current element 
+    //  - characterInfo: information about character;
     const { element, characterInfo } = props;
+
+    // get weapon and region information
     const weapon = characterInfo["weapontype"];
     const region = characterInfo["region"];
 
+    /**
+     * nationImage returns appropriate nation logo 
+     * @param {*} name name of nation 
+     * @returns appropriate nation logo
+     */
     const nationImage = (name) => {
         switch(name){
             case 'mondstadt': 
@@ -29,6 +39,11 @@ export function Description(props){
         }
     }
 
+    /**
+     * weaponImage returns appropriate weapon logo
+     * @param {*} name name of weapon
+     * @returns appropriate weapon logo
+     */
     const weaponImage = (name) => {
         switch(name.toLowerCase()){
             case 'sword': 
@@ -53,7 +68,7 @@ export function Description(props){
             <p>{characterInfo["description"]}</p>
             <hr />
             <div>
-                {/* Icons */}
+                {/* Element Weapon Nation Logos */}
                 <img src={element} alt="character element" width="52" height="52"/>
                 <img src={weaponImage(weapon.toLowerCase())} alt="character weapon" width="64" height="64"/>
                 <img src={nationImage(region.toLowerCase())} alt="character nation" width="64" height="64"/>
