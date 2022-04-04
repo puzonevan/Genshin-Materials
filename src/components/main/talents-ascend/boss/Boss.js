@@ -23,7 +23,7 @@ import thunderManifest from './bossImages/Enemy_Thunder_Manifestation.webp';
 
 
 export function Boss(props){
-
+    
     const { name, materials } = props;
 
     const normalDrops = {

@@ -6,19 +6,28 @@ import { Menu } from './menu/Menu';
 import { Boss } from './boss/Boss';
 import { sortAscendMaterials, sortTalentMaterials } from '../../../util/materials';
 
-
 import mondstadtBackground from './mondstadt-materials.png';
 import liyueBackground from './liyue-materials.png';
 import inazumaBackground from './inazuma-materials.png';
 
 export function TalentsAscend(props){
 
+    // Props 
+    //  - nation: current nation 
+    //  - talents: talent materials 
+    //  - ascension: ascension materials
     const { nation, talents, ascension } = props;
+
+    // State: talent level for menu
     const [talentLevel, setTalentLevel] = useState(10);
+    // State: ascension level for menu
     const [ascendLevel, setAscendLevel] = useState(6);
+    // State Setters
+    const changeTalentLevel = (level) => setTalentLevel(level);
+    const changeAscendLevel = (level) => setAscendLevel(level);
 
+    // set background based on nation 
     let background = { backgroundImage: `url(${liyueBackground})`};
-
     switch(nation.toLowerCase()){
         case "mondstadt": 
             background = { backgroundImage: `url(${mondstadtBackground})`};
@@ -34,49 +43,71 @@ export function TalentsAscend(props){
             break;
     }
 
+    /**
+     * getTalentMaterials returns proper {} format of talent materials
+     * @returns proper {} format of talent materials
+     */
     const getTalentMaterials = () => {
+
+        // Default case
         if(Object.keys(talents).length === 0) return {};
+
+        
         const totals = {};
         for(let i = 0; i < talentLevel - 1; i++){
+
+            // current level and item set based on level
             let level = Object.keys(talents)[i]
             const itemSet = talents[level];
 
             itemSet.forEach(item => {
+                // name and count of the current item
                 let { name, count } = item;
+                // if already in totals, add to previous
                 if(Object.keys(totals).includes(name)){
                     totals[name] = totals[name] + (count * 3);
                 }
+                // else, set new entry
                 else{
                     totals[name] = count * 3;
                 }
             });
         }
+
+        // return sorted materials
         return sortTalentMaterials(totals);
     }
 
     const getAscensionMaterials = () => {
+
+        // Default case
         if(Object.keys(ascension).length === 0) return {};
+
+
         const totals = {};
         for(let i = 0; i < ascendLevel; i++){
+
+            // current level and item set based on level
             let level = Object.keys(ascension)[i]
             const itemSet = ascension[level];
 
             itemSet.forEach(item => {
+                // name and count of the current item
                 let { name, count } = item;
+                // if already in totals, add to previous
                 if(Object.keys(totals).includes(name)){
                     totals[name] = totals[name] + count;
                 }
+                // else, set new entry
                 else{
                     totals[name] = count;
                 }
             });
         }
+
+        // return sorted materials
         return sortAscendMaterials(totals);
     }
-
-
-    const changeTalentLevel = (level) => setTalentLevel(level);
-    const changeAscendLevel = (level) => setAscendLevel(level);
 
     return (
         <section className="talents-ascend" id="talents-ascend" style={background}>
