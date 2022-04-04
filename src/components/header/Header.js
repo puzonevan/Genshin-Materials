@@ -15,8 +15,6 @@ export function Header(props) {
     // Index of characters
     const characterIndex = require('../../data/index/characters.json');
 
-
-
     return (
         <header>
             <h1>Genshin Materials</h1>
