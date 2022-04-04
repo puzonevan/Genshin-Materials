@@ -24,3 +24,9 @@
     cursor: pointer;
     color: gold;
 }
+
+@media (max-width: 767.98px) { 
+    .character-menu{
+        margin: 12px 20px;
+    }
+}
