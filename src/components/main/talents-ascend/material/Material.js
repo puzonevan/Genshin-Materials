@@ -6,9 +6,16 @@ import { getMaterialLink } from '../../../../util/url';
 
 export function Material(props){
 
+    // Props 
+    //  - name: material name
+    //  - count: count of material
     const { name, count } = props;
+
+    // get image source 
     const image = getMaterialImage(name.toLowerCase().replace(/\s/g, '').replace(/'/g, ''));
+    // get image alternate
     const alt = getMaterialAlt(name);
+    // get image link
     const link = getMaterialLink(name);
 
     return (
