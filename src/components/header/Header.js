@@ -5,9 +5,17 @@ import { CharacterMenu } from '../character-menu/CharacterMenu';
 
 export function Header(props) {
 
+    // Props
+    //  - characters: list of characters
+    //  - changeCharacters: change list of characters 
+    //  - changeCurrentCharacter: change current character
+    //  - changeCharacterInfo: change current character info
+    const { characters, changeCharacters, changeCurrentCharacter, changeCharacterInfo } = props;
+
+    // Index of characters
     const characterIndex = require('../../data/index/characters.json');
 
-    const { characters, changeCharacters, changeCurrentCharacter, changeCharacterInfo } = props;
+
 
     return (
         <header>
