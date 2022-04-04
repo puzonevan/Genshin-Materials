@@ -9,12 +9,19 @@ import inazumaBackground from './inazuma-main.png';
 
 export function Profile(props) {
     
+    // Props
+    //  - nation: current nation 
+    //  - currentCharacter: current character 
+    //  - characterInfo: info of current character
     const { nation, currentCharacter, characterInfo } = props;
+    
+    // get cover image of current character
     const image = getCharacterImage(currentCharacter);
+    // get element of current character
     const element = getElementImage(characterInfo["element"]);
 
+    // set background based on current nation 
     let background = { backgroundImage: `url(${liyueBackground})`};
-
     switch(nation.toLowerCase()){
         case "mondstadt": 
             background = { backgroundImage: `url(${mondstadtBackground})`};
@@ -32,7 +39,7 @@ export function Profile(props) {
     
     return (
         <section className="profile" id="profile" style={background}>
-            {/* Main Image */}
+            {/* Cover Image */}
             <div className="image-container" >
                 <img src={image} alt="Character Bottom Half"/>
             </div>
