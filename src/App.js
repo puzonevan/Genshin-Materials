@@ -4,15 +4,16 @@ import './App.css';
 import { Header } from './components/header/Header';
 import { Main } from './components/main/Main';
 
-// Data changing happens here 
-// Necessary data passed down to Header Main and Footer
-
 export function App(props){
 
+    // State: list of characters for menu
     const [characters, setCharacters] = useState(['Aether', 'Lumine']);
+    // State: current character displayed
     const [currentCharacter, setCurrentCharacter] = useState('aether');
-    const[characterInfo, setCharacterInfo] = useState(require(`./data/English/characters/${currentCharacter}.json`))
+    // State: current characters information
+    const [characterInfo, setCharacterInfo] = useState(require(`./data/English/characters/${currentCharacter}.json`))
 
+    // State Setters
     const changeCharacters = (characterList) => setCharacters(characterList);
     const changeCurrentCharacter = (character) => setCurrentCharacter(character);
     const changeCharacterInfo = (info) => setCharacterInfo(info);
