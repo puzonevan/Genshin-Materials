@@ -24,8 +24,12 @@ import thunderManifest from './bossImages/Enemy_Thunder_Manifestation.webp';
 
 export function Boss(props){
     
+    // Props 
+    //  - name: name of boss
+    //  - materials: materials of character
     const { name, materials } = props;
 
+    // map all normal boss drops to boss images
     const normalDrops = {
         "hurricaneseed": anemoH, 
         "lightningprism": electroH, 
@@ -44,6 +48,7 @@ export function Boss(props){
         "dragonheirsfalsefin": bathysmal
     };
     
+    // map all weekly boss drops to boss images
     const bossDrops = {
         "tailofboreas": andrius, 
         "ringofboreas": andrius, 
@@ -62,6 +67,10 @@ export function Boss(props){
         "ashenheart": signora, 
     };
 
+    /**
+     * getSource return appropriate boss image based on materials
+     * @returns appropriate boss image based on materials
+     */
     const getSource = () => {
 
         let boss = "";
@@ -69,16 +78,21 @@ export function Boss(props){
         let normalBossKeys = Object.keys(normalDrops);
         let weeklyBossKeys = Object.keys(bossDrops);
 
+        // Go through each material name
         materialKeys.forEach(material => {
+            // make sure name is all lowercase with no space
             let matName = material.toLowerCase().replace(/\s/g, '').replace(/'/g, '');
+            // if material belongs to normal boss
             if(normalBossKeys.includes(matName)){
                 boss = matName;
             }
+            // if material belongs to weekly boss
             else if(weeklyBossKeys.includes(matName)){
                 boss = matName;
             }
         });
 
+        // return either normal boss or weekly boss
         return normalDrops[boss] || bossDrops[boss];
     }
 
