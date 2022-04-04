@@ -45,3 +45,13 @@
     display: block;
     overflow: hidden;
 }
+
+@media (max-width: 767.98px) { 
+    .materials-list li{
+        width: 25%;
+    }
+
+    .materials-list{
+        padding: 0;
+    }
+}
