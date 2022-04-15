@@ -34,7 +34,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 85%;
-    height: 30vh;
+    height: auto;
     overflow: hidden;
     margin: 6px auto;
 }

@@ -4,3 +4,11 @@ main > section{
 
 
 
+@media (max-width: 767.98px) { 
+    main > section{
+        height: auto;
+    }
+    main .profile{
+        height: 100vh;
+    }
+}
