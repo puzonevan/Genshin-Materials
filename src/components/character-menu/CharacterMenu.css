@@ -3,6 +3,7 @@
     height: 60vh;
     overflow: scroll;
     margin: 12px 42px;
+    overflow-x: hidden;
 }
 
 
